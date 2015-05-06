@@ -1,0 +1,26 @@
+DIV#featurebox {
+	display: block; 
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+	/*border: 1px solid blue;*/
+}
+
+DIV#featureinfo {
+	display: inline-block;
+    float: left;
+    height: auto;
+	/*border: 1px solid black;*/
+	width: 100%;
+}
+
+
+DIV#featureimg {
+	display: inline-block;
+    float: left;
+    MAX-HEIGHT: 480px;
+    width: 100%;
+	/*border: 1px solid black;*/
+	
+}

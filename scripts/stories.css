@@ -1,0 +1,102 @@
+IMG {
+	WIDTH: auto; MAX-WIDTH: 100%; HEIGHT: auto
+}
+/*DIV#featurebox {
+	POSITION: relative; MARGIN: 15px 0px; WIDTH: 100%; OVERFLOW: hidden
+	display: block;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+	border: 1px solid blue;
+}
+DIV#featureinfo {
+	POSITION: absolute; WIDTH: 22.5%; BACKGROUND: #ffffff; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+	display: inline-block;
+    float: left;
+    height: auto;
+    min-width: 200px;
+	border: 1px solid black;
+	width: 15vw;
+}
+/*DIV#featureimg {
+	WIDTH: 77.5%; FLOAT: right; MAX-HEIGHT: 480px; OVERFLOW: hidden
+	display: inline-block;
+    float: left;
+    MAX-HEIGHT: 480px;
+    width: 77.5%;
+	border: 1px solid black;
+	
+}*/
+DIV#featureimg IMG {
+	MAX-WIDTH: 100%
+}
+DIV#featureinfo H2 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.5em; TEXT-DECORATION: none; PADDING-TOP: 10px
+}
+DIV#featureinfo H2 A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.2em; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+DIV#featureinfo P {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 1.25em; PADDING-TOP: 0px
+}
+DIV.hbox {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.hbox H2 {
+	MARGIN: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.1em; FONT-WEIGHT: bold; TEXT-DECORATION: none !important
+}
+DIV.hbox H2 A {
+	MARGIN: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.1em; FONT-WEIGHT: bold; TEXT-DECORATION: none !important
+}
+DIV.hbox LI {
+	PADDING-BOTTOM: 0px !important; BORDER-RIGHT-WIDTH: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-WIDTH: 0px !important; BORDER-BOTTOM-WIDTH: 0px !important; BORDER-LEFT-WIDTH: 0px !important; TEXT-DECORATION: none !important; PADDING-TOP: 0px !important
+}
+DIV.hbox UL {
+	PADDING-BOTTOM: 0px !important; BORDER-RIGHT-WIDTH: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-WIDTH: 0px !important; BORDER-BOTTOM-WIDTH: 0px !important; BORDER-LEFT-WIDTH: 0px !important; TEXT-DECORATION: none !important; PADDING-TOP: 0px !important
+}
+DIV.hbox P {
+	FONT-SIZE: 1.1em
+}
+DIV.grid-row {
+	
+}
+DIV.newsbox {
+	MARGIN: 1%; MIN-HEIGHT: 180px; WIDTH: 30%; BACKGROUND: white; FLOAT: left
+}
+DIV.newsbox P {
+	PADDING-TOP: 5px
+}
+DIV.newstitle H2 {
+	PADDING-BOTTOM: 5px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.25em; TEXT-DECORATION: none
+}
+DIV.newstitle H2 A {
+	PADDING-BOTTOM: 5px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.25em; TEXT-DECORATION: none
+}
+DIV.newsimg {
+	TEXT-ALIGN: center; MARGIN: auto; OVERFLOW: hidden
+}
+DIV.story {
+	LINE-HEIGHT: 1.2em; FONT-SIZE: 1em
+}
+DIV.story P {
+	PADDING-BOTTOM: 0.6em; LINE-HEIGHT: 1.6em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1.2em; PADDING-TOP: 0.6em
+}
+DIV.story IMG {
+	MARGIN: 2% 0px 2% 2%; WIDTH: 40%; FLOAT: right
+}
+DIV.story H2 {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+DIV.story H3 {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#banner {
+	
+}
+DIV#content > H1 {
+	
+}
+DIV.default > H1 > A {
+	TEXT-DECORATION: none
+}

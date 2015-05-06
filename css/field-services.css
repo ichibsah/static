@@ -1,0 +1,133 @@
+#site-documents-categories-table {
+    max-width: 1000px;
+    min-width: 500px;
+    margin-left: 10px;
+}
+.site-documents-category-link {
+    display: inline-block;
+    *display: inline;
+    width: 215px;
+    height: 380px;
+    margin-right: 20px;
+}
+.site-documents-category-link {
+    position: relative;
+}
+    .site-documents-category-link img {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .site-documents-category-link p, .site-documents-category-link span {
+        z-index: 100;
+        text-align: center;
+        z-index: 100;
+        position: absolute;
+        color: white;
+        width: 190px;
+    }
+    .site-documents-category-link span {
+        font-size: 20px;
+        font-weight: bold;
+        left: 12px;
+        top: 202px;
+    }
+    .site-documents-category-link p {
+        font-size: 12px;
+        left: 12px;
+        top: 282px;
+    }
+#delivery-stage p,
+#delivery-stage span,
+#incidents span,
+#incidents p {
+    color: #666666;
+}
+.list-page {
+    float: left;
+    margin-left: 10px;
+}
+#document-table {
+    padding: 18px 0 25px 0;
+}
+    #document-table td {
+        padding: 0;
+    }
+    #document-table a {
+        background-color: white !important;
+        padding-top: 3px !important;
+    }
+        #document-table a span {
+            font-weight: bold;
+        }
+#documents-page-content {
+    display: inline-block;
+    width: 70%;
+}
+    /*
+            Styles taken from the Easinet content page sample plain_text class, may be best to integrate 
+            into other style sheets so that future changes casscade properly
+        */
+    #documents-page-content h2 {
+        font-size: 1.25em;
+        padding: 0.7em 0 2px 0;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        background: url(../../default/bg_divider.png) no-repeat bottom left;
+    }
+    #documents-page-content p.back {
+        padding-left: 20px;
+        background: url(../../bg_previous.gif) no-repeat;
+        display: block;
+        margin-left: 8px;
+    }
+        #documents-page-content p.back a {
+            text-decoration: none;
+        }
+#document-category-links {
+    clear: left;
+    float: left;
+    margin-left: 9px;
+    width: 210px;
+    /* background-image: url(''); */
+    background-position: bottom;
+    padding-bottom: 20px;
+}
+.document-category-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+a.document-category-link:hover {
+    color: white;
+}
+a.delivery-stage:hover, a.incidents:hover {
+     color: #666666;
+}
+.planning-stage-documents {
+    background-color: #003366;
+}
+.training-guide {
+    background-color: #003399;
+}
+.looking-after-yourself {
+    background-color: #0066cc;
+}
+.delivery-stage {
+    background-color: #99ccff;
+     color: #666666;
+}
+.environmental-considerations {
+    background-color: #333300;
+}
+.employee-operational-instructions {
+    background-color: #669933;
+}
+.incidents {
+    background-color: #cccc33;
+     color: #666666;
+}
+.a-z-documents {
+    background-color: #666666;
+}

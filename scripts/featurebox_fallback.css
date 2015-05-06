@@ -1,0 +1,25 @@
+DIV#featurebox {
+	POSITION: relative !important; 
+	MARGIN: 15px 0px !important;
+	WIDTH: 100% !important;
+	OVERFLOW: hidden !important;
+}
+
+
+DIV#featureinfo {
+	POSITION: absolute !important;
+	WIDTH: 22.5% !important;
+	BACKGROUND: #ffffff !important;
+	HEIGHT: 100% !important;
+	TOP: 0px !important;
+	LEFT: 0px !important;
+}
+
+
+DIV#featureimg {
+	WIDTH: 77.5% !important;
+	FLOAT: right !important;
+	MAX-HEIGHT: 480px !important;
+	OVERFLOW: hidden !important;
+	
+}

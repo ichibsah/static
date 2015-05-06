@@ -1,0 +1,115 @@
+div#EmployeeProfileCtrl1_divStaffDetails,
+div#stationdetails {
+    background:#B5E0F3 url(../images/default/bg_pagination_bl.gif) no-repeat bottom left;
+    width:100%;
+    display:inline;
+    float:left;    
+}
+div#EmployeeProfileCtrl1_divStaffDetails a,
+div#stationdetails a {
+    text-decoration:underline;
+}
+div#EmployeeProfileCtrl1_divStaffDetails a:hover,
+div#EmployeeProfileCtrl1_divStaffDetails a:active,
+div#EmployeeProfileCtrl1_divStaffDetails a:focus,
+div#stationdetails a:hover,
+div#stationdetails a:active,
+div#stationdetails a:focus {
+    text-decoration:none;
+}
+div#EmployeeProfileCtrl1_divStaffDetails div,
+div#stationdetails div {
+    float:left;
+    display:inline;    
+}
+div#profile {
+    background:url(../images/default/bg_pagination_br.gif) no-repeat bottom right;
+    width:100%;
+    padding-bottom:15px;    
+}
+div#profile div {
+    background:#DBEFF9 url(../images/default/bg_divider.png) no-repeat left bottom;    
+    width:100%;
+    padding-bottom:1px;
+}
+div#profile div div {
+    background:none;
+    padding:0;
+}
+div#profile h2 {
+    background:#B5E0F3 url(../images/default/bg_divider.png) no-repeat left bottom;
+    padding:0.5em 10px;
+}
+div#profile h2 em {
+    font-weight:normal;
+    font-style:normal;
+}
+div#profile ul.details {
+    background:url(../images/default/bg_profile.png) no-repeat 25% 0;
+    float:left;
+    clear:left;
+    width:100%;
+    padding:0.7em 0;
+}
+div#profile ul.details li {
+    float:left;
+    clear:both;
+    width:95%;
+    margin-left:10px;
+    display:inline;
+}
+div#profile ul.details li h3 {
+    width:25%;
+    float:left;
+    margin:0.5em 0;    
+    display:inline;
+}
+div#profile ul.details li p {
+    float:right;
+    margin:0.5em 0;
+    display:inline;    
+    width:73%;        
+}
+div#profile div.managers {
+    background:#F1F9FD url(../images/default/bg_profile.png) no-repeat 25% 0;
+    clear:left;
+    width:100%;
+    padding:0.7em 0;    
+}
+div#profile div.managers div {
+    width:95%;
+    margin-left:10px;
+}
+div#profile div.managers h3 {
+    float:left;
+    clear:both;    
+    width:25%;
+    margin:0.5em 0;    
+}
+div#profile div.managers ul {
+    width:73%;
+    float:right;
+    margin:0.5em 0;    
+}
+div#profile div.managers ul li {
+    background:url(../../link_people_one.gif) no-repeat 0 0;    
+    padding:1px 0 2px 17px;
+}
+div#profile div.managers ul li p {
+    margin-bottom:0.5em;
+}
+div#profile div.managers #EmployeeProfileCtrl1_divNoSubordinates ul li {
+    background:none;
+    margin-left:20px;
+}
+div#stationdetails div#profile div.managers ul li {
+    margin-left:0;
+    padding-left:0;
+    background:none;
+}
+div#stationdetails div#profile div.managers ul li a {
+    padding-left:0;
+}
+h3#DirectorySearchResultsCtrl1_hSubHeader {
+    padding-left: 10px;
+}

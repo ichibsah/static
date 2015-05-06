@@ -1,0 +1,240 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size:100%;
+}
+body {
+    font-size:85%;
+    background:#fff;
+    font-family: arial, helvetica, sans-serif;
+    text-align:left;
+    color:#002a54;
+    margin:0;
+}
+/*** Generic content styles ***/
+ul,
+li {
+    list-style-type: none;     
+}
+a {
+    color:#002A54;
+    text-decoration:none;
+}
+a:hover,
+a:focus,
+a:active {
+    text-decoration:none;
+    color:#0177BA;
+}
+a img {
+    border:none;    
+}
+
+/*** Layout containers ***/
+div#wrapper {
+    margin:0 10px;
+    font-size:0.9em; 
+    min-width:875px;
+}
+div#innerWrapper {
+    position:relative;
+    clear:left;
+}
+
+/*** Font size links ***/ 
+.medium {
+    font-size:1.3em !important;
+}
+.large {
+    font-size:1.5em !important;
+} 
+
+/*** Accesskeys ***/
+div.accesskeys {
+    position:absolute;
+}
+div.accesskeys li a {
+    position:absolute;
+    left:-5000px;    
+}
+div.accesskeys li a:active,
+div.accesskeys li a:focus {
+    text-decoration:none;
+    text-align:center; 
+    background-color:#d8fff9;
+    font-weight:bold;
+    padding:4px;
+    left:0;
+    top:7px;
+    width:165px;
+    display:block;
+    float:left;
+} 
+div.accesskeys ul.ea a:active,
+div.accesskeys ul.ea a:focus {
+    left:170px;
+}
+/* Emergency banner */
+.HomepageWarning
+{
+    width: 98.5%;
+    border-left:7px solid #fff;
+    border-right:7px solid #fff;
+    margin-bottom: 15px;
+}
+.HomepageWarning .Top
+{
+    height: 17px;
+    width: 100%;
+    background: url(../../emergency_warning_repeat_horizontal.gif) repeat-x;
+    font-size: 0;
+    clear: both;
+}
+.HomepageWarning .Top .Left
+{
+    float: left;
+    background: #ce000c url(../../emergency_tl.gif) no-repeat left top;
+    height: 17px;
+    width: 240px;
+}
+.HomepageWarning .Top .Right
+{
+    float: right;
+    background: url(../../emergency_tr.gif) no-repeat right;
+    height: 17px;
+    width: 18px;
+}
+.HomepageWarning .Middle
+{
+    height: 100%;
+    background: url(../../emergency_warning_repeat_strip.gif) repeat-y left;
+    border-right: 2px solid #ce000c;
+    margin-bottom:-15px;
+}
+.HomepageWarning .Middle .Title
+{
+    background: url(../../emergency_warning_repeat_vertical.gif) repeat-y #ce000c;
+    width: 230px;
+    height: 100%;
+    display: table-cell;
+    min-width: 230px;
+    margin-bottom:-15px;
+    height:3em;
+    margin-left:10px;
+}
+*> .HomepageWarning .Middle .Title 
+{
+    height:auto
+}
+.HomepageWarning .Middle .Title h2
+{
+    background: url(../../emergency_warning_sign.gif) left top no-repeat #ce000c;
+    color: #fff;
+    padding-top:3px;
+    padding-left: 40px;
+    margin-left: 10px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    height: 22px;
+    min-height: 24px;
+    float: left;
+    margin-top: -10px;
+    z-index: 100;
+    position: relative;
+    display:table;
+}
+
+.HomepageWarning .Middle .Links 
+{
+    display:table !important;
+    height:100%;
+    margin-left:240px;
+    margin-top:-50px;
+    position:relative;
+    text-align:left;
+    width:auto;
+    z-index:100;
+}
+*> .HomepageWarning .Middle .Links 
+{
+    margin-top:-27px;
+}
+
+.HomepageWarning .Middle .Links p
+{
+    background: url(../../bg_li_red.gif) 0 no-repeat !important;
+    margin-left: 10px !important;
+}
+.HomepageWarning .Middle .Links p a
+{
+    width: auto !important;
+    color: #ce000c !important;
+    padding-left: 15px !important;
+    display: inline-block !important;
+    padding-right: 10px !important;
+    padding-bottom: 5px !important;
+    padding-top: 4px !important;
+}
+.HomepageWarning .Middle .Links .Updated p, .HomepageWarning .Middle .Links .Updated
+{
+    background:none !important;
+    color:#000 !important;
+}
+* > .HomepageWarning .Middle .Links p a
+{
+    display: table-cell;
+}
+.HomepageWarning .Middle .Links p a:hover, .HomepageWarning .Middle .Links p a:focus
+{
+    color: #CE000C !important;
+    text-decoration: underline !important;
+
+}
+.HomepageWarning .Bottom
+{
+    height: 17px;
+    width: 100%;
+    background: url(../../emergency_warning_repeat_horizontal.gif) repeat-x bottom;
+    font-size: 0;
+    clear: both;
+}
+.HomepageWarning .Bottom .Left
+{
+    float: left;
+    background: url(../../emergency_bl.gif) no-repeat left #CE000C;
+    height: 17px;
+    width: 240px;
+}
+.HomepageWarning .Bottom .Right
+{
+    float: right;
+    background: url(../../emergency_br.gif) no-repeat right;
+    height: 17px;
+    width: 18px;
+}
+.Sitemap li {
+        list-style-type:none !important;
+        background:none !important;
+        font-weight:bold;
+        padding-top:5px !important;
+        padding-bottom:5px !important;
+        font-size:100%
+}
+.Sitemap a {
+        text-decoration:underline !important;
+}
+.Sitemap ul li ul {
+        padding-top:5px;
+        font-size:98%;
+        padding-bottom:0;
+}
+.Sitemap ul li ul li {
+        padding-left:0
+}
+.Sitemap ul li li li {
+        font-weight:normal;
+        padding-left:40px;
+        padding-top:0 !important;
+        padding-bottom:5px !important;
+}
