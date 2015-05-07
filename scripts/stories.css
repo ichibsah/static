@@ -36,12 +36,10 @@ div#featureimg img {
 }
 @media only screen and (min-width: 1025px) {
   div#featureinfo {
-    position: absolute;
-    width: 22.5%;
+    position: relative;
+    width: 22%;
     background: #ffffff;
     height: 100%;
-    top: 0px;
-    left: 0px;
     border: 1px solid orange;
   }
 }
