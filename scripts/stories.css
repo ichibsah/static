@@ -6,36 +6,35 @@ img {
 div#featureimg img {
   max-width: 100%;
 }
-@media only screen and (min-width: 530px) and (max-width: 949px), only screen and (max-width: 529px) {
+@media only screen and (max-width: 1024px) {
   div#featurebox {
     display: block;
     height: auto;
     overflow: hidden;
     position: relative;
     width: auto;
-    /*border: 1px solid blue;*/
-  
+    border: 1px solid blue;
   }
 }
-@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px) {
+@media only screen and (min-width: 1025px) {
   div#featurebox {
     position: relative;
     margin: 15px 0px;
     width: 100%;
     overflow: hidden;
+    border: 1px solid red;
   }
 }
-@media only screen and (min-width: 530px) and (max-width: 949px), only screen and (max-width: 529px) {
+@media only screen and (max-width: 1024px) {
   div#featureinfo {
     display: inline-block;
     float: left;
     height: auto;
-    /*border: 1px solid black;*/
-  
+    border: 1px solid black;
     width: 100%;
   }
 }
-@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px) {
+@media only screen and (min-width: 1025px) {
   div#featureinfo {
     position: absolute;
     width: 22.5%;
@@ -43,9 +42,10 @@ div#featureimg img {
     height: 100%;
     top: 0px;
     left: 0px;
+    border: 1px solid orange;
   }
 }
-@media only screen and (min-width: 530px) and (max-width: 949px), only screen and (max-width: 529px) {
+@media only screen and (max-width: 1024px) {
   div#featureimg {
     display: inline-block;
     float: left;
@@ -55,7 +55,7 @@ div#featureimg img {
   
   }
 }
-@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px) {
+@media only screen and (min-width: 1025px) {
   div#featureimg {
     width: 77.5%;
     float: right;
