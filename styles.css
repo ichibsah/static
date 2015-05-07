@@ -4111,6 +4111,7 @@ div#featureimg img {
     width: 22%;
     background: #ffffff;
     height: 100%;
+    float: left;
     border: 1px solid orange;
   }
 }
