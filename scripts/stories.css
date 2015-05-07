@@ -1,102 +1,188 @@
-IMG {
-	WIDTH: auto; MAX-WIDTH: 100%; HEIGHT: auto
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
-/*DIV#featurebox {
-	POSITION: relative; MARGIN: 15px 0px; WIDTH: 100%; OVERFLOW: hidden
-	display: block;
+div#featureimg img {
+  max-width: 100%;
+}
+@media only screen and (min-width: 530px) and (max-width: 949px), only screen and (max-width: 529px) {
+  div#featurebox {
+    display: block;
     height: auto;
     overflow: hidden;
     position: relative;
     width: auto;
-	border: 1px solid blue;
+    /*border: 1px solid blue;*/
+  
+  }
 }
-DIV#featureinfo {
-	POSITION: absolute; WIDTH: 22.5%; BACKGROUND: #ffffff; HEIGHT: 100%; TOP: 0px; LEFT: 0px
-	display: inline-block;
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px) {
+  div#featurebox {
+    position: relative;
+    margin: 15px 0px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 949px), only screen and (max-width: 529px) {
+  div#featureinfo {
+    display: inline-block;
     float: left;
     height: auto;
-    min-width: 200px;
-	border: 1px solid black;
-	width: 15vw;
+    /*border: 1px solid black;*/
+  
+    width: 100%;
+  }
 }
-/*DIV#featureimg {
-	WIDTH: 77.5%; FLOAT: right; MAX-HEIGHT: 480px; OVERFLOW: hidden
-	display: inline-block;
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px) {
+  div#featureinfo {
+    position: absolute;
+    width: 22.5%;
+    background: #ffffff;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 949px), only screen and (max-width: 529px) {
+  div#featureimg {
+    display: inline-block;
     float: left;
-    MAX-HEIGHT: 480px;
+    max-height: 480px;
+    width: 100%;
+    /*border: 1px solid black;*/
+  
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px) {
+  div#featureimg {
     width: 77.5%;
-	border: 1px solid black;
-	
-}*/
-DIV#featureimg IMG {
-	MAX-WIDTH: 100%
+    float: right;
+    max-height: 480px;
+    overflow: hidden;
+  }
 }
-DIV#featureinfo H2 {
-	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.5em; TEXT-DECORATION: none; PADDING-TOP: 10px
+div#featureinfo h2 {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: none transparent scroll repeat 0% 0%;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding-top: 10px;
 }
-DIV#featureinfo H2 A {
-	BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.2em; FONT-WEIGHT: normal; TEXT-DECORATION: none
+div#featureinfo h2 a {
+  background: none transparent scroll repeat 0% 0%;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-decoration: none;
 }
-DIV#featureinfo P {
-	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 1.25em; PADDING-TOP: 0px
+div#featureinfo p {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.25em;
+  padding-top: 0px;
 }
-DIV.hbox {
-	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+div.hbox {
+  padding-bottom: 0px;
+  padding-left: 10px;
+  width: 100%;
+  padding-right: 0px;
+  padding-top: 0px;
 }
-DIV.hbox H2 {
-	MARGIN: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.1em; FONT-WEIGHT: bold; TEXT-DECORATION: none !important
+div.hbox h2 {
+  margin: 0px;
+  background: none transparent scroll repeat 0% 0%;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none !important;
 }
-DIV.hbox H2 A {
-	MARGIN: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.1em; FONT-WEIGHT: bold; TEXT-DECORATION: none !important
+div.hbox h2 a {
+  margin: 0px;
+  background: none transparent scroll repeat 0% 0%;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none !important;
 }
-DIV.hbox LI {
-	PADDING-BOTTOM: 0px !important; BORDER-RIGHT-WIDTH: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-WIDTH: 0px !important; BORDER-BOTTOM-WIDTH: 0px !important; BORDER-LEFT-WIDTH: 0px !important; TEXT-DECORATION: none !important; PADDING-TOP: 0px !important
+div.hbox ul {
+  padding-bottom: 0px !important;
+  border-right-width: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background: none transparent scroll repeat 0% 0%;
+  border-top-width: 0px !important;
+  border-bottom-width: 0px !important;
+  border-left-width: 0px !important;
+  text-decoration: none !important;
+  padding-top: 0px !important;
 }
-DIV.hbox UL {
-	PADDING-BOTTOM: 0px !important; BORDER-RIGHT-WIDTH: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-WIDTH: 0px !important; BORDER-BOTTOM-WIDTH: 0px !important; BORDER-LEFT-WIDTH: 0px !important; TEXT-DECORATION: none !important; PADDING-TOP: 0px !important
+div.hbox li {
+  padding-bottom: 0px !important;
+  border-right-width: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background: none transparent scroll repeat 0% 0%;
+  border-top-width: 0px !important;
+  border-bottom-width: 0px !important;
+  border-left-width: 0px !important;
+  text-decoration: none !important;
+  padding-top: 0px !important;
 }
-DIV.hbox P {
-	FONT-SIZE: 1.1em
+div.hbox p {
+  font-size: 1.1em;
 }
-DIV.grid-row {
-	
+div.newsbox {
+  margin: 1%;
+  min-height: 180px;
+  width: 30%;
+  background: white;
+  float: left;
 }
-DIV.newsbox {
-	MARGIN: 1%; MIN-HEIGHT: 180px; WIDTH: 30%; BACKGROUND: white; FLOAT: left
+div.newsbox p {
+  padding-top: 5px;
 }
-DIV.newsbox P {
-	PADDING-TOP: 5px
+div.newsboxdiv.newstitle h2 {
+  padding-bottom: 5px;
+  background: none transparent scroll repeat 0% 0%;
+  font-size: 1.25em;
+  text-decoration: none;
 }
-DIV.newstitle H2 {
-	PADDING-BOTTOM: 5px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.25em; TEXT-DECORATION: none
+div.newsboxdiv.newstitle h2 a {
+  padding-bottom: 5px;
+  background: none transparent scroll repeat 0% 0%;
+  font-size: 1.25em;
+  text-decoration: none;
 }
-DIV.newstitle H2 A {
-	PADDING-BOTTOM: 5px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.25em; TEXT-DECORATION: none
+div.newsimg {
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
 }
-DIV.newsimg {
-	TEXT-ALIGN: center; MARGIN: auto; OVERFLOW: hidden
+div.story {
+  line-height: 1.2em;
+  font-size: 1em;
 }
-DIV.story {
-	LINE-HEIGHT: 1.2em; FONT-SIZE: 1em
+div.story p {
+  padding-bottom: 0.6em;
+  line-height: 1.6em;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 1.2em;
+  padding-top: 0.6em;
 }
-DIV.story P {
-	PADDING-BOTTOM: 0.6em; LINE-HEIGHT: 1.6em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1.2em; PADDING-TOP: 0.6em
+div.story img {
+  margin: 2% 0px 2% 2%;
+  width: 40%;
+  float: right;
 }
-DIV.story IMG {
-	MARGIN: 2% 0px 2% 2%; WIDTH: 40%; FLOAT: right
+div.story h2 {
+  background: none transparent scroll repeat 0% 0%;
 }
-DIV.story H2 {
-	BACKGROUND: none transparent scroll repeat 0% 0%
+div.story h3 {
+  background: none transparent scroll repeat 0% 0%;
 }
-DIV.story H3 {
-	BACKGROUND: none transparent scroll repeat 0% 0%
-}
-#banner {
-	
-}
-DIV#content > H1 {
-	
-}
-DIV.default > H1 > A {
-	TEXT-DECORATION: none
+div.default > h1 > a {
+  text-decoration: none;
 }

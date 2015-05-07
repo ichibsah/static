@@ -1,14 +1,20 @@
-DIV#featurebox {
-	POSITION: relative; MARGIN: 15px 0px; WIDTH: 100%; OVERFLOW: hidden
+div#featurebox {
+  position: relative;
+  margin: 15px 0px;
+  width: 100%;
+  overflow: hidden;
 }
-
-
-DIV#featureinfo {
-	POSITION: absolute; WIDTH: 22.5%; BACKGROUND: #ffffff; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+div#featureinfo {
+  position: absolute;
+  width: 22.5%;
+  background: #ffffff;
+  height: 100%;
+  top: 0px;
+  left: 0px;
 }
-
-
-DIV#featureimg {
-	WIDTH: 77.5%; FLOAT: right; MAX-HEIGHT: 480px; OVERFLOW: hidden
-	
+div#featureimg {
+  width: 77.5%;
+  float: right;
+  max-height: 480px;
+  overflow: hidden;
 }
