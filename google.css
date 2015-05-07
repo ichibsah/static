@@ -1,2 +1,256 @@
-#SearchResults a,#SearchBox a{text-decoration:underline;font-weight:700}#SearchBox input.go{margin-bottom:-3px}#SearchResults .rn{display:none}#SearchResults .ft{background:url(../../downloadable_link_img.gif) no-repeat;display:block;height:17px;float:left;width:20px;font-size:0}#site{margin:0}#site #page .Bodysearch{padding-top:20px}.Bodysearch{padding:0;float:left;border:0!important}*>.Bodysearch{display:block;margin-top:-2px}#site .Bodysearch{display:block;padding:0;float:left;padding-top:3px}#site .Bodysearch label,.Bodysearch label{padding-right:20px;border-left:1px solid #034B89;padding-left:10px}#SearchResults dd{margin:0;margin-bottom:10px;clear:both;padding-right:60px;padding-bottom:5px;padding-left:15px}#SearchResults dt{font-weight:700;padding-bottom:5px;padding-top:5px;padding-right:60px;padding-left:15px}#SearchResults #su{background:url(../../bg_divider_left_blue_long.gif) no-repeat left bottom #d8eff9;padding:5px;margin-top:10px;padding-left:15px}#SearchResults #re h3,#su h2{display:none}#SearchResults #n{font-weight:700;float:right;padding-right:10px}#SearchResults .bn{float:left;text-align:center;padding-left:45%}#SearchResults .ln{display:block;padding-right:20px}#SearchResults #er p{padding-top:5px}.Mainsearch{background-color:#D8EFF9;height:1.3em;margin-right:10px;width:15em}#formAdv{margin-left:12px;padding:0 12px 12px 12px;background:#fff;width:100%;border:#7F9DB9 solid 2px;min-width:670px;height:auto;min-height:450px;position:relative}#formAdv dt{margin:10px 0 10px 0}#formAdv label{font-weight:400;width:170px;display:inline-block;float:left}#formAdv dt label{float:none}#formAdv .name label{width:210px;padding:.3em 0 0 .6em}#formAdv .name .FileType{width:155px;display:none}*>#formAdv label{font-weight:400;width:170px;display:table-cell;float:left;clear:both}*>#formAdv #as_ft{float:left}*>#formAdv .param{clear:both;width:100%;height:20px}#formAdv .param{padding-bottom:10px;padding-top:10px}#formAdv input{padding-left:230px;padding:.2em;margin-bottom:1em;width:60%}#formAdv input.go{width:auto!important;min-width:20px!important}#formAdv select{background-color:#fff;border:#7F9DB9 1px solid;width:200px;margin-right:10px;margin-bottom:1em}#formAdv .param label{font-weight:700;font-size:110%}#formAdv .go{clear:both;margin-top:10px;display:block}.Mainbodysearch{background-color:#D8EFF9;height:1em;margin-right:10px;width:14em}#site .SearchBut,.SearchBut,#formAdv .Searchbutton{border:0;font-size:0}#formAdv .Searchbutton{margin-top:5px;display:block}#SearchBox{padding-left:15px;padding-top:10px}#SearchBox label{padding-right:60px}#SearchBox p{display:inline;width:60px}#su .Noresults a{text-decoration:underline}.wildcard{font-size:100%;font-family:verdana}.AdvancedText{padding:10px;padding-top:0}#site legend,#formAdv legend,#search_form legend,#SearchBox legend,.Bodysearch legend{margin:0 0 -1.4em -4000px;position:absolute}#SearchResults #km{background:#B2DFF4;padding:5px;margin-top:10px;margin-bottom:10px;padding:15px 5px 15px 15px}.AdvancedText p{margin-top:10px}p#sy{background:#D8EFF9;margin:10px 0 10px 0;padding:15px}.searchFooter{background:#D8EFF9;height:1.4em;padding:5px}#km ul{margin:0 0 0 6em;_margin-top:-1.2em}#km h3{float:left;_float:none}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+#SearchResults a,
+#SearchBox a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+#SearchBox a:hover,
+#SearchBox a:active {
+  /*color:#D8EFF9*/
+}
+#SearchBox input.go {
+  margin-bottom: -3px;
+}
+#SearchResults .rn {
+  display: none;
+}
+#SearchResults .ft {
+  background: url(../../downloadable_link_img.gif) no-repeat;
+  display: block;
+  height: 17px;
+  float: left;
+  width: 20px;
+  font-size: 0;
+}
+#site {
+  margin: 0;
+}
+#site #page .Bodysearch {
+  padding-top: 20px;
+}
+.Bodysearch {
+  padding: 0;
+  float: left;
+  border: 0 !important;
+}
+* > .Bodysearch {
+  display: block;
+  margin-top: -2px;
+}
+#site .Bodysearch {
+  display: block;
+  padding: 0;
+  float: left;
+  padding-top: 3px;
+}
+#site .Bodysearch label,
+.Bodysearch label {
+  padding-right: 20px;
+  border-left: 1px solid #034B89;
+  padding-left: 10px;
+}
+#SearchResults dd {
+  margin: 0;
+  margin-bottom: 10px;
+  clear: both;
+  padding-right: 60px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+#SearchResults dt {
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 60px;
+  padding-left: 15px;
+}
+#SearchResults #su {
+  background: url(../../bg_divider_left_blue_long.gif) no-repeat left bottom #d8eff9;
+  padding: 5px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+#SearchResults #re h3,
+#su h2 {
+  display: none;
+}
+#SearchResults #n {
+  font-weight: bold;
+  float: right;
+  padding-right: 10px;
+}
+#SearchResults .bn {
+  float: left;
+  text-align: center;
+  padding-left: 45%;
+}
+#SearchResults .ln {
+  display: block;
+  padding-right: 20px;
+}
+#SearchResults #er p {
+  padding-top: 5px;
+}
+.Mainsearch {
+  background-color: #D8EFF9;
+  height: 1.3em;
+  margin-right: 10px;
+  width: 15em;
+}
+#formAdv {
+  margin-left: 12px;
+  padding: 0 12px 12px 12px;
+  background: #fff;
+  width: 100%;
+  border: #7F9DB9 solid 2px;
+  min-width: 670px;
+  height: auto;
+  min-height: 450px;
+  position: relative;
+}
+#formAdv dt {
+  margin: 10px 0 10px 0;
+}
+#formAdv label {
+  font-weight: normal;
+  width: 170px;
+  display: inline-block;
+  float: left;
+}
+#formAdv dt label {
+  float: none;
+}
+#formAdv .name label {
+  width: 210px;
+  padding: 0.3em 0 0 0.6em;
+}
+#formAdv .name .FileType {
+  width: 155px;
+  display: none;
+}
+* > #formAdv label {
+  font-weight: normal;
+  width: 170px;
+  display: table-cell;
+  float: left;
+  clear: both;
+}
+* > #formAdv input,
+* > #formAdv fieldset select {
+  /*display:table-cell;*/
+}
+* > #formAdv #as_ft {
+  float: left;
+}
+* > #formAdv .param {
+  clear: both;
+  width: 100%;
+  height: 20px;
+}
+#formAdv .param {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#formAdv dd {
+  /*padding-left:40px*/
+}
+#formAdv input {
+  /*background-color:#D8EFF9;*/
+  padding-left: 230px;
+  padding: 0.2em;
+  margin-bottom: 1em;
+  width: 60%;
+}
+#formAdv input.go {
+  width: auto !important;
+  min-width: 20px !important;
+}
+#formAdv select {
+  background-color: #fff;
+  border: #7F9DB9 1px solid;
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 1em;
+}
+#formAdv .param label {
+  font-weight: bold;
+  font-size: 110%;
+}
+#formAdv .go {
+  clear: both;
+  margin-top: 10px;
+  display: block;
+}
+.Mainbodysearch {
+  background-color: #D8EFF9;
+  height: 1em;
+  margin-right: 10px;
+  width: 14em;
+}
+#site .SearchBut,
+.SearchBut,
+#formAdv .Searchbutton {
+  border: 0;
+  font-size: 0;
+}
+#formAdv .Searchbutton {
+  margin-top: 5px;
+  display: block;
+}
+#SearchBox {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#SearchBox label {
+  padding-right: 60px;
+}
+#SearchBox p {
+  display: inline;
+  width: 60px;
+}
+#su .Noresults a {
+  text-decoration: underline;
+}
+.wildcard {
+  font-size: 100%;
+  font-family: verdana;
+}
+.AdvancedText {
+  padding: 10px;
+  padding-top: 0;
+}
+#site legend,
+#formAdv legend,
+#search_form legend,
+#SearchBox legend,
+.Bodysearch legend {
+  margin: 0 0 -1.4em -4000px;
+  position: absolute;
+}
+#SearchResults #km {
+  background: #B2DFF4;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 5px 15px 15px;
+}
+.AdvancedText p {
+  margin-top: 10px;
+}
+p#sy {
+  background: #D8EFF9;
+  margin: 10px 0 10px 0;
+  padding: 15px;
+}
+.searchFooter {
+  background: #D8EFF9;
+  height: 1.4em;
+  padding: 5px;
+}
+#km ul {
+  margin: 0 0 0 6em;
+  _margin-top: -1.2em;
+}
+#km h3 {
+  float: left;
+  _float: none;
+}

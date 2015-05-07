@@ -1,2 +1,754 @@
-form fieldset{padding:0;margin:0;border:0}form #select1,form #select2{width:100%!important}form label{font-weight:700}form input.text,form select,form textarea,.default form input.text,.default form select,.default form textarea,form .default input.text,form .default select,form .default textarea{color:#002a54;background:#d8eff9}form input.go{margin-right:13px;display:inline}form#glossary{padding:0 10px;margin-bottom:3.0em}form#glossary fieldset{margin-bottom:1.0em}form#glossary label{width:7em;float:left}form#glossary input.text{font-size:.9em;width:19.4em}form#glossary p{width:22em;margin-left:7.8em;font-size:.9em}div.includeForm{position:relative;float:left;padding:0 10px .63em 10px;width:100%;display:inline;max-width:500px}div.includeForm a{text-decoration:underline}div.includeForm a:hover{text-decoration:none}.default div.includeForm fieldset *{color:#002a54}div.includeForm fieldset{clear:both;padding:.5em 0;border:0;margin:0}div.includeForm fieldset legend{font-size:1.25em;font-weight:700;padding:0 0 .31em 0;color:#002a54}div.includeForm fieldset p{width:25%;font-size:1em;font-weight:700;padding:.19em 0;margin:0 0 .31em 0}div.includeForm p.small{font-weight:400;display:block;margin:0 0 .31em 0;padding:.19em 0 .19em 27.1%;width:70%;clear:both}div.includeForm div.netChecksInd p.small{padding-left:0;padding-top:1.0em}div.includeForm div,div.includeForm span{clear:left;display:block;margin:.31em 0 .5em 0;padding:.06em 0 .44em 0}div.includeForm div.small,div.includeForm span.small{clear:left;display:block;margin:.31em 0 .5em 0;padding:.06em 0 .44em 27.1%}div.includeForm div.small p,div.includeForm span.small p{width:60%;font-size:1em;font-weight:700;padding:.19em 0;margin:0 0 .31em 0}div.includeForm div label,div.includeForm span label{font-weight:700;font-size:1em;display:block;float:left;width:25%;padding:.19em 2% .19em 0;margin:0 0 .31em 0;text-align:left}div.includeForm div input,div.includeForm span input{background-color:#D8EFF9;width:69%;padding:0;font-size:.9em}div.includeForm div input.short,div.includeForm span input.short{font-size:.9em;display:inline;width:15%;padding:0}div.includeForm div.buttons,div.includeForm span.buttons{clear:both;display:inline;width:25%;padding:.19em 0 .19em 75%;margin:0 0 .31em 0;text-align:right}div.includeForm div.buttons input,div.includeForm span.buttons input{background-color:#fff;margin:0;float:right;width:auto}div.includeForm div select,div.includeForm span select{width:70%;font-size:.9em}div.includeForm div textarea,div.includeForm span textarea{padding:.06em .19em 0 0;width:70%;overflow:auto;font-size:.9em;font-family:arial,helvetica,sans-serif}.default div.includeForm div input,.default div.includeForm span input,.default div.includeForm div select,.default div.includeForm span select,.default div.includeForm div textarea,.default div.includeForm span textarea{background-color:#D8EFF9}.default div.includeForm div label input,.default div.includeForm span label input{background:0}div.includeForm div label.labelCheckbox,div.includeForm div label.labelRadio,div.includeForm span label.labelCheckbox,div.includeForm span label.labelRadio{float:none;display:block;width:70%;padding:0;margin:0 0 .31em 27.1%;text-align:left;font-weight:400}div.includeForm div label span{padding:0 0 0 5px;margin:0;display:inline;font-size:1.2em;font-weight:700;line-height:1px}div.includeForm span.checks,div.includeForm div.checks,div.includeForm div.netChecksInd{float:none;display:inline;padding:0 0 0 27.1%;margin:0 0 .31em 0;text-align:left;font-weight:400}div.includeForm div.netChecksInd{float:left;width:72.9%}div.includeForm .other{float:none;font-size:.9em;display:block;width:70%;padding:.06em .19em;margin:0 0 .31em 27.1%;text-align:left}div.includeForm .Checkbox{float:none;font-size:.9em;display:block;width:70%;padding:.06em .19em;margin:0 0 .31em .9em;text-align:left}div.includeForm label.labelCheckbox,div.includeForm label.labelRadio{margin:0 0 .31em 0;width:25%;font-weight:400}div.includeForm div.netChecks label{margin:0 20px .31em 0;width:40%;padding:0}div.includeForm div.netChecksInd label{font-weight:400;width:80%;margin:0 0 .31em 0;padding:0}div.includeForm input.inputCheckbox,div.includeForm input.inputRadio,div.includeForm div.netChecks input,div.includeForm div.netChecksInd input{display:inline;height:auto;width:auto;background-color:transparent;font-weight:400;padding:0 .31em 0 0;margin:0}div.includeForm div.netChecks input,div.includeForm div.netChecksInd input{margin:-2px 10px 0 0;float:left}div.includeForm label.labelCheckbox2,div.includeForm label.labelCheckbox2{float:none;display:inline;padding:0 .31em 0 0;margin:0 0 .31em .31em;text-align:left;font-weight:400}div.includeForm .offscreen{position:absolute;left:-999em}div.includeForm hr.forms{margin-top:2px;margin-bottom:8px;color:#002A54;background-color:#002A54;height:1px;border:0}fieldset.NewsSearchForm legend,fieldset.UtilityForm legend,fieldset.AdvJobSearchForm legend{display:none}#Email1_ValidationSummary1 ul li,#Register1_ValidationSummary1 ul li,#Login1_ValidationSummary1 ul li{color:red}.glossaryTerms{float:left;width:500px;margin-bottom:5px;padding-top:10px}.glossaryLeft{float:left;width:25%}.glossaryRight{float:right;width:75%}.glossaryCheckbox label{margin-left:10px}.glossaryCheckbox input{margin-left:5px}.staffDirectory{float:left;width:550px;margin-bottom:5px;padding-top:10px}.staffDirectoryLeft{float:left;width:30%}.staffDirectoryRight{float:right;width:70%}.lessonsEditForm{float:left;margin-bottom:5px;padding-top:10px}.lessonsLeft{float:left;width:25%}.lessonsRight{float:right;width:75%}.AspNet-GridView{width:100%}.AspNet-GridView table{width:100%}.LessonsLearnedResultsItem h2,#BottleDetails h2,.AspNet-GridView table thead tr th{padding:10px;background:url(../../bg_divider_left_blue_long.gif) no-repeat #b2dff4 bottom left;margin:0}.AspNet-GridView table td{padding:10px;padding-top:0;margin:0}.dark{background:#E3F3FB}.light{background:#E3F3FB}.light img,.dark img{display:inline-block;margin-bottom:-1px}.AspNet-GridView table tfoot tr .Left{margin:0;background:#fff}.AspNet-GridView table tfoot tr .Left a{display:block;font-weight:700}.AspNet-GridView table tfoot tr .Left input{display:block;padding-right:10px;float:left}.AspNet-GridView table tfoot tr .Centre{text-align:center;padding-top:5px;background:#fff}.AspNet-GridView table tfoot tr .Right{padding-top:5px;background:#fff}.AspNet-GridView table tfoot tr .Right a{display:block;float:left;font-weight:700}.AspNet-GridView table tfoot tr .Right input{display:block;padding-left:10px}.AspNet-GridView table td{background:#E3F3FB}.AspNet-GridView .GlossaryTermColumn{font-weight:700}.AspNet-GridView .GlossaryTermColumn{font-weight:700}.ResultsTitle,.AspNet-GridView h2{background:url(../../bg_divider_left_blue_long.gif) no-repeat bottom left;clear:both;margin-bottom:10px;padding-bottom:5px;padding-left:10px;font-size:110%}.glossaryTerms label{font-weight:700;padding-left:10px;padding-top:5px;display:block}.glossaryRight input{background:#D8EFF9;display:block;float:left;margin-right:5px;margin-top:1px;width:15em}.glossaryRight .submission{background:#fff;margin:0;width:auto}.glossaryRight p{clear:both;width:200px;padding-top:10px}#DirectorySearchCtrl1_imgClear,#DirectorySearchCtrl1_imgSearch,#DirectorySearchCtrl1_chkSoundex{background:#fff;color:#D8EFF9;width:auto}.staffDirectory select,.staffDirectory input{width:20em}#DirectorySearchCtrl1_chkSoundex{background:#fff;color:#D8EFF9;width:auto}.staffDirectory{padding-left:10px}#SearchAgain,#SearchAgainStation{clear:both;height:auto;text-align:right;margin-top:-15px;float:right;padding-bottom:10px}#SearchAgainStation{margin-top:-30px}#SearchAgain input{display:block;float:left}#SearchAgain a,#SearchAgainStation a{margin-bottom:4px;font-weight:700;display:block;float:left;padding:0 0 0 20px;background-repeat:no-repeat;background-position:center left}.default #SearchAgain a,.default #SearchAgainStation a{background-image:url(../../default/bg_previous.gif)}#SearchAgain a#DirectoryResultsCtrl1_hypSearchAgainImage,#SearchAgain a#EmployeeProfileCtrl1_hypBackToResults{display:none}#DirectorySearchResultsCtrl1_hSubHeader{font-weight:400;padding-bottom:10px}.LessonsLearnedResultsItem h3,#BottleDetails h3{clear:left;display:block;border-right:1px solid #fff;float:left;width:200px;padding:10px}.LessonsLearnedResultsItem p,#BottleDetails p{float:left;padding:10px;clear:right}*>.LessonsLearnedResultsItem h3,*>#BottleDetails h3{display:table-cell;float:none}*>.LessonsLearnedResultsItem p,*>#BottleDetails p{display:table-cell;float:none}.LessonsLearnedResultsItem ul,#BottleDetails ul{background:#E3F3FB;clear:both;width:100%}.LessonsLearnedResultsItem,#BottleDetails{width:100%;background:url(../../1px_blue_rep.gif)}.LessonsLearnedResultsItem ul,#BottleDetails ul{background:#E3F3FB;clear:both;width:66%;float:left;border-right:1px solid #fff}.LessonsLearnedResultsItem li,#BottleDetails li{width:100%;height:100%;margin:0;padding:0;display:inline-block;margin-top:-3px}*>.LessonsLearnedResultsItem li,*>#BottleDetails li{margin:0;clear:both}.LessonsLearnedResultsItem h3,#BottleDetails h3{clear:left;display:block;float:left;width:33%;padding:10px}.LessonsLearnedResultsItem p,#BottleDetails p{float:left;padding:10px;clear:right;width:55%;border-left:1px solid #fff}*>.LessonsLearnedResultsItem h3,*>#BottleDetails h3{display:table-cell}*>.LessonsLearnedResultsItem p,*>#BottleDetails p{display:table-cell}.bottles input,.bottles select,.staffDirectory select,.staffDirectory input{background:#D8EFF9}.bottleImage{padding:10px;background:#E3F3FB;border-top:1px solid #fff;float:left}#BottleDetailsFooter{clear:both;background:#fff;width:100%}.footer{width:100%;padding-top:5px}.footer .previous,.footer .summary{width:33%;float:left}.footer .summary{text-align:center}.footer .next{float:right}.footer .previous a{font-weight:700;margin-top:-1px}.footer .previous input{float:left;padding-left:10px;padding-right:10px;display:block}.footer .next a{font-weight:700;margin-top:-1px;display:block;float:left}.footer .next input{padding-right:10px;padding-left:10px}.managers ul li a{padding-left:20px}#BottleSearchCtrl1_pnlSearch{position:relative;float:left;width:390px;margin-left:10px;padding-bottom:10px;display:inline}.bottles{clear:left;float:left;width:100%;padding:.5em 0}.bottles select{width:250px}.bottles input.text{width:247px}.bottles input.submission{position:absolute;right:12px;bottom:0}.bottlesLeft,.bottlesRight{float:left;display:inline}.bottlesLeft{width:130px}.LookupSelector{margin-top:1em}div.appListOptions div{display:inline}.LessonsLearnedResultsItem div{padding-bottom:10px}.ResultsFooter,.ScienceFooter{background:#dae5c5 url(../../bg_divider_left_green_long.jpg) no-repeat scroll left top;float:left;height:auto;width:100%;text-align:center;padding:5px 0 5px 0}.ScienceFooter{padding:0;background:0}.ResultsFooter .Previous,.ScienceFooter .Previous{width:25%;float:right;text-align:left}.ResultsFooter .Middle,.ScienceFooter .Middle{width:53%;float:right}.ResultsFooter .Next,.ScienceFooter .Next{width:22%;float:right}.ResultsFooter a,.ScienceFooter a{display:block}.ResultsFooter .Previous a,.ScienceFooter .Previous a{padding:0 0 0 25px;background:url(../../bg_previous_theme1.gif) left center no-repeat}.ResultsFooter .Next a,.ScienceFooter .Next a{text-align:right;padding:0 25px 0 0;background:url(../../bg_next_theme1.gif) right center no-repeat}.ResultsFooter .Next a.Top,.ScienceFooter .Next a.Top{position:relative;top:-999em}.ResultsFooter .Previous a{padding:0 0 0 35px;background:url(../../bg_previous_theme1.gif) 5% 50% no-repeat}.ResultsFooter .Next a{padding:0 35px 0 0;background:url(../../bg_next_theme1.gif) 95% 50% no-repeat}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+/*** Generic form styles ***/
+form fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+form #select1,
+form #select2 {
+  width: 100% !important;
+}
+form label {
+  font-weight: bold;
+}
+form input.text,
+form select,
+form textarea,
+.default form input.text,
+.default form select,
+.default form textarea,
+form .default input.text,
+form .default select,
+form .default textarea {
+  color: #002a54;
+  background: #d8eff9;
+}
+form input.go {
+  margin-right: 13px;
+  display: inline;
+}
+/*** Glossary form ***/
+form#glossary {
+  padding: 0 10px;
+  margin-bottom: 3.0em;
+}
+form#glossary fieldset {
+  margin-bottom: 1.0em;
+}
+form#glossary label {
+  width: 7em;
+  float: left;
+}
+form#glossary input.text {
+  font-size: 0.9em;
+  width: 19.4em;
+}
+form#glossary p {
+  width: 22em;
+  margin-left: 7.8em;
+  font-size: 0.9em;
+}
+/*** Third party forms ***/
+div.includeForm {
+  position: relative;
+  float: left;
+  padding: 0 10px 0.63em 10px;
+  width: 100%;
+  display: inline;
+  max-width: 500px;
+}
+div.includeForm a {
+  text-decoration: underline;
+}
+div.includeForm a:hover {
+  text-decoration: none;
+}
+.default div.includeForm fieldset * {
+  color: #002a54;
+}
+div.includeForm fieldset {
+  clear: both;
+  padding: 0.5em 0;
+  border: none;
+  margin: 0;
+}
+div.includeForm fieldset legend {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0 0 0.31em 0;
+  color: #002a54;
+}
+div.includeForm fieldset p {
+  width: 25%;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.19em 0;
+  margin: 0 0 0.31em 0;
+}
+div.includeForm p.small {
+  font-weight: normal;
+  display: block;
+  margin: 0 0 0.31em 0;
+  padding: 0.19em 0 0.19em 27.1%;
+  width: 70%;
+  clear: both;
+}
+div.includeForm div.netChecksInd p.small {
+  padding-left: 0;
+  padding-top: 1.0em;
+}
+div.includeForm div,
+div.includeForm span {
+  clear: left;
+  display: block;
+  margin: 0.31em 0 0.5em 0;
+  padding: 0.06em 0 0.44em 0;
+}
+div.includeForm div.small,
+div.includeForm span.small {
+  clear: left;
+  display: block;
+  margin: 0.31em 0 0.5em 0;
+  padding: 0.06em 0 0.44em 27.1%;
+}
+div.includeForm div.small p,
+div.includeForm span.small p {
+  width: 60%;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.19em 0;
+  margin: 0 0 0.31em 0;
+}
+div.includeForm div label,
+div.includeForm span label {
+  font-weight: bold;
+  font-size: 1em;
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 0.19em 2% 0.19em 0;
+  margin: 0 0 0.31em 0;
+  text-align: left;
+}
+div.includeForm div input,
+div.includeForm span input {
+  background-color: #D8EFF9;
+  width: 69%;
+  padding: 0;
+  font-size: 0.9em;
+}
+div.includeForm div input.short,
+div.includeForm span input.short {
+  font-size: 0.9em;
+  display: inline;
+  width: 15%;
+  padding: 0;
+}
+div.includeForm div.buttons,
+div.includeForm span.buttons {
+  clear: both;
+  display: inline;
+  width: 25%;
+  padding: 0.19em 0 0.19em 75%;
+  margin: 0 0 0.31em 0;
+  text-align: right;
+}
+div.includeForm div.buttons input,
+div.includeForm span.buttons input {
+  background-color: #fff;
+  margin: 0;
+  float: right;
+  width: auto;
+}
+div.includeForm div select,
+div.includeForm span select {
+  width: 70%;
+  font-size: 0.9em;
+}
+div.includeForm div textarea,
+div.includeForm span textarea {
+  padding: 0.06em 0.19em 0 0;
+  width: 70%;
+  overflow: auto;
+  font-size: 0.9em;
+  font-family: arial, helvetica, sans-serif;
+}
+.default div.includeForm div input,
+.default div.includeForm span input,
+.default div.includeForm div select,
+.default div.includeForm span select,
+.default div.includeForm div textarea,
+.default div.includeForm span textarea {
+  background-color: #D8EFF9;
+}
+.default div.includeForm div label input,
+.default div.includeForm span label input {
+  background: none;
+}
+div.includeForm div label.labelCheckbox,
+div.includeForm div label.labelRadio,
+div.includeForm span label.labelCheckbox,
+div.includeForm span label.labelRadio {
+  float: none;
+  display: block;
+  width: 70%;
+  padding: 0;
+  margin: 0 0 0.31em 27.1%;
+  text-align: left;
+  font-weight: normal;
+}
+div.includeForm div label span {
+  padding: 0 0 0 5px;
+  margin: 0;
+  display: inline;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1px;
+}
+div.includeForm span.checks,
+div.includeForm div.checks,
+div.includeForm div.netChecksInd {
+  float: none;
+  display: inline;
+  padding: 0 0 0 27.1%;
+  margin: 0 0 0.31em 0;
+  text-align: left;
+  font-weight: normal;
+}
+div.includeForm div.netChecksInd {
+  float: left;
+  width: 72.9%;
+}
+div.includeForm .other {
+  float: none;
+  font-size: 0.9em;
+  display: block;
+  width: 70%;
+  padding: 0.06em 0.19em;
+  margin: 0 0 0.31em 27.1%;
+  text-align: left;
+}
+div.includeForm .Checkbox {
+  float: none;
+  font-size: 0.9em;
+  display: block;
+  width: 70%;
+  padding: 0.06em 0.19em;
+  margin: 0 0 0.31em 0.9em;
+  text-align: left;
+}
+div.includeForm label.labelCheckbox,
+div.includeForm label.labelRadio {
+  margin: 0 0 0.31em 0;
+  width: 25%;
+  font-weight: normal;
+}
+div.includeForm div.netChecks label {
+  margin: 0 20px 0.31em 0;
+  width: 40%;
+  padding: 0;
+}
+div.includeForm div.netChecksInd label {
+  font-weight: normal;
+  width: 80%;
+  margin: 0 0 0.31em 0;
+  padding: 0;
+}
+div.includeForm input.inputCheckbox,
+div.includeForm input.inputRadio,
+div.includeForm div.netChecks input,
+div.includeForm div.netChecksInd input {
+  display: inline;
+  height: auto;
+  width: auto;
+  background-color: transparent;
+  font-weight: normal;
+  padding: 0 0.31em 0 0;
+  margin: 0;
+}
+div.includeForm div.netChecks input,
+div.includeForm div.netChecksInd input {
+  margin: -2px 10px 0 0;
+  float: left;
+}
+div.includeForm label.labelCheckbox2,
+div.includeForm label.labelCheckbox2 {
+  float: none;
+  display: inline;
+  padding: 0 0.31em 0 0;
+  margin: 0 0 0.31em 0.31em;
+  text-align: left;
+  font-weight: normal;
+}
+div.includeForm .offscreen {
+  position: absolute;
+  left: -999em;
+}
+div.includeForm hr.forms {
+  margin-top: 2px;
+  margin-bottom: 8px;
+  color: #002A54;
+  background-color: #002A54;
+  height: 1px;
+  border: 0px;
+}
+/*** Application forms ***/
+fieldset.NewsSearchForm legend,
+fieldset.UtilityForm legend,
+fieldset.AdvJobSearchForm legend {
+  display: none;
+}
+#Email1_ValidationSummary1 ul li,
+#Register1_ValidationSummary1 ul li,
+#Login1_ValidationSummary1 ul li {
+  color: red;
+}
+/*** Glossary Form Styles ***/
+.glossaryTerms {
+  float: left;
+  width: 500px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+.glossaryLeft {
+  float: left;
+  width: 25%;
+}
+.glossaryRight {
+  float: right;
+  width: 75%;
+}
+.glossaryCheckbox label {
+  margin-left: 10px;
+}
+.glossaryCheckbox input {
+  margin-left: 5px;
+}
+.staffDirectory {
+  float: left;
+  width: 550px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+.staffDirectoryLeft {
+  float: left;
+  width: 30%;
+}
+.staffDirectoryRight {
+  float: right;
+  width: 70%;
+}
+.lessonsEditForm {
+  float: left;
+  /*width:500px; */
+
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+.lessonsLeft {
+  float: left;
+  width: 25%;
+}
+.lessonsRight {
+  float: right;
+  width: 75%;
+}
+.AspNet-GridView {
+  width: 100%;
+}
+.AspNet-GridView table {
+  width: 100%;
+}
+.LessonsLearnedResultsItem h2,
+#BottleDetails h2,
+.AspNet-GridView table thead tr th {
+  padding: 10px;
+  background: url(../../bg_divider_left_blue_long.gif) no-repeat #b2dff4 bottom left;
+  margin: 0;
+}
+.AspNet-GridView table td {
+  padding: 10px;
+  padding-top: 0;
+  margin: 0;
+}
+.dark {
+  background: #E3F3FB;
+}
+.light {
+  background: #E3F3FB;
+}
+.light img,
+.dark img {
+  display: inline-block;
+  margin-bottom: -1px;
+}
+.AspNet-GridView table tfoot tr .Left {
+  margin: 0;
+  background: #fff;
+}
+.AspNet-GridView table tfoot tr .Left a {
+  display: block;
+  font-weight: bold;
+}
+.AspNet-GridView table tfoot tr .Left input {
+  display: block;
+  padding-right: 10px;
+  float: left;
+}
+.AspNet-GridView table tfoot tr .Centre {
+  text-align: center;
+  padding-top: 5px;
+  background: #fff;
+}
+.AspNet-GridView table tfoot tr .Right {
+  padding-top: 5px;
+  background: #fff;
+}
+.AspNet-GridView table tfoot tr .Right a {
+  display: block;
+  float: left;
+  font-weight: bold;
+}
+.AspNet-GridView table tfoot tr .Right input {
+  display: block;
+  padding-left: 10px;
+}
+.AspNet-GridView table td {
+  background: #E3F3FB;
+}
+.AspNet-GridView .GlossaryTermColumn {
+  font-weight: bold;
+}
+.AspNet-GridView .GlossaryTermColumn {
+  font-weight: bold;
+}
+.ResultsTitle,
+.AspNet-GridView h2 {
+  background: url(../../bg_divider_left_blue_long.gif) no-repeat bottom left;
+  clear: both;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-size: 110%;
+}
+.glossaryTerms label {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: block;
+}
+.glossaryRight input {
+  background: #D8EFF9;
+  display: block;
+  float: left;
+  margin-right: 5px;
+  margin-top: 1px;
+  width: 15em;
+}
+.glossaryRight .submission {
+  background: #fff;
+  margin: 0;
+  width: auto;
+}
+.glossaryRight p {
+  clear: both;
+  width: 200px;
+  padding-top: 10px;
+}
+#DirectorySearchCtrl1_imgClear,
+#DirectorySearchCtrl1_imgSearch,
+#DirectorySearchCtrl1_chkSoundex {
+  background: #fff;
+  color: #D8EFF9;
+  width: auto;
+}
+.staffDirectory select,
+.staffDirectory input {
+  width: 20em;
+}
+#DirectorySearchCtrl1_chkSoundex {
+  background: #fff;
+  color: #D8EFF9;
+  width: auto;
+}
+.staffDirectory {
+  padding-left: 10px;
+}
+#SearchAgain,
+#SearchAgainStation {
+  clear: both;
+  height: auto;
+  text-align: right;
+  margin-top: -15px;
+  float: right;
+  padding-bottom: 10px;
+}
+#SearchAgainStation {
+  margin-top: -30px;
+}
+#SearchAgain input {
+  display: block;
+  float: left;
+}
+#SearchAgain a,
+#SearchAgainStation a {
+  margin-bottom: 4px;
+  font-weight: bold;
+  display: block;
+  float: left;
+  padding: 0 0 0 20px;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.default #SearchAgain a,
+.default #SearchAgainStation a {
+  background-image: url(../../default/bg_previous.gif);
+}
+#SearchAgain a#DirectoryResultsCtrl1_hypSearchAgainImage,
+#SearchAgain a#EmployeeProfileCtrl1_hypBackToResults {
+  display: none;
+}
+#DirectorySearchResultsCtrl1_hSubHeader {
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.LessonsLearnedResultsItem h3,
+#BottleDetails h3 {
+  clear: left;
+  display: block;
+  border-right: 1px solid #fff;
+  float: left;
+  width: 200px;
+  padding: 10px;
+}
+.LessonsLearnedResultsItem p,
+#BottleDetails p {
+  float: left;
+  padding: 10px;
+  clear: right;
+}
+* > .LessonsLearnedResultsItem h3,
+* > #BottleDetails h3 {
+  display: table-cell;
+  float: none;
+}
+* > .LessonsLearnedResultsItem p,
+* > #BottleDetails p {
+  display: table-cell;
+  float: none;
+}
+.LessonsLearnedResultsItem ul,
+#BottleDetails ul {
+  background: #E3F3FB;
+  clear: both;
+  width: 100%;
+}
+.LessonsLearnedResultsItem,
+#BottleDetails {
+  width: 100%;
+  background: url(../../1px_blue_rep.gif);
+}
+.LessonsLearnedResultsItem ul,
+#BottleDetails ul {
+  background: #E3F3FB;
+  clear: both;
+  width: 66%;
+  float: left;
+  border-right: 1px solid #fff;
+}
+.LessonsLearnedResultsItem li,
+#BottleDetails li {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-top: -3px;
+}
+* > .LessonsLearnedResultsItem li,
+* > #BottleDetails li {
+  margin: 0;
+  clear: both;
+}
+.LessonsLearnedResultsItem h3,
+#BottleDetails h3 {
+  clear: left;
+  display: block;
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+.LessonsLearnedResultsItem p,
+#BottleDetails p {
+  float: left;
+  padding: 10px;
+  clear: right;
+  width: 55%;
+  border-left: 1px solid #fff;
+}
+* > .LessonsLearnedResultsItem h3,
+* > #BottleDetails h3 {
+  display: table-cell;
+}
+* > .LessonsLearnedResultsItem p,
+* > #BottleDetails p {
+  display: table-cell;
+}
+.bottles input,
+.bottles select,
+.staffDirectory select,
+.staffDirectory input {
+  background: #D8EFF9;
+}
+.bottleImage {
+  padding: 10px;
+  background: #E3F3FB;
+  border-top: 1px solid #fff;
+  float: left;
+}
+#BottleDetailsFooter {
+  clear: both;
+  background: #fff;
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  padding-top: 5px;
+}
+.footer .previous,
+.footer .summary {
+  width: 33%;
+  float: left;
+}
+.footer .summary {
+  text-align: center;
+}
+.footer .next {
+  float: right;
+}
+.footer .previous a {
+  font-weight: bold;
+  margin-top: -1px;
+}
+.footer .previous input {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+}
+.footer .next a {
+  font-weight: bold;
+  margin-top: -1px;
+  display: block;
+  float: left;
+}
+.footer .next input {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.managers ul li a {
+  padding-left: 20px;
+}
+/*** Bottle search form ***/
+#BottleSearchCtrl1_pnlSearch {
+  position: relative;
+  float: left;
+  width: 390px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  display: inline;
+}
+.bottles {
+  clear: left;
+  float: left;
+  width: 100%;
+  padding: 0.5em 0;
+}
+.bottles select {
+  width: 250px;
+}
+.bottles input.text {
+  width: 247px;
+}
+.bottles input.submission {
+  position: absolute;
+  right: 12px;
+  bottom: 0;
+}
+.bottlesLeft,
+.bottlesRight {
+  float: left;
+  display: inline;
+}
+.bottlesLeft {
+  width: 130px;
+}
+/*** Lessons learned ***/
+/*** List ***/
+.LookupSelector {
+  margin-top: 1em;
+}
+/*** Option links beneath the drop-downs and list controls ***/
+div.appListOptions div {
+  display: inline;
+}
+.LessonsLearnedResultsItem div {
+  padding-bottom: 10px;
+}
+.ResultsFooter,
+.ScienceFooter {
+  background: #dae5c5 url(../../bg_divider_left_green_long.jpg) no-repeat scroll left top;
+  float: left;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+.ScienceFooter {
+  padding: 0;
+  background: none;
+}
+.ResultsFooter .Previous,
+.ScienceFooter .Previous {
+  width: 25%;
+  float: right;
+  text-align: left;
+}
+.ResultsFooter .Middle,
+.ScienceFooter .Middle {
+  width: 53%;
+  float: right;
+}
+.ResultsFooter .Next,
+.ScienceFooter .Next {
+  width: 22%;
+  float: right;
+}
+.ResultsFooter a,
+.ScienceFooter a {
+  display: block;
+}
+.ResultsFooter .Previous a,
+.ScienceFooter .Previous a {
+  padding: 0 0 0 25px;
+  background: url(../../bg_previous_theme1.gif) left center no-repeat;
+}
+.ResultsFooter .Next a,
+.ScienceFooter .Next a {
+  text-align: right;
+  padding: 0 25px 0 0;
+  background: url(../../bg_next_theme1.gif) right center no-repeat;
+}
+.ResultsFooter .Next a.Top,
+.ScienceFooter .Next a.Top {
+  position: relative;
+  top: -999em;
+}
+.ResultsFooter .Previous a {
+  padding: 0 0 0 35px;
+  background: url(../../bg_previous_theme1.gif) 5% 50% no-repeat;
+}
+.ResultsFooter .Next a {
+  padding: 0 35px 0 0;
+  background: url(../../bg_next_theme1.gif) 95% 50% no-repeat;
+}

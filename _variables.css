@@ -1,0 +1,41 @@
+/*
+
+.my-hover-mixin() {
+  &:hover {
+    border: 1px solid red;
+  }
+}
+button {
+  .my-hover-mixin();
+}
+Outputs
+
+button:hover {
+  border: 1px solid red;
+}
+
+
+
+*/
+@import url('http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather');
+
+@import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
+/*
+
+.my-hover-mixin() {
+  &:hover {
+    border: 1px solid red;
+  }
+}
+button {
+  .my-hover-mixin();
+}
+Outputs
+
+button:hover {
+  border: 1px solid red;
+}
+
+
+
+*/

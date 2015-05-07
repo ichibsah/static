@@ -1,5 +1,44 @@
-/* Emergency banner */
-* {
+/*
+
+.my-hover-mixin() {
+  &:hover {
+    border: 1px solid red;
+  }
+}
+button {
+  .my-hover-mixin();
+}
+Outputs
+
+button:hover {
+  border: 1px solid red;
+}
+
+
+
+*/
+@import url('http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather');
+
+@import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
+/*
+
+.my-hover-mixin() {
+  &:hover {
+    border: 1px solid red;
+  }
+}
+button {
+  .my-hover-mixin();
+}
+Outputs
+
+button:hover {
+  border: 1px solid red;
+}
+
+
+
+*/* {
   padding: 0;
   margin: 0;
   font-size: 100%;
@@ -510,16 +549,19 @@ div#global_utilities ul#utilities li a#large {
   font-size: 1.6em;
   margin-top: 0;
 }
+/* Job serch results page */
 /*****************************************************************************
  * Accesskeys
- *****************************************************************************/div.theme1 ul#keys li a:active,
+ *****************************************************************************/
+div.theme1 ul#keys li a:active,
 div.theme1 ul#keys li a:focus {
   background-color: #E4EDB2;
   color: #2E3C16;
 }
 /*****************************************************************************
  * Generic
- *****************************************************************************/body.theme1 {
+ *****************************************************************************/
+body.theme1 {
   color: #2e3c16 !important;
 }
 .theme1 p,
@@ -3653,7 +3695,7 @@ div#leftcol ul li {
   display: inline;
 }
 div#leftcol ul li a {
-  background: url(../images/default/bg_home.png) no-repeat top left;
+  background: url("../images/default/bg_home.png") no-repeat top left;
 }
 div#leftcol ul li a:hover {
   text-decoration: none !important;
@@ -3677,7 +3719,7 @@ div#leftcol ul li p {
   font-weight: bold;
 }
 div#leftcol ul li p {
-  background-image: url(../images/default/bg_home_selected.png);
+  background-image: url("../images/default/bg_home_selected.png");
   background-repeat: no-repeat;
   background-position: top left;
   background-color: #fff;
@@ -3690,7 +3732,7 @@ div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.
 div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section a,
 div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section a,
 div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section a {
-  background-image: url(../images/default/bg_down_arrow.gif);
+  background-image: url("../images/default/bg_down_arrow.gif");
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: 93% 0.8em;
@@ -3703,7 +3745,7 @@ div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.
 div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section p,
 div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section p,
 div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section p {
-  background: url(../images/default/bg_list_arrow.gif) no-repeat;
+  background: url("../images/default/bg_list_arrow.gif") no-repeat;
   background-position: 92% 0.7em;
   background-color: #fff;
 }
@@ -3760,7 +3802,7 @@ div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.
 div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section ul#children li a,
 div#leftcol ul li ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section ul li.section ul#children li a {
   background-color: #D9EFFA;
-  background-image: url(../images/default/bg_list_arrow.gif);
+  background-image: url("../images/default/bg_list_arrow.gif");
   background-repeat: no-repeat;
   font-weight: normal;
   border-bottom: none;

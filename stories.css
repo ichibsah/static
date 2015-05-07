@@ -1,3 +1,151 @@
 /* Override default Easinet styles */
-img{max-width:100%;height:auto;width:auto\9}div#featurebox{position:relative;width:100%;margin:15px 0;overflow:hidden}div#featureinfo{position:absolute;width:22.5%;height:100%;background:#fff;background-repeat:repeat;top:0;left:0}div#featureimg{float:right;width:77.5%;max-height:480px;overflow:hidden}div#featureimg img{max-width:100%}div#featureinfo h2{padding:10px;font-size:1.5em;text-decoration:none;background:0}div#featureinfo h2 a{font-size:1.2em;text-decoration:none;background:0;font-weight:400}div#featureinfo p{font-size:1.25em;padding:0 10px 10px 10px}div.hbox{width:100%;padding:0 0 0 10px}div.hbox h2{font-size:1.1em;font-weight:700;background:none!important;text-decoration:none!important;margin:0!important;padding:01.em 0!important}div.hbox h2 a{font-size:1.1em;font-weight:700;background:none!important;text-decoration:none!important;margin:0!important}div.hbox li{background:none!important;border:0!important;padding:0!important;text-decoration:none!important}div.hbox ul{background:none!important;border:0!important;padding:0!important;text-decoration:none!important}div.hbox p{font-size:1.1em}div.newsbox{width:30%;margin:1%;float:left;min-height:180px;background:#fff}div.newsbox p{padding-top:5px}div.newstitle h2{font-size:1.25em;padding-bottom:5px;text-decoration:none;background:0}div.newstitle h2 a{font-size:1.25em;padding-bottom:5px;text-decoration:none;background:0}div.newsimg{text-align:center;margin:auto;padding:auto;overflow:hidden}div.story{font-size:1em;line-height:1.2em}div.story p{font-size:1.2em;line-height:1.6em;padding:.6em 0}div.story img{float:right;width:40%;margin:2% 0 2% 2%!important}div.story h2,div.story h3{background:none!important}div.default>h1>a{text-decoration:none}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+}
+div#featurebox {
+  position: relative;
+  width: 100%;
+  margin: 15px 0;
+  /* max-height: 400px; */
+
+  overflow: hidden;
+}
+div#featureinfo {
+  position: absolute;
+  width: 22.5%;
+  height: 100%;
+  /* background-image: url("http://forums.ea.gov/dan-temp-2015/FFFFFF-0.7.png"); */
+
+  background: #ffffff;
+  background-repeat: repeat;
+  top: 0px;
+  left: 0px;
+}
+div#featureimg {
+  float: right;
+  width: 77.5%;
+  max-height: 480px;
+  overflow: hidden;
+}
+div#featureimg img {
+  max-width: 100%;
+}
+div#featureinfo h2 {
+  padding: 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+  background: none;
+}
+div#featureinfo h2 a {
+  font-size: 1.2em;
+  text-decoration: none;
+  background: none;
+  font-weight: normal;
+}
+div#featureinfo p {
+  font-size: 1.25em;
+  padding: 0 10px 10px 10px;
+}
+div.hbox {
+  width: 100%;
+  padding: 0 0 0 10px;
+}
+div.hbox h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+  background: none !important;
+  text-decoration: none !important;
+  margin: 0 !important;
+  padding: 01.em 0 !important;
+}
+div.hbox h2 a {
+  font-size: 1.1em;
+  font-weight: bold;
+  background: none !important;
+  text-decoration: none !important;
+  margin: 0 !important;
+}
+div.hbox li {
+  background: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  text-decoration: none !important;
+}
+div.hbox ul {
+  background: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  text-decoration: none !important;
+}
+div.hbox p {
+  font-size: 1.1em;
+}
+div.newsbox {
+  width: 30%;
+  margin: 1%;
+  float: left;
+  min-height: 180px;
+  background: white;
+}
+div.newsbox p {
+  padding-top: 5px;
+}
+div.newstitle h2 {
+  font-size: 1.25em;
+  padding-bottom: 5px;
+  text-decoration: none;
+  background: none;
+}
+div.newstitle h2 a {
+  font-size: 1.25em;
+  padding-bottom: 5px;
+  text-decoration: none;
+  background: none;
+}
+div.newsimg {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  /* max-height: 160px; */
+
+  overflow: hidden;
+}
+div.story {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+div.story p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  padding: 0.6em 0;
+}
+div.story img {
+  float: right;
+  width: 40%;
+  margin: 2% 0 2% 2% !important;
+}
+div.story h2,
+div.story h3 {
+  background: none !important;
+}
+/* Override default Easinet styles */
+/* .header {
+    height: auto !important;
+    margin: 0 0 1% 0;
+    padding-top: 20px !important;
+} */
+#banner {
+  /* display: none !important; */
+
+}
+div#content > h1 {
+  /* display: none; */
+
+}
+div.default > h1 > a {
+  text-decoration: none;
+}

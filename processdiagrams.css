@@ -1,3 +1,1925 @@
 /* This stylesheet should only be used on the Process Diagram templates */
-.plain_text #p-d ol li{list-style:none}.plain_text #p-d ol li h2{background:0;padding:0;margin:0;word-wrap:normal}.plain_text #p-d ol li h2 a{display:block;background:0;text-decoration:underline;padding-right:0;font-size:100%;word-wrap:normal}.plain_text #p-d ol li p{padding:0}#p-d{width:100%;text-align:center}#p-d .inner{margin:0 auto;text-align:left;top:2em;width:590px;min-height:400px;position:relative}* html #p-d .inner{height:400px}#p-d #intro{position:absolute;top:48%;left:50%;width:9.6em;margin-left:-4.8em;margin-top:-4.2em}#p-d p#intro,#p-d #intro{text-align:center;font-weight:700;z-index:999}#p-d #intro span{font-size:1.25em}#p-d #p-d-1{background:url(../images/Misc/arrows1.html) 50% 78px no-repeat}#p-d #p-d-2{background:url(../images/Misc/arrows2.html) 50% 78px no-repeat}#p-d #p-d-3{background:url(../images/Misc/arrows3.html) 50% 78px no-repeat}#p-d #p-d-4{background:url(../images/Misc/arrows4.gif) 50% 78px no-repeat}#p-d #p-d-4NonPermt-Compl{background:url(../images/Misc/arrows4NonPermt-Compl.gif) 50% 78px no-repeat}#p-d #p-d-4SecuringCompliance{background:url(../images/Misc/arrows4SecuringCompliance.gif) 50% 78px no-repeat}#p-d #p-d-5{background:url(../images/Misc/arrows5.gif) 50% 78px no-repeat}#p-d #p-d-5procurement{background:url(../images/Misc/arrows5procurement.gif) 50% 78px no-repeat}#p-d #p-d-5Mng-Corp{background:url(../images/Misc/arrows5Mng-Corp.gif) 50% 78px no-repeat}#p-d #p-d-5Managmnt-Fwork{background:url(../images/Misc/arrows5Managmnt-Fwork.gif) 50% 78px no-repeat}#p-d #p-d-6{background:url(../images/Misc/arrows6.gif) 50% 78px no-repeat}#p-d #p-d-6Water{background:url(../images/Misc/arrows6Water.gif) 50% 78px no-repeat}#p-d #p-d-6FinancialMngmt{background:url(../images/Misc/arrows6Financial-Mngmt.gif) 50% 78px no-repeat}#p-d #p-d-6LegalCompliance{background:url(../images/Misc/arrow6Legal_Compliance.gif) 50% 78px no-repeat}#p-d #p-d-6ENSsec{background:url(../images/Misc/arrows6ENS-sec.gif) 50% 78px no-repeat}#p-d #p-d-7{background:url(../images/Misc/arrows7.gif) 50% 78px no-repeat}#p-d #p-d-7MngEnvImpact{background:url(../images/Misc/arrows7MngEnvImpact.gif) 50% 78px no-repeat}#p-d #p-d-7Int-Env_Asses{background:url(../images/Misc/arrows7Int-Env_Asses.gif) 50% 78px no-repeat}#p-d #p-d-7EnviroAssess{background:url(../images/Misc/arrows7EnviroAssess.gif) 50% 78px no-repeat}#p-d #p-d-7Invest{background:url(../images/Misc/arrows7Invest.gif) 50% 78px no-repeat}#p-d #p-d-7FCRM{background:url(../images/Misc/arrows7FCRM.gif) 50% 78px no-repeat}#p-d #p-d-7IncidentManage{background:url(../images/Misc/arrows7IncidentManage.html) 50% 78px no-repeat}#p-d #p-d-7BusinessContinuity{background:url(../images/Misc/arrows7BusinessContinuity.gif) 50% 78px no-repeat}#p-d #p-d-8{background:url(../images/Misc/arrows8.gif) 50% 78px no-repeat}#p-d #p-d-8FCRM-Permitting{background:url(../images/Misc/arrows8FCRM-Permitting.gif) 50% 78px no-repeat}#p-d #p-d-8IncidentManage{background:url(../images/Misc/arrows8IncidentManage.gif) 50% 78px no-repeat}#p-d #p-d-9MA{background:url(../images/Misc/arrows9MA.gif) 50% 78px no-repeat}#p-d #p-d-9SP{background:url(../images/Misc/arrows9SP.gif) 50% 78px no-repeat}#p-d #p-d-9MD{background:url(../images/Misc/arrows9MD.gif) 50% 78px no-repeat}#p-d #p-d-10Res{background:url(../images/Misc/arrows10Res.gif) 50% 78px no-repeat}#p-d #p-d-10Mng-People{background:url(../images/Misc/arrows10Mng-People.gif) 50% 78px no-repeat}#p-d .inner li{position:absolute}#p-d .inner p{font-size:90%}#p-d .inner a:hover,#p-d .inner a:focus{text-decoration:none}#p-d .NonPermt-Compl #pos1{top:26px;left:273px;width:300px;padding:0 0 30px 50px;background:url(../images/Misc/icon-policy.gif) 0 40px no-repeat}#p-d .NonPermt-Compl #pos2{top:181px;left:395px;width:190px;padding:4px 0 4px 55px;background:url(../images/Misc/icon-actions.gif) 0 0 no-repeat}#p-d .NonPermt-Compl #pos3{top:300px;left:285px;width:300px;padding:40px 0 0 0;background:url(../images/Misc/icon-snapboard.gif) 0 0 no-repeat;text-align:left}#p-d .NonPermt-Compl #pos4{top:192px;right:395px;width:150px;padding:0 55px 0 0;background:url(../images/Misc/icon-tick.gif) 100% 0 no-repeat;text-align:right}#p-d .SecuringCompliance #pos1{top:30px;left:293px;width:250px;padding:0 0 30px 50px;background:url(../images/Misc/icon-globe.gif) 0 30px no-repeat}#p-d .SecuringCompliance #pos2{top:196px;left:395px;width:145px;padding:4px 0 4px 55px;background:url(../images/Misc/icon-cal.gif) 0 0 no-repeat}#p-d .SecuringCompliance #pos3{top:305px;right:274px;width:300px;padding:40px 0 0 0;background:url(../images/Misc/icon-prioritise.gif) 100% 0 no-repeat;text-align:right}#p-d .SecuringCompliance #pos4{top:172px;right:395px;width:150px;padding:0 55px 0 0;background:url(../images/Misc/icon-tick.gif) 100% 0 no-repeat;text-align:right}#p-d .AMSPermitting #pos1{top:16px;left:272px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-speech.gif) 0 100% no-repeat}#p-d .AMSPermitting #pos2{top:182px;left:400px;width:170px;padding:4px 0 4px 65px;background:url(../images/Misc/icon-actions.gif) 0 0 no-repeat}#p-d .AMSPermitting #pos3{top:290px;left:280px;width:150px;padding:50px 0 0 0;background:url(../images/Misc/icon-enforcement.gif) 0 0 no-repeat}#p-d .AMSPermitting #pos4{top:182px;right:400px;width:150px;padding:0 55px 0 0;background:url(../images/Misc/icon-ident.gif) 100% 0 no-repeat;text-align:right}#p-d .procurement #pos1{top:16px;left:273px;width:380px;padding:0 0 60px 0;background:url(../images/Misc/icon-scroll.gif) 0 50px no-repeat}#p-d .procurement #pos2{top:169px;left:380px;width:170px;padding:4px 0 4px 60px;background:url(../images/Misc/icon-iProcurement.gif) 0 0 no-repeat}#p-d .procurement #pos3{top:290px;left:293px;width:350px;padding:50px 0 0 0;background:url(../images/Misc/icon-organisations.gif) 0 0 no-repeat}#p-d .procurement #pos4{top:222px;right:392px;width:150px;padding:0 55px 0 0;background:url(../images/Misc/icon-sustainable.gif) 100% 0 no-repeat;text-align:right}#p-d .procurement #pos5{top:113px;right:385px;width:220px;text-align:right}#p-d .MngCorp #pos1{top:27px;left:285px;width:300px;padding:0 0 30px 5px;background:url(../images/Misc/icon-justification.gif) 0 100% no-repeat}#p-d .MngCorp #pos2{top:134px;left:380px;width:170px;padding:4px 0 4px 60px;background:url(../images/Misc/icon-speading.gif) 0 0 no-repeat}#p-d .MngCorp #pos3{top:272px;left:353px;width:150px;padding:0 0 0 50px;background:url(../images/Misc/icon-maintainAssets.gif) 0 0 no-repeat}#p-d .MngCorp #pos4{top:282px;right:335px;width:150px;padding:0 55px 0 0;background:url(../images/Misc/icon-screen.gif) 100% 0 no-repeat;text-align:right}#p-d .MngCorp #pos5{top:153px;right:395px;width:150px;padding:0 45px 0 0;background:url(../images/Misc/icon-bin.gif) 100% 0 no-repeat;text-align:right}#p-d .ManagmntFwork #pos1{top:21px;left:291px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-guide.gif) 0 100% no-repeat}#p-d .ManagmntFwork #pos2{top:182px;left:393px;width:170px;padding:4px 0 4px 50px;background:url(../images/Misc/icon-respond.gif) 0 0 no-repeat}#p-d .ManagmntFwork #pos3{top:293px;left:297px;width:150px;padding:40px 0 0 0;background:url(../images/Misc/icon-actions.gif) 0 0 no-repeat}#p-d .ManagmntFwork #pos4{top:200px;right:395px;width:150px;padding:0 45px 0 0;background:url(../images/Misc/icon-graph.gif) 100% 0 no-repeat;text-align:right}#p-d .ManagmntFwork #pos5{top:110px;right:375px;width:220px;text-align:right}#p-d .ManagementIT #pos1{top:21px;left:276px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .ManagementIT #pos2{top:160px;left:365px;width:170px;padding:4px 0 4px 65px;background:url(../images/Misc/icon-prioritise.gif) 0 0 no-repeat}#p-d .ManagementIT #pos3{top:290px;left:304px;width:150px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-program.gif) 0 0 no-repeat}#p-d .ManagementIT #pos4{top:220px;right:375px;width:150px;padding:0 55px 0 0;background:url(../images/Misc/icon-system.gif) 100% 0 no-repeat;text-align:right}#p-d .ManagementIT #pos44{top:220px;right:375px;width:150px;padding:0 55px 0 0;background:url(../images/Misc/icon-share.gif) 100% 0 no-repeat;text-align:right}#p-d .ManagementIT #pos5{top:120px;right:395px;width:220px;text-align:right}#p-d .WaterQuality #pos1{top:21px;left:272px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .WaterQuality #pos2{top:125px;left:378px;width:170px;padding:4px 0 4px 55px;background:url(../images/Misc/icon-ident.gif) 0 0 no-repeat}#p-d .WaterQuality #pos3{top:244px;left:368px;width:150px;padding:50px 0 8px 10px;background:url(../images/Misc/icon-deliver.gif) 0 0 no-repeat}#p-d .WaterQuality #pos4{top:296px;right:316px;width:250px;padding:45px 0 5px 0;background:url(../images/Misc/icon-speech.gif) 100% 0 no-repeat;text-align:right}#p-d .WaterQuality #pos5{top:178px;right:399px;width:190px;padding:2px 40px 0 0;background:url(../images/Misc/icon-clipboard.gif) 100% 0 no-repeat;text-align:right}#p-d .WaterQuality #pos6{top:104px;right:340px;width:150px;padding:0 40px 0 0;text-align:right}#p-d .FinancialMngmt #pos1{top:22px;left:272px;padding:0 0 60px 0;background:url(../images/Misc/icon-funding.gif) 0 50px no-repeat}#p-d .FinancialMngmt #pos2{top:140px;left:377px;width:170px;padding:0 0 0 60px;background:url(../images/Misc/icon-speading.gif) 0 0 no-repeat}#p-d .FinancialMngmt #pos3{top:269px;left:343px;width:180px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-delegation.gif) 0 0 no-repeat}#p-d .FinancialMngmt #pos4{top:290px;right:310px;width:190px;padding:50px 0 0 0;background:url(../images/Misc/icon-risk.gif) 100% 0 no-repeat;text-align:right}#p-d .FinancialMngmt #pos5{top:200px;right:398px;width:160px;padding:2px 40px 0 0;background:url(../images/Misc/icon-pension.gif) 100% 0 no-repeat;text-align:right}#p-d .FinancialMngmt #pos6{top:114px;right:348px;width:150px;padding:0 40px 0 0;text-align:right}#p-d .LegalCompliance #pos1{top:32px;left:280px;width:300px;padding:0 0 30px 60px;background:url(../images/Misc/icon-policy.gif) 0 20px no-repeat}#p-d .LegalCompliance #pos2{top:126px;left:375px;width:170px;padding:4px 0 4px 65px;background:url(../images/Misc/icon_speech.gif) 0 0 no-repeat}#p-d .LegalCompliance #pos3{top:253px;left:362px;width:180px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-tools.gif) 0 0 no-repeat}#p-d .LegalCompliance #pos4{top:300px;right:298px;width:190px;padding:40px 0 0 0;background:url(../images/Misc/icon-graph.gif) 100% 0 no-repeat;text-align:right}#p-d .LegalCompliance #pos5{top:204px;right:390px;width:160px;padding:2px 50px 0 0;background:url(../images/Misc/icon-searchDoc.gif) 100% 0 no-repeat;text-align:right}#p-d .LegalCompliance #pos6{top:104px;right:348px;width:150px;padding:0 40px 0 0;text-align:right}#p-d .BusinessImprovCycle #pos1{top:32px;left:280px;width:300px;padding:0 0 30px 60px;background:url(../images/Misc/icon-question.gif) 0 20px no-repeat}#p-d .BusinessImprovCycle #pos2{top:126px;left:375px;width:170px;padding:4px 0 4px 65px;background:url(../images/Misc/icon-ident.gif) 0 0 no-repeat}#p-d .BusinessImprovCycle #pos3{top:253px;left:362px;width:180px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-proposal.gif) 0 0 no-repeat}#p-d .BusinessImprovCycle #pos4{top:300px;right:298px;width:190px;padding:40px 0 0 0;background:url(../images/Misc/icon-prioritise.gif) 100% 0 no-repeat;text-align:right}#p-d .BusinessImprovCycle #pos5{top:204px;right:390px;width:160px;padding:2px 50px 0 0;background:url(../images/Misc/icon-actions.gif) 100% 0 no-repeat;text-align:right}#p-d .BusinessImprovCycle #pos6{top:104px;right:348px;width:150px;padding:0 40px 0 0;text-align:right}#p-d .DoAaSG #pos1{top:21px;left:272px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-m.gif) 0 100% no-repeat}#p-d .DoAaSG #pos2{top:128px;left:385px;width:170px;padding:4px 0 4px 55px;background:url(../images/Misc/icon-howPaper.gif) 0 0 no-repeat}#p-d .DoAaSG #pos3{top:260px;left:364px;width:150px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-speech.gif) 0 0 no-repeat}#p-d .DoAaSG #pos4{top:306px;left:278px;width:250px;padding:45px 0 5px 0;background:url(../images/Misc/icon-tick.gif) 0 0 no-repeat}#p-d .DoAaSG #pos5{top:264px;right:356px;width:190px;padding:2px 60px 0 0;background:url(../images/Misc/icon-feeback-questionmark.gif) 100% 0 no-repeat;text-align:right}#p-d .DoAaSG #pos6{top:124px;right:388px;width:150px;padding:0 40px 0 0;background:url(../images/Misc/icon-ident.gif) 100% 4px no-repeat;text-align:right}#p-d .MngEnvImpact #pos1{top:35px;left:278px;width:260px;padding:0 0 20px 60px;background:url(../images/Misc/icon-policy.gif) 0 30px no-repeat}#p-d .MngEnvImpact #pos2{top:112px;left:375px;width:170px;padding:4px 0 4px 70px;background:url(../images/Misc/icon-prioritise.gif) 0 0 no-repeat}#p-d .MngEnvImpact #pos3{top:232px;left:380px;width:150px;padding:4px 0 8px 60px;background:url(../images/Misc/icon-tools.gif) 0 0 no-repeat}#p-d .MngEnvImpact #pos4{top:290px;left:302px;width:250px;padding:45px 0 5px 0;background:url(../images/Misc/icon-graph.gif) 0 0 no-repeat}#p-d .MngEnvImpact #pos5{top:276px;right:350px;width:190px;padding:2px 50px 0 0;background:url(../images/Misc/icon-clipboard.gif) 100% 0 no-repeat;text-align:right}#p-d .MngEnvImpact #pos6{top:173px;right:395px;width:150px;padding:0 45px 25px 0;background:url(../images/Misc/icon-searchDoc.gif) 100% 4px no-repeat;text-align:right}#p-d .MngEnvImpact #pos7{top:95px;right:375px;width:215px;text-align:right}#p-d .Int-Env_Asses #pos1{top:32px;left:283px;width:300px;padding:0 0 20px 60px;background:url(../images/Misc/icon-globe.gif) 0 20px no-repeat}#p-d .Int-Env_Asses #pos2{top:128px;left:377px;width:170px;padding:4px 0 4px 60px;background:url(../images/Misc/icon-options.gif) 0 0 no-repeat}#p-d .Int-Env_Asses #pos3{top:235px;left:380px;width:150px;padding:4px 0 8px 60px;background:url(../images/Misc/icon-incident-map.gif) 0 0 no-repeat}#p-d .Int-Env_Asses #pos4{top:296px;left:301px;width:250px;padding:45px 0 5px 0;background:url(../images/Misc/icon-risk.gif) 0 0 no-repeat}#p-d .Int-Env_Asses #pos5{top:281px;right:340px;width:190px;padding:2px 50px 0 0;background:url(../images/Misc/icon-actions.gif) 100% 0 no-repeat;text-align:right}#p-d .Int-Env_Asses #pos6{top:173px;right:395px;width:150px;padding:0 45px 25px 0;background:url(../images/Misc/icon-clipboard.gif) 100% 4px no-repeat;text-align:right}#p-d .Int-Env_Asses #pos7{top:105px;right:380px;width:215px;text-align:right}#p-d .EnviroAssess #pos1{top:15px;left:280px;width:300px;padding:0 0 0 60px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .EnviroAssess #pos2{top:128px;left:387px;width:170px;padding:4px 0 4px 50px;background:url(../images/Misc/icon-paperCert.gif) 0 0 no-repeat}#p-d .EnviroAssess #pos3{top:229px;left:386px;width:150px;padding:4px 0 8px 50px;background:url(../images/Misc/icon-request.gif) 0 0 no-repeat}#p-d .EnviroAssess #pos4{top:296px;left:303px;width:250px;padding:45px 0 5px 0;background:url(../images/Misc/icon-date.gif) 0 0 no-repeat}#p-d .EnviroAssess #pos5{top:268px;right:356px;width:190px;padding:2px 50px 0 0;background:url(../images/Misc/icon-incident.gif) 100% 0 no-repeat;text-align:right}#p-d .EnviroAssess #pos6{top:166px;right:390px;width:150px;padding:0 45px 0 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .EnviroAssess #pos7{top:105px;right:380px;width:215px;text-align:right}#p-d .Mon-Assessment #pos1{top:15px;left:278px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-m.gif) 0 100% no-repeat}#p-d .Mon-Assessment #pos2{top:101px;left:367px;width:170px;padding:4px 0 4px 50px;background:url(../images/Misc/icon-cal.gif) 0 0 no-repeat}#p-d .Mon-Assessment #pos3{top:200px;left:386px;width:150px;padding:4px 0 8px 50px;background:url(../images/Misc/icon-how.gif) 0 0 no-repeat}#p-d .Mon-Assessment #pos4{top:296px;left:326px;width:250px;padding:45px 0 5px 0;background:url(../images/Misc/icon-flask.gif) 0 0 no-repeat}#p-d .Mon-Assessment #pos5{top:282px;right:348px;width:190px;padding:2px 50px 0 0;background:url(../images/Misc/icon-screen.gif) 100% 0 no-repeat;text-align:right}#p-d .Mon-Assessment #pos6{top:166px;right:390px;width:150px;padding:0 45px 0 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .Mon-Assessment #pos7{top:95px;right:370px;width:215px;text-align:right}#p-d .Investment #pos1{top:21px;left:276px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-m.gif) 0 100% no-repeat}#p-d .Investment #pos2{top:116px;left:375px;width:170px;padding:4px 0 4px 50px;background:url(../images/Misc/icon-guide.gif) 0 0 no-repeat}#p-d .Investment #pos3{top:227px;left:375px;width:150px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-proposal.gif) 0 0 no-repeat}#p-d .Investment #pos4{top:290px;left:306px;width:250px;padding:45px 0 5px 0;background:url(../images/Misc/icon-prioritise.gif) 0 0 no-repeat}#p-d .Investment #pos5{top:288px;right:338px;width:190px;padding:2px 50px 0 0;background:url(../images/Misc/icon-graph.gif) 100% 0 no-repeat;text-align:right}#p-d .Investment #pos6{top:182px;right:390px;width:150px;padding:0 45px 20px 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .Investment #pos7{top:85px;right:375px;width:240px;text-align:right}#p-d .FCRM #pos1{top:21px;left:280px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .FCRM #pos2{top:103px;left:375px;width:170px;padding:4px 0 14px 50px;background:url(../images/Misc/icon-cal.gif) 0 0 no-repeat}#p-d .FCRM #pos3{top:190px;left:375px;width:150px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-collect-data.gif) 0 0 no-repeat}#p-d .FCRM #pos4{top:282px;left:335px;width:250px;padding:0 0 0 60px;background:url(../images/Misc/icon-modelling.gif) 0 0 no-repeat}#p-d .FCRM #pos5{top:288px;right:326px;width:190px;padding:35px 0 0 0;background:url(../images/Misc/icon-data-management.gif) 100% 0 no-repeat;text-align:right}#p-d .FCRM #pos6{top:192px;right:394px;width:150px;padding:0 45px 20px 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .FCRM #pos7{top:95px;right:375px;width:240px;text-align:right}#p-d .IncidentManage #pos1{top:21px;left:270px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-risk.gif) 0 100% no-repeat}#p-d .IncidentManage #pos2{top:123px;left:398px;width:200px;padding:0 0 14px 40px;background:url(../images/Misc/icon-prevent.gif) 0 0 no-repeat}#p-d .IncidentManage #pos3{top:231px;left:367px;width:180px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-prepare.gif) 0 0 no-repeat}#p-d .IncidentManage #pos4{top:298px;left:292px;width:250px;padding:40px 0 0 0;background:url(../images/Misc/icon-respond.gif) 0 0 no-repeat}#p-d .IncidentManage #pos5{top:278px;right:355px;width:190px;padding:35px 0 0 0;background:url(../images/Misc/icon-incident-map.gif) 100% 0 no-repeat;text-align:right}#p-d .IncidentManage #pos6{top:153px;right:390px;width:150px;padding:0 45px 20px 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .IncidentManage #pos7{top:95px;right:375px;width:240px;text-align:right}#p-d .BusinessContinuity #pos1{top:30px;left:270px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-risk.gif) 0 100% no-repeat}#p-d .BusinessContinuity #pos2{top:113px;left:394px;width:200px;padding:0 0 14px 40px;background:url(../images/Misc/icon-prevent.gif) 0 0 no-repeat}#p-d .BusinessContinuity #pos3{top:224px;left:372px;width:180px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-prepare.gif) 0 0 no-repeat}#p-d .BusinessContinuity #pos4{top:295px;left:294px;width:250px;padding:40px 0 0 0;background:url(../images/Misc/icon-disruption.gif) 0 0 no-repeat}#p-d .BusinessContinuity #pos5{top:260px;right:367px;width:190px;padding:45px 0 0 0;background:url(../images/Misc/icon-after-disruption.gif) 100% 0 no-repeat;text-align:right}#p-d .BusinessContinuity #pos6{top:153px;right:390px;width:150px;padding:0 45px 20px 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .BusinessContinuity #pos7{top:95px;right:375px;width:240px;text-align:right}#p-d .IncidentManage8 #pos1{top:21px;left:270px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-risk.gif) 0 100% no-repeat}#p-d .IncidentManage8 #pos2{top:110px;left:386px;width:200px;padding:0 0 14px 40px;background:url(../images/Misc/icon-prevent.gif) 0 0 no-repeat}#p-d .IncidentManage8 #pos3{top:197px;left:377px;width:180px;padding:4px 0 8px 70px;background:url(../images/Misc/icon-prepare.gif) 0 0 no-repeat}#p-d .IncidentManage8 #pos4{top:274px;left:359px;width:250px;padding:40px 0 0 0;background:url(../images/Misc/icon-respond.gif) 0 0 no-repeat}#p-d .IncidentManage8 #pos5{top:300px;right:280px;width:250px;padding:40px 0 0 0;background:url(../images/Misc/icon-deliver.gif) 100% 0 no-repeat;text-align:right}#p-d .IncidentManage8 #pos6{top:262px;right:365px;width:150px;padding:0 60px 0 0;background:url(../images/Misc/icon-incident-map.gif) 100% 0 no-repeat;text-align:right}#p-d .IncidentManage8 #pos7{top:153px;right:390px;width:150px;padding:0 45px 20px 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .IncidentManage8 #pos8{top:95px;right:375px;width:240px;text-align:right}#p-d .FCRM-Permitting #pos1{top:30px;left:284px;width:300px;padding:0 0 20px 50px;background:url(../images/Misc/icon-policy.gif) 0 20px no-repeat}#p-d .FCRM-Permitting #pos2{top:116px;left:378px;width:300px;padding:0 0 40px 60px;background:url(../images/Misc/icon-preApp.gif) 0 0 no-repeat}#p-d .FCRM-Permitting #pos3{top:209px;left:388px;width:150px;padding:0 0 10px 50px;background:url(../images/Misc/icon-apply.gif) 0 0 no-repeat}#p-d .FCRM-Permitting #pos4{top:280px;left:345px;width:200px;padding:0 0 30px 50px;background:url(../images/Misc/icon-question.gif) 0 0 no-repeat}#p-d .FCRM-Permitting #pos5{top:300px;left:267px;width:250px;padding:45px 0 0 0;background:url(../images/Misc/icon-clipboard.gif) 0 0 no-repeat}#p-d .FCRM-Permitting #pos6{top:257px;right:367px;width:190px;padding:0 50px 15px 0;background:url(../images/Misc/icon-enforcement.gif) 100% 0 no-repeat;text-align:right}#p-d .FCRM-Permitting #pos7{top:162px;right:390px;width:150px;padding:0 50px 15px 0;background:url(../images/Misc/icon-tick.gif) 100% 0 no-repeat;text-align:right}#p-d .FCRM-Permitting #pos8{top:75px;right:320px;width:150px;padding:3px 48px 15px 0;text-align:right}#p-d .enforcement #pos1{top:25px;left:280px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .enforcement #pos2{top:99px;left:368px;width:160px;padding:0 0 0 60px;background:url(../images/Misc/icon-gate.gif) 0 100% no-repeat}#p-d .enforcement #pos3{top:186px;left:392px;width:150px;padding:0 0 10px 50px;background:url(../images/Misc/icon-eye.gif) 0 0 no-repeat}#p-d .enforcement #pos4{top:263px;left:356px;width:200px;padding:0 0 30px 70px;background:url(../images/Misc/icon-handshake.gif) 0 0 no-repeat}#p-d .enforcement #pos5{top:306px;left:275px;width:250px;padding:30px 0 0 0;background:url(../images/Misc/icon-justification.gif) 0 0 no-repeat}#p-d .enforcement #pos6{top:275px;right:364px;width:190px;padding:0 50px 5px 0;background:url(../images/Misc/icon-ident.gif) 100% 0 no-repeat;text-align:right}#p-d .enforcement #pos7{top:165px;right:377px;width:150px;padding:0 80px 0 0;background:url(../images/Misc/icon-seesaw.gif) 100% 0 no-repeat;text-align:right}#p-d .enforcement #pos8{top:95px;right:320px;width:150px;padding:3px 48px 15px 0;text-align:right}#p-d .Asset-Man #pos1{top:20px;left:283px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .Asset-Man #pos2{top:50px;left:358px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-ident.gif) 0 100% no-repeat}#p-d .Asset-Man #pos3{top:158px;left:386px;width:150px;padding:0 0 0 50px;background:url(../images/Misc/icon-justification.gif) 0 0 no-repeat}#p-d .Asset-Man #pos4{top:223px;left:386px;width:200px;padding:0 0 30px 50px;background:url(../images/Misc/icon-cal.gif) 0 0 no-repeat}#p-d .Asset-Man #pos5{top:273px;left:340px;width:250px;padding:45px 0 0 0;background:url(../images/Misc/icon-deliver.gif) 0 0 no-repeat}#p-d .Asset-Man #pos6{top:285px;left:50px;width:250px;padding:45px 0 0 0;background:url(../images/Misc/icon-email.gif) 100% 4px no-repeat;text-align:right}#p-d .Asset-Man #pos7{top:255px;right:368px;width:190px;padding:0 50px 0 0;background:url(../images/Misc/icon-screen.gif) 100% 0 no-repeat;text-align:right}#p-d .Asset-Man #pos8{top:157px;right:390px;width:150px;padding:3px 48px 15px 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .Asset-Man #pos9{top:65px;right:370px;width:180px;text-align:right}#p-d .fcrm-guidance #pos1{top:20px;left:283px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .fcrm-guidance #pos2{top:80px;left:365px;width:300px;padding:5px 0 20px 60px;background:url(../images/Misc/icon-actions.gif) 0 100% no-repeat}#p-d .fcrm-guidance #pos3{top:154px;left:386px;width:150px;padding:0 0 10px 50px;background:url(../images/Misc/icon-howPaper.gif) 0 0 no-repeat}#p-d .fcrm-guidance #pos4{top:223px;left:386px;width:200px;padding:0 0 30px 50px;background:url(../images/Misc/icon-feeback-questionmark.gif) 0 0 no-repeat}#p-d .fcrm-guidance #pos5{top:273px;left:340px;width:250px;padding:45px 0 0 0;background:url(../images/Misc/icon-prevent.gif) 0 0 no-repeat}#p-d .fcrm-guidance #pos6{top:285px;left:50px;width:250px;padding:45px 0 0 0;background:url(../images/Misc/icon-screen.gif) 100% 4px no-repeat;text-align:right}#p-d .fcrm-guidance #pos7{top:255px;right:368px;width:190px;padding:0 50px 0 0;background:url(../images/Misc/icon-speech.gif) 100% 0 no-repeat;text-align:right}#p-d .fcrm-guidance #pos8{top:157px;right:390px;width:150px;padding:3px 48px 15px 0;background:url(../images/Misc/icon-ident.gif) 100% 4px no-repeat;text-align:right}#p-d .fcrm-guidance #pos9{top:65px;right:370px;width:180px;text-align:right}#p-d .Strat-Plan #pos1{top:20px;left:283px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .Strat-Plan #pos2{top:100px;left:360px;width:300px;padding:0 0 45px 53px;background:url(../images/Misc/icon-risk.gif) 0 0 no-repeat}#p-d .Strat-Plan #pos3{top:167px;left:395px;width:150px;padding:0 0 20px 45px;background:url(../images/Misc/icon-future.gif) 0 0 no-repeat}#p-d .Strat-Plan #pos4{top:253px;left:370px;width:200px;padding:0 0 20px 64px;background:url(../images/Misc/icon-options.gif) 0 0 no-repeat}#p-d .Strat-Plan #pos5{top:300px;left:315px;width:250px;padding:45px 0 0 0;background:url(../images/Misc/icon-speech.gif) 0 0 no-repeat}#p-d .Strat-Plan #pos6{top:289px;left:26px;width:250px;padding:45px 10px 0 0;background:url(../images/Misc/icon-tools.gif) 100% 4px no-repeat;text-align:right}#p-d .Strat-Plan #pos7{top:260px;right:361px;width:190px;padding:0 55px 20px 0;background:url(../images/Misc/icon-actions.gif) 100% 0 no-repeat;text-align:right}#p-d .Strat-Plan #pos8{top:160px;right:390px;width:150px;padding:3px 48px 15px 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .Strat-Plan #pos9{top:75px;right:365px;text-align:right}#p-d .managing-data #pos1{top:10px;left:267px;width:300px;padding:0 0 45px 5px;background:url(../images/Misc/icon-mouse.gif) 0 100% no-repeat}#p-d .managing-data #pos2{top:91px;left:356px;width:150px;padding:0 0 45px 53px;background:url(../images/Misc/icon-protect.gif) 0 0 no-repeat}#p-d .managing-data #pos3{top:163px;left:387px;width:150px;padding:0 0 0 70px;background:url(../images/Misc/icon-quality.gif) 0 0 no-repeat}#p-d .managing-data #pos4{top:237px;left:380px;width:150px;padding:0 0 20px 50px;background:url(../images/Misc/icon-info.gif) 0 0 no-repeat}#p-d .managing-data #pos5{top:292px;left:321px;width:180px;padding:45px 0 0 0;background:url(../images/Misc/icon-find.gif) 0 0 no-repeat}#p-d .managing-data #pos6{top:292px;left:24px;width:250px;padding:50px 10px 0 0;background:url(../images/Misc/icon-screen.gif) 100% 4px no-repeat;text-align:right}#p-d .managing-data #pos7{top:246px;right:361px;width:160px;padding:0 65px 20px 0;background:url(../images/Misc/icon-share.gif) 100% 0 no-repeat;text-align:right}#p-d .managing-data #pos8{top:150px;right:398px;width:120px;padding:3px 48px 25px 0;background:url(../images/Misc/icon-bin.gif) 100% 4px no-repeat;text-align:right}#p-d .managing-data #pos9{top:75px;right:365px;width:120px;text-align:right}#p-d .MngPeople #pos1{top:20px;left:285px;padding:0 0 45px 5px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .MngPeople #pos1 p{position:absolute;top:0;left:70px;width:280px}#p-d .MngPeople #pos2{top:80px;left:358px;width:350px;padding:0 0 45px 50px;background:url(../images/Misc/icon-paperCert.gif) 0 0 no-repeat}#p-d .MngPeople #pos3{top:141px;left:370px;width:350px;padding:0 0 0 75px;background:url(../images/Misc/icon-bringing.gif) 0 0 no-repeat}#p-d .MngPeople #pos4{top:220px;left:396px;width:250px;padding:0 0 15px 50px;background:url(../images/Misc/icon-toolbox.gif) 0 0 no-repeat}#p-d .MngPeople #pos5{top:265px;left:360px;width:220px;padding:45px 0 0 0;background:url(../images/Misc/icon-incident.gif) 0 4px no-repeat}#p-d .MngPeople #pos6{top:290px;right:248px;width:193px;padding:40px 0 0 0;background:url(../images/Misc/icon-diverse.gif) 100% 4px no-repeat;text-align:right}#p-d .MngPeople #pos7{top:280px;right:334px;width:200px;padding:0 60px 0 0;background:url(../images/Misc/icon-benefits.gif) 100% 4px no-repeat;text-align:right}#p-d .MngPeople #pos8{top:195px;right:393px;width:160px;padding:3px 48px 25px 0;background:url(../images/Misc/icon-graph.gif) 100% 14px no-repeat;text-align:right}#p-d .MngPeople #pos9{top:115px;right:355px;width:120px;padding:3px 78px 25px 0;background:url(../images/Misc/icon-leaving.gif) 100% 4px no-repeat;text-align:right}#p-d .MngPeople #pos10{top:75px;right:350px;width:200px;text-align:right}#p-d .ENSsec #pos1{top:20px;left:285px;padding:0 0 45px 5px;background:url(../images/Misc/icon-stop.gif) 0 100% no-repeat}#p-d .ENSsec #pos1 p{position:absolute;top:20;left:70px;width:280px}#p-d .ENSsec #pos2{top:80px;left:358px;width:350px;padding:0 0 45px 50px;background:url(../images/Misc/icon-paperCert.gif) 0 0 no-repeat}#p-d .ENSsec #pos3{top:141px;left:370px;width:350px;padding:0 0 0 75px;background:url(../images/Misc/icon-bringing.gif) 0 0 no-repeat}#p-d .ENSsec #pos4{top:220px;left:396px;width:250px;padding:0 0 15px 50px;background:url(../images/Misc/icon-toolbox.gif) 0 0 no-repeat}#p-d .ENSsec #pos5{top:265px;left:360px;width:220px;padding:45px 0 0 0;background:url(../images/Misc/icon-incident.gif) 0 4px no-repeat}#p-d .ENSsec #pos6{top:290px;right:248px;width:193px;padding:40px 0 0 0;background:url(../images/Misc/icon-diverse.gif) 100% 4px no-repeat;text-align:right}#p-d .ENSsec #pos7{top:280px;right:334px;width:200px;padding:0 60px 0 0;background:url(../images/Misc/icon-policy.gif) 100% 4px no-repeat;text-align:right}#p-d .ENSsec #pos8{top:195px;right:393px;width:160px;padding:3px 48px 25px 0;background:url(../images/Misc/icon-screen.gif) 100% 14px no-repeat;text-align:right}#p-d .ENSsec #pos9{top:115px;right:355px;width:120px;padding:3px 78px 25px 0;background:url(../images/Misc/icon-leaving.gif) 100% 4px no-repeat;text-align:right}#p-d .ENSsec #pos10{top:75px;right:350px;width:200px;text-align:right}#p-d .reserviors #pos1{top:20px;left:285px;padding:0 0 45px 5px;background:url(../images/Misc/icon-policy.gif) 0 100% no-repeat}#p-d .reserviors #pos1 p{position:absolute;top:0;left:70px;width:280px}#p-d .reserviors #pos2{top:95px;left:361px;width:250px;padding:0 0 45px 53px;background:url(../images/Misc/icon-guide.gif) 0 0 no-repeat}#p-d .reserviors #pos3{top:152px;left:397px;width:180px;padding:0 0 0 50px;background:url(../images/Misc/icon-clipboard.gif) 0 0 no-repeat}#p-d .reserviors #pos4{top:223px;left:391px;width:150px;padding:0 0 15px 50px;background:url(../images/Misc/icon-enforcement.gif) 0 0 no-repeat}#p-d .reserviors #pos5{top:280px;left:350px;width:220px;padding:0 0 20px 50px;background:url(../images/Misc/icon-request.gif) 0 0 no-repeat}#p-d .reserviors #pos6{top:300px;left:287px;width:293px;padding:45px 0 0 0;background:url(../images/Misc/icon-incident.gif) 0 0 no-repeat}#p-d .reserviors #pos7{top:280px;right:334px;width:140px;padding:40px 0 0 0;background:url(../images/Misc/icon-graph.gif) 100% 4px no-repeat;text-align:right}#p-d .reserviors #pos8{top:238px;right:372px;width:120px;padding:3px 48px 25px 0;background:url(../images/Misc/icon-science.gif) 100% 4px no-repeat;text-align:right}#p-d .reserviors #pos9{top:148px;right:393px;width:120px;padding:3px 48px 25px 0;background:url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;text-align:right}#p-d .reserviors #pos10{top:70px;right:358px;width:200px;text-align:right}#f-d{display:block;width:780px;padding-top:10px;position:relative}div.plain_text #f-d h2,div.plain_text #f-d h3{color:#5c5c5c;background:0;text-align:center}div.plain_text #f-d h2{font-size:1.1em}div.plain_text #f-d .boxes{padding:0;margin:0;list-style:none!important;float:left;width:800px}div.plain_text #f-d .boxes li{float:left;width:111px;margin:0 0 10px 20px;padding:0;list-style:none!important;background:url(../images/Misc/boxMid.gif) 0 0 repeat-y}div.plain_text #f-d .boxes li.first{margin-left:0;clear:both}#f-d #topLeft{position:absolute;top:10px;left:0}#f-d #topLeft ul{width:200px}#f-d #topLeft li{margin:0}#f-d .boxes a{display:block;cursor:pointer;padding-top:10px;background:url(../images/Misc/boxTop.gif) 0 0 no-repeat}#f-d .boxes a b,#f-d .boxes a strong{display:block;word-wrap:break-word;height:auto!important;min-height:55px;height:55px;padding:0 10px 10px 10px;text-align:center;background:url(../images/Misc/boxBot.gif) 0 100% no-repeat}* html #f-d .boxes a b{padding:0 10px 10px}* html #f-d .boxes a strong{padding:0 10px 10px}#f-d #topRow .boxes{padding:0 0 0 330px;width:300px}#f-d #topRow .boxes li{margin-bottom:0}#f-d #secondRow{float:left}#f-d #secondRow{background:url(../images/Misc/row2Bot.gif) -17px 100% no-repeat}#f-d #secondRow h2,#f-d #secondRow h3{padding:42px 0 1px 0;margin:0 0 1px 0;background:url(../images/Misc/row2Top.gif) -17px 100% no-repeat}#f-d #secondRow .boxes{padding-bottom:40px;background:url(../images/Misc/row2BotArrows.gif) -17px -7px no-repeat}#f-d #thirdRow .boxes{width:450px;padding:10px 0 0 330px}* html #f-d #thirdRow .boxes{width:470px}#f-d #fourthRow{float:left;position:relative;background:url(../images/Misc/lrgDotsTop.gif) 0 0 no-repeat}#f-d #fourthRow h2,#f-d #fourthRow h3{padding:9px 0 8px 0;margin:0}#f-d #fourthRow .boxes{float:left;padding-left:168px;width:600px}* html #f-d #fourthRow{width:760px}* html #f-d #fourthRow ul.boxes{padding-bottom:10px;width:600px}#f-d #fourthRow #fourthRowInner{float:left;width:780px;background:url(../images/Misc/lrgDotsBot.gif) 0 100% no-repeat}#f-d #fourthRow .boxes li{margin-left:10px}#f-d #fourthRow .boxes li.first{margin-left:0}#f-d #fourthRow #largeE3Box.boxes{position:absolute;top:33px;left:8px;width:150px;padding:0;background:url(../images/Misc/boxTopLrg.gif) 0 0 no-repeat}* html #f-d #fourthRow{height:100px}#f-d #fourthRow #largeE3Box.boxes h2,#f-d #fourthRow #largeE3Box.boxes h3,#f-d #fourthRow #largeE3Box.boxes h4{font-size:100%;padding:10px 0 10px;margin:0;text-align:center}#f-d #fourthRow #largeE3Box.boxes h2 a,#f-d #fourthRow #largeE3Box.boxes h3 a,#f-d #fourthRow #largeE3Box.boxes h4 a{background:0;padding-top:0;text-decoration:none}#f-d #fourthRow #largeE3Box.boxes h2 a:hover,#f-d #fourthRow #largeE3Box.boxes h2 a:focus,#f-d #fourthRow #largeE3Box.boxes h3 a:hover,#f-d #fourthRow #largeE3Box.boxes h3 a:focus,#f-d #fourthRow #largeE3Box.boxes h4 a:hover,#f-d #fourthRow #largeE3Box.boxes h4 a:focus{text-decoration:underline}#f-d #fourthRow #largeE3Box.boxes ul{background:0;width:150px;height:auto!important;min-height:100px;height:100px;padding:0 0 10px 0;background:url(../images/Misc/boxBotLrg.gif) 0 100% no-repeat}#f-d #fourthRow #largeE3Box.boxes li{margin:0;padding:0 0 5px 25px;border:0;background:url(../images/Misc/bullet.gif) 12px 40% no-repeat!important}#f-d #fourthRow #largeE3Box.boxes li,#f-d #fourthRow #largeE3Box.boxes li a{background:0}#f-d #fourthRow #largeE3Box.boxes li a{padding:0}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+/** Process Diagrams     **/
+/* This stylesheet should only be used on the Process Diagram templates */
+/* 
+* This is a global element which wraps all HTML text ares in Reddot. 
+* It cannot be modified at present - might need to update when EA move to IE7.
+* This will cause Firefox to render the process diagram block, left aligned
+.plain_text{
+    width:100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display:block;
+    }
+*/
+/* These styles are overly specific so they dont interfere with other stylesheets */
+.plain_text #p-d ol li {
+  list-style: none;
+}
+.plain_text #p-d ol li h2 {
+  background: none;
+  padding: 0;
+  margin: 0;
+  word-wrap: normal;
+  /* override other EA stylesheets for Process Diagrams only */
+
+}
+.plain_text #p-d ol li h2 a {
+  display: block;
+  background: none;
+  text-decoration: underline;
+  padding-right: 0;
+  font-size: 100%;
+  word-wrap: normal;
+  /* override other EA stylesheets for Process Diagrams only */
+
+}
+.plain_text #p-d ol li p {
+  padding: 0;
+}
+/* Wrapping element to prevent interfering with other styles - all styles are preceeded by it */
+#p-d {
+  width: 100%;
+  text-align: center;
+}
+#p-d .inner {
+  margin: 0 auto;
+  /* centre content */
+
+  text-align: left;
+  top: 2em;
+  width: 590px;
+  min-height: 400px;
+  position: relative;
+}
+* html #p-d .inner {
+  height: 400px;
+}
+/* ie6 companion to min-height set above for other browsers */
+#p-d #intro {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 9.6em;
+  margin-left: -4.8em;
+  margin-top: -4.2em;
+}
+#p-d p#intro,
+#p-d #intro {
+  text-align: center;
+  font-weight: bold;
+  z-index: 999;
+}
+#p-d #intro span {
+  font-size: 1.25em;
+}
+/* Process Background Arrows */
+#p-d #p-d-1 {
+  background: url(../images/Misc/arrows1.html) 50% 78px no-repeat;
+}
+#p-d #p-d-2 {
+  background: url(../images/Misc/arrows2.html) 50% 78px no-repeat;
+}
+#p-d #p-d-3 {
+  background: url(../images/Misc/arrows3.html) 50% 78px no-repeat;
+}
+#p-d #p-d-4 {
+  background: url(../images/Misc/arrows4.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-4NonPermt-Compl {
+  background: url(../images/Misc/arrows4NonPermt-Compl.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-4SecuringCompliance {
+  background: url(../images/Misc/arrows4SecuringCompliance.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-5 {
+  background: url(../images/Misc/arrows5.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-5procurement {
+  background: url(../images/Misc/arrows5procurement.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-5Mng-Corp {
+  background: url(../images/Misc/arrows5Mng-Corp.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-5Managmnt-Fwork {
+  background: url(../images/Misc/arrows5Managmnt-Fwork.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-6 {
+  background: url(../images/Misc/arrows6.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-6Water {
+  background: url(../images/Misc/arrows6Water.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-6FinancialMngmt {
+  background: url(../images/Misc/arrows6Financial-Mngmt.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-6LegalCompliance {
+  background: url(../images/Misc/arrow6Legal_Compliance.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-6ENSsec {
+  background: url(../images/Misc/arrows6ENS-sec.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-7 {
+  background: url(../images/Misc/arrows7.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-7MngEnvImpact {
+  background: url(../images/Misc/arrows7MngEnvImpact.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-7Int-Env_Asses {
+  background: url(../images/Misc/arrows7Int-Env_Asses.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-7EnviroAssess {
+  background: url(../images/Misc/arrows7EnviroAssess.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-7Invest {
+  background: url(../images/Misc/arrows7Invest.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-7FCRM {
+  background: url(../images/Misc/arrows7FCRM.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-7IncidentManage {
+  background: url(../images/Misc/arrows7IncidentManage.html) 50% 78px no-repeat;
+}
+#p-d #p-d-7BusinessContinuity {
+  background: url(../images/Misc/arrows7BusinessContinuity.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-8 {
+  background: url(../images/Misc/arrows8.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-8FCRM-Permitting {
+  background: url(../images/Misc/arrows8FCRM-Permitting.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-8IncidentManage {
+  background: url(../images/Misc/arrows8IncidentManage.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-9MA {
+  background: url(../images/Misc/arrows9MA.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-9SP {
+  background: url(../images/Misc/arrows9SP.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-9MD {
+  background: url(../images/Misc/arrows9MD.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-10Res {
+  background: url(../images/Misc/arrows10Res.gif) 50% 78px no-repeat;
+}
+#p-d #p-d-10Mng-People {
+  background: url(../images/Misc/arrows10Mng-People.gif) 50% 78px no-repeat;
+}
+/* Process Individual Elements */
+#p-d .inner li {
+  position: absolute;
+}
+#p-d .inner p {
+  font-size: 90%;
+}
+#p-d .inner a:hover,
+#p-d .inner a:focus {
+  text-decoration: none;
+}
+/* 4 point circular layout */#p-d .NonPermt-Compl #pos1 {
+  top: 26px;
+  left: 273px;
+  width: 300px;
+  padding: 0 0 30px 50px;
+  background: url(../images/Misc/icon-policy.gif) 0 40px no-repeat;
+}
+#p-d .NonPermt-Compl #pos2 {
+  top: 181px;
+  left: 395px;
+  width: 190px;
+  padding: 4px 0 4px 55px;
+  background: url(../images/Misc/icon-actions.gif) 0 0 no-repeat;
+}
+#p-d .NonPermt-Compl #pos3 {
+  top: 300px;
+  left: 285px;
+  width: 300px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-snapboard.gif) 0 0 no-repeat;
+  text-align: left;
+}
+#p-d .NonPermt-Compl #pos4 {
+  top: 192px;
+  right: 395px;
+  width: 150px;
+  padding: 0 55px 0 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .SecuringCompliance #pos1 {
+  top: 30px;
+  left: 293px;
+  width: 250px;
+  padding: 0 0 30px 50px;
+  background: url(../images/Misc/icon-globe.gif) 0 30px no-repeat;
+}
+#p-d .SecuringCompliance #pos2 {
+  top: 196px;
+  left: 395px;
+  width: 145px;
+  padding: 4px 0 4px 55px;
+  background: url(../images/Misc/icon-cal.gif) 0 0 no-repeat;
+}
+#p-d .SecuringCompliance #pos3 {
+  top: 305px;
+  right: 274px;
+  width: 300px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-prioritise.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .SecuringCompliance #pos4 {
+  top: 172px;
+  right: 395px;
+  width: 150px;
+  padding: 0 55px 0 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .AMSPermitting #pos1 {
+  top: 16px;
+  left: 272px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-speech.gif) 0 100% no-repeat;
+}
+#p-d .AMSPermitting #pos2 {
+  top: 182px;
+  left: 400px;
+  width: 170px;
+  padding: 4px 0 4px 65px;
+  background: url(../images/Misc/icon-actions.gif) 0 0 no-repeat;
+}
+#p-d .AMSPermitting #pos3 {
+  top: 290px;
+  left: 280px;
+  width: 150px;
+  padding: 50px 0 0 0;
+  background: url(../images/Misc/icon-enforcement.gif) 0 0 no-repeat;
+}
+#p-d .AMSPermitting #pos4 {
+  top: 182px;
+  right: 400px;
+  width: 150px;
+  padding: 0 55px 0 0;
+  background: url(../images/Misc/icon-ident.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+/* 5 point circular layout *//* procurement */
+#p-d .procurement #pos1 {
+  top: 16px;
+  left: 273px;
+  width: 380px;
+  padding: 0 0 60px 0;
+  background: url(../images/Misc/icon-scroll.gif) 0 50px no-repeat;
+}
+#p-d .procurement #pos2 {
+  top: 169px;
+  left: 380px;
+  width: 170px;
+  padding: 4px 0 4px 60px;
+  background: url(../images/Misc/icon-iProcurement.gif) 0 0 no-repeat;
+}
+#p-d .procurement #pos3 {
+  top: 290px;
+  left: 293px;
+  width: 350px;
+  padding: 50px 0 0 0;
+  background: url(../images/Misc/icon-organisations.gif) 0 0 no-repeat;
+}
+#p-d .procurement #pos4 {
+  top: 222px;
+  right: 392px;
+  width: 150px;
+  padding: 0 55px 0 0;
+  background: url(../images/Misc/icon-sustainable.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .procurement #pos5 {
+  top: 113px;
+  right: 385px;
+  width: 220px;
+  text-align: right;
+}
+/* MngCorp */
+#p-d .MngCorp #pos1 {
+  top: 27px;
+  left: 285px;
+  width: 300px;
+  padding: 0 0 30px 5px;
+  background: url(../images/Misc/icon-justification.gif) 0 100% no-repeat;
+}
+#p-d .MngCorp #pos2 {
+  top: 134px;
+  left: 380px;
+  width: 170px;
+  padding: 4px 0 4px 60px;
+  background: url(../images/Misc/icon-speading.gif) 0 0 no-repeat;
+}
+#p-d .MngCorp #pos3 {
+  top: 272px;
+  left: 353px;
+  width: 150px;
+  padding: 0 0 0 50px;
+  background: url(../images/Misc/icon-maintainAssets.gif) 0 0 no-repeat;
+}
+#p-d .MngCorp #pos4 {
+  top: 282px;
+  right: 335px;
+  width: 150px;
+  padding: 0 55px 0 0;
+  background: url(../images/Misc/icon-screen.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .MngCorp #pos5 {
+  top: 153px;
+  right: 395px;
+  width: 150px;
+  padding: 0 45px 0 0;
+  background: url(../images/Misc/icon-bin.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+/* ManagmntFwork */
+#p-d .ManagmntFwork #pos1 {
+  top: 21px;
+  left: 291px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-guide.gif) 0 100% no-repeat;
+}
+#p-d .ManagmntFwork #pos2 {
+  top: 182px;
+  left: 393px;
+  width: 170px;
+  padding: 4px 0 4px 50px;
+  background: url(../images/Misc/icon-respond.gif) 0 0 no-repeat;
+}
+#p-d .ManagmntFwork #pos3 {
+  top: 293px;
+  left: 297px;
+  width: 150px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-actions.gif) 0 0 no-repeat;
+}
+#p-d .ManagmntFwork #pos4 {
+  top: 200px;
+  right: 395px;
+  width: 150px;
+  padding: 0 45px 0 0;
+  background: url(../images/Misc/icon-graph.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .ManagmntFwork #pos5 {
+  top: 110px;
+  right: 375px;
+  width: 220px;
+  text-align: right;
+}
+/* managementIT */
+#p-d .ManagementIT #pos1 {
+  top: 21px;
+  left: 276px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .ManagementIT #pos2 {
+  top: 160px;
+  left: 365px;
+  width: 170px;
+  padding: 4px 0 4px 65px;
+  background: url(../images/Misc/icon-prioritise.gif) 0 0 no-repeat;
+}
+#p-d .ManagementIT #pos3 {
+  top: 290px;
+  left: 304px;
+  width: 150px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-program.gif) 0 0 no-repeat;
+}
+#p-d .ManagementIT #pos4 {
+  top: 220px;
+  right: 375px;
+  width: 150px;
+  padding: 0 55px 0 0;
+  background: url(../images/Misc/icon-system.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .ManagementIT #pos44 {
+  top: 220px;
+  right: 375px;
+  width: 150px;
+  padding: 0 55px 0 0;
+  background: url(../images/Misc/icon-share.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .ManagementIT #pos5 {
+  top: 120px;
+  right: 395px;
+  width: 220px;
+  text-align: right;
+}
+/* 6 point circular layout *//* WaterQuality */
+#p-d .WaterQuality #pos1 {
+  top: 21px;
+  left: 272px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .WaterQuality #pos2 {
+  top: 125px;
+  left: 378px;
+  width: 170px;
+  padding: 4px 0 4px 55px;
+  background: url(../images/Misc/icon-ident.gif) 0 0 no-repeat;
+}
+#p-d .WaterQuality #pos3 {
+  top: 244px;
+  left: 368px;
+  width: 150px;
+  padding: 50px 0 8px 10px;
+  background: url(../images/Misc/icon-deliver.gif) 0 0 no-repeat;
+}
+#p-d .WaterQuality #pos4 {
+  top: 296px;
+  right: 316px;
+  width: 250px;
+  padding: 45px 0 5px 0;
+  background: url(../images/Misc/icon-speech.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .WaterQuality #pos5 {
+  top: 178px;
+  right: 399px;
+  width: 190px;
+  padding: 2px 40px 0 0;
+  background: url(../images/Misc/icon-clipboard.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .WaterQuality #pos6 {
+  top: 104px;
+  right: 340px;
+  width: 150px;
+  padding: 0 40px 0 0;
+  text-align: right;
+}
+/* FinancialMngmt */#p-d .FinancialMngmt #pos1 {
+  top: 22px;
+  left: 272px;
+  padding: 0 0 60px 0;
+  background: url(../images/Misc/icon-funding.gif) 0 50px no-repeat;
+}
+#p-d .FinancialMngmt #pos2 {
+  top: 140px;
+  left: 377px;
+  width: 170px;
+  padding: 0 0 0 60px;
+  background: url(../images/Misc/icon-speading.gif) 0 0 no-repeat;
+}
+#p-d .FinancialMngmt #pos3 {
+  top: 269px;
+  left: 343px;
+  width: 180px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-delegation.gif) 0 0 no-repeat;
+}
+#p-d .FinancialMngmt #pos4 {
+  top: 290px;
+  right: 310px;
+  width: 190px;
+  padding: 50px 0 0 0;
+  background: url(../images/Misc/icon-risk.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .FinancialMngmt #pos5 {
+  top: 200px;
+  right: 398px;
+  width: 160px;
+  padding: 2px 40px 0 0;
+  background: url(../images/Misc/icon-pension.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .FinancialMngmt #pos6 {
+  top: 114px;
+  right: 348px;
+  width: 150px;
+  padding: 0 40px 0 0;
+  text-align: right;
+}
+/* ENSsec - Moved to 10 point diagram*//* LegalCompliance */#p-d .LegalCompliance #pos1 {
+  top: 32px;
+  left: 280px;
+  width: 300px;
+  padding: 0 0 30px 60px;
+  background: url(../images/Misc/icon-policy.gif) 0 20px no-repeat;
+}
+#p-d .LegalCompliance #pos2 {
+  top: 126px;
+  left: 375px;
+  width: 170px;
+  padding: 4px 0 4px 65px;
+  background: url(../images/Misc/icon_speech.gif) 0 0 no-repeat;
+}
+#p-d .LegalCompliance #pos3 {
+  top: 253px;
+  left: 362px;
+  width: 180px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-tools.gif) 0 0 no-repeat;
+}
+#p-d .LegalCompliance #pos4 {
+  top: 300px;
+  right: 298px;
+  width: 190px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-graph.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .LegalCompliance #pos5 {
+  top: 204px;
+  right: 390px;
+  width: 160px;
+  padding: 2px 50px 0 0;
+  background: url(../images/Misc/icon-searchDoc.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .LegalCompliance #pos6 {
+  top: 104px;
+  right: 348px;
+  width: 150px;
+  padding: 0 40px 0 0;
+  text-align: right;
+}
+/* BusinessImprovCycle copy of legal compliance with different images*/#p-d .BusinessImprovCycle #pos1 {
+  top: 32px;
+  left: 280px;
+  width: 300px;
+  padding: 0 0 30px 60px;
+  background: url(../images/Misc/icon-question.gif) 0 20px no-repeat;
+}
+#p-d .BusinessImprovCycle #pos2 {
+  top: 126px;
+  left: 375px;
+  width: 170px;
+  padding: 4px 0 4px 65px;
+  background: url(../images/Misc/icon-ident.gif) 0 0 no-repeat;
+}
+#p-d .BusinessImprovCycle #pos3 {
+  top: 253px;
+  left: 362px;
+  width: 180px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-proposal.gif) 0 0 no-repeat;
+}
+#p-d .BusinessImprovCycle #pos4 {
+  top: 300px;
+  right: 298px;
+  width: 190px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-prioritise.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .BusinessImprovCycle #pos5 {
+  top: 204px;
+  right: 390px;
+  width: 160px;
+  padding: 2px 50px 0 0;
+  background: url(../images/Misc/icon-actions.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .BusinessImprovCycle #pos6 {
+  top: 104px;
+  right: 348px;
+  width: 150px;
+  padding: 0 40px 0 0;
+  text-align: right;
+}
+#p-d .DoAaSG #pos1 {
+  top: 21px;
+  left: 272px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-m.gif) 0 100% no-repeat;
+}
+#p-d .DoAaSG #pos2 {
+  top: 128px;
+  left: 385px;
+  width: 170px;
+  padding: 4px 0 4px 55px;
+  background: url(../images/Misc/icon-howPaper.gif) 0 0 no-repeat;
+}
+#p-d .DoAaSG #pos3 {
+  top: 260px;
+  left: 364px;
+  width: 150px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-speech.gif) 0 0 no-repeat;
+}
+#p-d .DoAaSG #pos4 {
+  top: 306px;
+  left: 278px;
+  width: 250px;
+  padding: 45px 0 5px 0;
+  background: url(../images/Misc/icon-tick.gif) 0 0 no-repeat;
+}
+#p-d .DoAaSG #pos5 {
+  top: 264px;
+  right: 356px;
+  width: 190px;
+  padding: 2px 60px 0 0;
+  background: url(../images/Misc/icon-feeback-questionmark.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .DoAaSG #pos6 {
+  top: 124px;
+  right: 388px;
+  width: 150px;
+  padding: 0 40px 0 0;
+  background: url(../images/Misc/icon-ident.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+/* 7 point circular layout *//* MngEnvImpact */
+#p-d .MngEnvImpact #pos1 {
+  top: 35px;
+  left: 278px;
+  width: 260px;
+  padding: 0 0 20px 60px;
+  background: url(../images/Misc/icon-policy.gif) 0 30px no-repeat;
+}
+#p-d .MngEnvImpact #pos2 {
+  top: 112px;
+  left: 375px;
+  width: 170px;
+  padding: 4px 0 4px 70px;
+  background: url(../images/Misc/icon-prioritise.gif) 0 0 no-repeat;
+}
+#p-d .MngEnvImpact #pos3 {
+  top: 232px;
+  left: 380px;
+  width: 150px;
+  padding: 4px 0 8px 60px;
+  background: url(../images/Misc/icon-tools.gif) 0 0 no-repeat;
+}
+#p-d .MngEnvImpact #pos4 {
+  top: 290px;
+  left: 302px;
+  width: 250px;
+  padding: 45px 0 5px 0;
+  background: url(../images/Misc/icon-graph.gif) 0 0 no-repeat;
+}
+#p-d .MngEnvImpact #pos5 {
+  top: 276px;
+  right: 350px;
+  width: 190px;
+  padding: 2px 50px 0 0;
+  background: url(../images/Misc/icon-clipboard.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .MngEnvImpact #pos6 {
+  top: 173px;
+  right: 395px;
+  width: 150px;
+  padding: 0 45px 25px 0;
+  background: url(../images/Misc/icon-searchDoc.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .MngEnvImpact #pos7 {
+  top: 95px;
+  right: 375px;
+  width: 215px;
+  text-align: right;
+}
+/* Int-Env_Asses */
+#p-d .Int-Env_Asses #pos1 {
+  top: 32px;
+  left: 283px;
+  width: 300px;
+  padding: 0 0 20px 60px;
+  background: url(../images/Misc/icon-globe.gif) 0 20px no-repeat;
+}
+#p-d .Int-Env_Asses #pos2 {
+  top: 128px;
+  left: 377px;
+  width: 170px;
+  padding: 4px 0 4px 60px;
+  background: url(../images/Misc/icon-options.gif) 0 0 no-repeat;
+}
+#p-d .Int-Env_Asses #pos3 {
+  top: 235px;
+  left: 380px;
+  width: 150px;
+  padding: 4px 0 8px 60px;
+  background: url(../images/Misc/icon-incident-map.gif) 0 0 no-repeat;
+}
+#p-d .Int-Env_Asses #pos4 {
+  top: 296px;
+  left: 301px;
+  width: 250px;
+  padding: 45px 0 5px 0;
+  background: url(../images/Misc/icon-risk.gif) 0 0 no-repeat;
+}
+#p-d .Int-Env_Asses #pos5 {
+  top: 281px;
+  right: 340px;
+  width: 190px;
+  padding: 2px 50px 0 0;
+  background: url(../images/Misc/icon-actions.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .Int-Env_Asses #pos6 {
+  top: 173px;
+  right: 395px;
+  width: 150px;
+  padding: 0 45px 25px 0;
+  background: url(../images/Misc/icon-clipboard.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .Int-Env_Asses #pos7 {
+  top: 105px;
+  right: 380px;
+  width: 215px;
+  text-align: right;
+}
+/* EnviroAssess */
+#p-d .EnviroAssess #pos1 {
+  top: 15px;
+  left: 280px;
+  width: 300px;
+  padding: 0 0 0 60px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .EnviroAssess #pos2 {
+  top: 128px;
+  left: 387px;
+  width: 170px;
+  padding: 4px 0 4px 50px;
+  background: url(../images/Misc/icon-paperCert.gif) 0 0 no-repeat;
+}
+#p-d .EnviroAssess #pos3 {
+  top: 229px;
+  left: 386px;
+  width: 150px;
+  padding: 4px 0 8px 50px;
+  background: url(../images/Misc/icon-request.gif) 0 0 no-repeat;
+}
+#p-d .EnviroAssess #pos4 {
+  top: 296px;
+  left: 303px;
+  width: 250px;
+  padding: 45px 0 5px 0;
+  background: url(../images/Misc/icon-date.gif) 0 0 no-repeat;
+}
+#p-d .EnviroAssess #pos5 {
+  top: 268px;
+  right: 356px;
+  width: 190px;
+  padding: 2px 50px 0 0;
+  background: url(../images/Misc/icon-incident.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .EnviroAssess #pos6 {
+  top: 166px;
+  right: 390px;
+  width: 150px;
+  padding: 0 45px 0 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .EnviroAssess #pos7 {
+  top: 105px;
+  right: 380px;
+  width: 215px;
+  text-align: right;
+}
+/* mon assessment */
+#p-d .Mon-Assessment #pos1 {
+  top: 15px;
+  left: 278px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-m.gif) 0 100% no-repeat;
+}
+#p-d .Mon-Assessment #pos2 {
+  top: 101px;
+  left: 367px;
+  width: 170px;
+  padding: 4px 0 4px 50px;
+  background: url(../images/Misc/icon-cal.gif) 0 0 no-repeat;
+}
+#p-d .Mon-Assessment #pos3 {
+  top: 200px;
+  left: 386px;
+  width: 150px;
+  padding: 4px 0 8px 50px;
+  background: url(../images/Misc/icon-how.gif) 0 0 no-repeat;
+}
+#p-d .Mon-Assessment #pos4 {
+  top: 296px;
+  left: 326px;
+  width: 250px;
+  padding: 45px 0 5px 0;
+  background: url(../images/Misc/icon-flask.gif) 0 0 no-repeat;
+}
+#p-d .Mon-Assessment #pos5 {
+  top: 282px;
+  right: 348px;
+  width: 190px;
+  padding: 2px 50px 0 0;
+  background: url(../images/Misc/icon-screen.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .Mon-Assessment #pos6 {
+  top: 166px;
+  right: 390px;
+  width: 150px;
+  padding: 0 45px 0 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .Mon-Assessment #pos7 {
+  top: 95px;
+  right: 370px;
+  width: 215px;
+  text-align: right;
+}
+/* investment */
+#p-d .Investment #pos1 {
+  top: 21px;
+  left: 276px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-m.gif) 0 100% no-repeat;
+}
+#p-d .Investment #pos2 {
+  top: 116px;
+  left: 375px;
+  width: 170px;
+  padding: 4px 0 4px 50px;
+  background: url(../images/Misc/icon-guide.gif) 0 0 no-repeat;
+}
+#p-d .Investment #pos3 {
+  top: 227px;
+  left: 375px;
+  width: 150px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-proposal.gif) 0 0 no-repeat;
+}
+#p-d .Investment #pos4 {
+  top: 290px;
+  left: 306px;
+  width: 250px;
+  padding: 45px 0 5px 0;
+  background: url(../images/Misc/icon-prioritise.gif) 0 0 no-repeat;
+}
+#p-d .Investment #pos5 {
+  top: 288px;
+  right: 338px;
+  width: 190px;
+  padding: 2px 50px 0 0;
+  background: url(../images/Misc/icon-graph.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .Investment #pos6 {
+  top: 182px;
+  right: 390px;
+  width: 150px;
+  padding: 0 45px 20px 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .Investment #pos7 {
+  top: 85px;
+  right: 375px;
+  width: 240px;
+  text-align: right;
+}
+/* FCRM */
+#p-d .FCRM #pos1 {
+  top: 21px;
+  left: 280px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .FCRM #pos2 {
+  top: 103px;
+  left: 375px;
+  width: 170px;
+  padding: 4px 0 14px 50px;
+  background: url(../images/Misc/icon-cal.gif) 0 0 no-repeat;
+}
+#p-d .FCRM #pos3 {
+  top: 190px;
+  left: 375px;
+  width: 150px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-collect-data.gif) 0 0 no-repeat;
+}
+#p-d .FCRM #pos4 {
+  top: 282px;
+  left: 335px;
+  width: 250px;
+  padding: 0 0 0 60px;
+  background: url(../images/Misc/icon-modelling.gif) 0 0 no-repeat;
+}
+#p-d .FCRM #pos5 {
+  top: 288px;
+  right: 326px;
+  width: 190px;
+  padding: 35px 0 0 0;
+  background: url(../images/Misc/icon-data-management.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .FCRM #pos6 {
+  top: 192px;
+  right: 394px;
+  width: 150px;
+  padding: 0 45px 20px 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .FCRM #pos7 {
+  top: 95px;
+  right: 375px;
+  width: 240px;
+  text-align: right;
+}
+/* IncidentManage */
+#p-d .IncidentManage #pos1 {
+  top: 21px;
+  left: 270px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-risk.gif) 0 100% no-repeat;
+}
+#p-d .IncidentManage #pos2 {
+  top: 123px;
+  left: 398px;
+  width: 200px;
+  padding: 0 0 14px 40px;
+  background: url(../images/Misc/icon-prevent.gif) 0 0 no-repeat;
+}
+#p-d .IncidentManage #pos3 {
+  top: 231px;
+  left: 367px;
+  width: 180px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-prepare.gif) 0 0 no-repeat;
+}
+#p-d .IncidentManage #pos4 {
+  top: 298px;
+  left: 292px;
+  width: 250px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-respond.gif) 0 0 no-repeat;
+}
+#p-d .IncidentManage #pos5 {
+  top: 278px;
+  right: 355px;
+  width: 190px;
+  padding: 35px 0 0 0;
+  background: url(../images/Misc/icon-incident-map.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .IncidentManage #pos6 {
+  top: 153px;
+  right: 390px;
+  width: 150px;
+  padding: 0 45px 20px 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .IncidentManage #pos7 {
+  top: 95px;
+  right: 375px;
+  width: 240px;
+  text-align: right;
+}
+/* BusinessContinuity */
+#p-d .BusinessContinuity #pos1 {
+  top: 30px;
+  left: 270px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-risk.gif) 0 100% no-repeat;
+}
+#p-d .BusinessContinuity #pos2 {
+  top: 113px;
+  left: 394px;
+  width: 200px;
+  padding: 0 0 14px 40px;
+  background: url(../images/Misc/icon-prevent.gif) 0 0 no-repeat;
+}
+#p-d .BusinessContinuity #pos3 {
+  top: 224px;
+  left: 372px;
+  width: 180px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-prepare.gif) 0 0 no-repeat;
+}
+#p-d .BusinessContinuity #pos4 {
+  top: 295px;
+  left: 294px;
+  width: 250px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-disruption.gif) 0 0 no-repeat;
+}
+#p-d .BusinessContinuity #pos5 {
+  top: 260px;
+  right: 367px;
+  width: 190px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-after-disruption.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .BusinessContinuity #pos6 {
+  top: 153px;
+  right: 390px;
+  width: 150px;
+  padding: 0 45px 20px 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .BusinessContinuity #pos7 {
+  top: 95px;
+  right: 375px;
+  width: 240px;
+  text-align: right;
+}
+/* 8 point circular layout */
+/* IncidentManage */
+#p-d .IncidentManage8 #pos1 {
+  top: 21px;
+  left: 270px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-risk.gif) 0 100% no-repeat;
+}
+#p-d .IncidentManage8 #pos2 {
+  top: 110px;
+  left: 386px;
+  width: 200px;
+  padding: 0 0 14px 40px;
+  background: url(../images/Misc/icon-prevent.gif) 0 0 no-repeat;
+}
+#p-d .IncidentManage8 #pos3 {
+  top: 197px;
+  left: 377px;
+  width: 180px;
+  padding: 4px 0 8px 70px;
+  background: url(../images/Misc/icon-prepare.gif) 0 0 no-repeat;
+}
+#p-d .IncidentManage8 #pos4 {
+  top: 274px;
+  left: 359px;
+  width: 250px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-respond.gif) 0 0 no-repeat;
+}
+#p-d .IncidentManage8 #pos5 {
+  top: 300px;
+  right: 280px;
+  width: 250px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-deliver.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .IncidentManage8 #pos6 {
+  top: 262px;
+  right: 365px;
+  width: 150px;
+  padding: 0 60px 0 0;
+  background: url(../images/Misc/icon-incident-map.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .IncidentManage8 #pos7 {
+  top: 153px;
+  right: 390px;
+  width: 150px;
+  padding: 0 45px 20px 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .IncidentManage8 #pos8 {
+  top: 95px;
+  right: 375px;
+  width: 240px;
+  text-align: right;
+}
+/* FCRM-Permitting */
+#p-d .FCRM-Permitting #pos1 {
+  top: 30px;
+  left: 284px;
+  width: 300px;
+  padding: 0 0 20px 50px;
+  background: url(../images/Misc/icon-policy.gif) 0 20px no-repeat;
+}
+#p-d .FCRM-Permitting #pos2 {
+  top: 116px;
+  left: 378px;
+  width: 300px;
+  padding: 0 0 40px 60px;
+  background: url(../images/Misc/icon-preApp.gif) 0 0 no-repeat;
+}
+#p-d .FCRM-Permitting #pos3 {
+  top: 209px;
+  left: 388px;
+  width: 150px;
+  padding: 0 0 10px 50px;
+  background: url(../images/Misc/icon-apply.gif) 0 0 no-repeat;
+}
+#p-d .FCRM-Permitting #pos4 {
+  top: 280px;
+  left: 345px;
+  width: 200px;
+  padding: 0 0 30px 50px;
+  background: url(../images/Misc/icon-question.gif) 0 0 no-repeat;
+}
+#p-d .FCRM-Permitting #pos5 {
+  top: 300px;
+  left: 267px;
+  width: 250px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-clipboard.gif) 0 0 no-repeat;
+}
+#p-d .FCRM-Permitting #pos6 {
+  top: 257px;
+  right: 367px;
+  width: 190px;
+  padding: 0 50px 15px 0;
+  background: url(../images/Misc/icon-enforcement.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .FCRM-Permitting #pos7 {
+  top: 162px;
+  right: 390px;
+  width: 150px;
+  padding: 0 50px 15px 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .FCRM-Permitting #pos8 {
+  top: 75px;
+  right: 320px;
+  width: 150px;
+  padding: 3px 48px 15px 0;
+  text-align: right;
+}
+/* enforcement */
+#p-d .enforcement #pos1 {
+  top: 25px;
+  left: 280px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .enforcement #pos2 {
+  top: 99px;
+  left: 368px;
+  width: 160px;
+  padding: 0 0 0 60px;
+  background: url(../images/Misc/icon-gate.gif) 0 100% no-repeat;
+}
+#p-d .enforcement #pos3 {
+  top: 186px;
+  left: 392px;
+  width: 150px;
+  padding: 0 0 10px 50px;
+  background: url(../images/Misc/icon-eye.gif) 0 0 no-repeat;
+}
+#p-d .enforcement #pos4 {
+  top: 263px;
+  left: 356px;
+  width: 200px;
+  padding: 0 0 30px 70px;
+  background: url(../images/Misc/icon-handshake.gif) 0 0 no-repeat;
+}
+#p-d .enforcement #pos5 {
+  top: 306px;
+  left: 275px;
+  width: 250px;
+  padding: 30px 0 0 0;
+  background: url(../images/Misc/icon-justification.gif) 0 0 no-repeat;
+}
+#p-d .enforcement #pos6 {
+  top: 275px;
+  right: 364px;
+  width: 190px;
+  padding: 0 50px 5px 0;
+  background: url(../images/Misc/icon-ident.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .enforcement #pos7 {
+  top: 165px;
+  right: 377px;
+  width: 150px;
+  padding: 0 80px 0 0;
+  background: url(../images/Misc/icon-seesaw.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .enforcement #pos8 {
+  top: 95px;
+  right: 320px;
+  width: 150px;
+  padding: 3px 48px 15px 0;
+  text-align: right;
+}
+/* 9 point circular layout */
+/* Asset man */
+#p-d .Asset-Man #pos1 {
+  top: 20px;
+  left: 283px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .Asset-Man #pos2 {
+  top: 50px;
+  left: 358px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-ident.gif) 0 100% no-repeat;
+}
+#p-d .Asset-Man #pos3 {
+  top: 158px;
+  left: 386px;
+  width: 150px;
+  padding: 0 0 0 50px;
+  background: url(../images/Misc/icon-justification.gif) 0 0 no-repeat;
+}
+#p-d .Asset-Man #pos4 {
+  top: 223px;
+  left: 386px;
+  width: 200px;
+  padding: 0 0 30px 50px;
+  background: url(../images/Misc/icon-cal.gif) 0 0 no-repeat;
+}
+#p-d .Asset-Man #pos5 {
+  top: 273px;
+  left: 340px;
+  width: 250px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-deliver.gif) 0 0 no-repeat;
+}
+#p-d .Asset-Man #pos6 {
+  top: 285px;
+  left: 50px;
+  width: 250px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-email.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .Asset-Man #pos7 {
+  top: 255px;
+  right: 368px;
+  width: 190px;
+  padding: 0 50px 0 0;
+  background: url(../images/Misc/icon-screen.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .Asset-Man #pos8 {
+  top: 157px;
+  right: 390px;
+  width: 150px;
+  padding: 3px 48px 15px 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .Asset-Man #pos9 {
+  top: 65px;
+  right: 370px;
+  width: 180px;
+  text-align: right;
+}
+/* 9 point circular layout */
+/* FCRM Guidance */
+#p-d .fcrm-guidance #pos1 {
+  top: 20px;
+  left: 283px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .fcrm-guidance #pos2 {
+  top: 80px;
+  left: 365px;
+  width: 300px;
+  padding: 5px 0 20px 60px;
+  background: url(../images/Misc/icon-actions.gif) 0 100% no-repeat;
+}
+#p-d .fcrm-guidance #pos3 {
+  top: 154px;
+  left: 386px;
+  width: 150px;
+  padding: 0 0 10px 50px;
+  background: url(../images/Misc/icon-howPaper.gif) 0 0 no-repeat;
+}
+#p-d .fcrm-guidance #pos4 {
+  top: 223px;
+  left: 386px;
+  width: 200px;
+  padding: 0 0 30px 50px;
+  background: url(../images/Misc/icon-feeback-questionmark.gif) 0 0 no-repeat;
+}
+#p-d .fcrm-guidance #pos5 {
+  top: 273px;
+  left: 340px;
+  width: 250px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-prevent.gif) 0 0 no-repeat;
+}
+#p-d .fcrm-guidance #pos6 {
+  top: 285px;
+  left: 50px;
+  width: 250px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-screen.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .fcrm-guidance #pos7 {
+  top: 255px;
+  right: 368px;
+  width: 190px;
+  padding: 0 50px 0 0;
+  background: url(../images/Misc/icon-speech.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .fcrm-guidance #pos8 {
+  top: 157px;
+  right: 390px;
+  width: 150px;
+  padding: 3px 48px 15px 0;
+  background: url(../images/Misc/icon-ident.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .fcrm-guidance #pos9 {
+  top: 65px;
+  right: 370px;
+  width: 180px;
+  text-align: right;
+}
+/* Strat-Plan */
+#p-d .Strat-Plan #pos1 {
+  top: 20px;
+  left: 283px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .Strat-Plan #pos2 {
+  top: 100px;
+  left: 360px;
+  width: 300px;
+  padding: 0 0 45px 53px;
+  background: url(../images/Misc/icon-risk.gif) 0 0 no-repeat;
+}
+#p-d .Strat-Plan #pos3 {
+  top: 167px;
+  left: 395px;
+  width: 150px;
+  padding: 0 0 20px 45px;
+  background: url(../images/Misc/icon-future.gif) 0 0 no-repeat;
+}
+#p-d .Strat-Plan #pos4 {
+  top: 253px;
+  left: 370px;
+  width: 200px;
+  padding: 0 0 20px 64px;
+  background: url(../images/Misc/icon-options.gif) 0 0 no-repeat;
+}
+#p-d .Strat-Plan #pos5 {
+  top: 300px;
+  left: 315px;
+  width: 250px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-speech.gif) 0 0 no-repeat;
+}
+#p-d .Strat-Plan #pos6 {
+  top: 289px;
+  left: 26px;
+  width: 250px;
+  padding: 45px 10px 0 0;
+  background: url(../images/Misc/icon-tools.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .Strat-Plan #pos7 {
+  top: 260px;
+  right: 361px;
+  width: 190px;
+  padding: 0 55px 20px 0;
+  background: url(../images/Misc/icon-actions.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .Strat-Plan #pos8 {
+  top: 160px;
+  right: 390px;
+  width: 150px;
+  padding: 3px 48px 15px 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .Strat-Plan #pos9 {
+  top: 75px;
+  right: 365px;
+  text-align: right;
+}
+/* managing data */
+#p-d .managing-data #pos1 {
+  top: 10px;
+  left: 267px;
+  width: 300px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-mouse.gif) 0 100% no-repeat;
+}
+#p-d .managing-data #pos2 {
+  top: 91px;
+  left: 356px;
+  width: 150px;
+  padding: 0 0 45px 53px;
+  background: url(../images/Misc/icon-protect.gif) 0 0 no-repeat;
+}
+#p-d .managing-data #pos3 {
+  top: 163px;
+  left: 387px;
+  width: 150px;
+  padding: 0 0 0 70px;
+  background: url(../images/Misc/icon-quality.gif) 0 0 no-repeat;
+}
+#p-d .managing-data #pos4 {
+  top: 237px;
+  left: 380px;
+  width: 150px;
+  padding: 0 0 20px 50px;
+  background: url(../images/Misc/icon-info.gif) 0 0 no-repeat;
+}
+#p-d .managing-data #pos5 {
+  top: 292px;
+  left: 321px;
+  width: 180px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-find.gif) 0 0 no-repeat;
+}
+#p-d .managing-data #pos6 {
+  top: 292px;
+  left: 24px;
+  width: 250px;
+  padding: 50px 10px 0 0;
+  background: url(../images/Misc/icon-screen.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .managing-data #pos7 {
+  top: 246px;
+  right: 361px;
+  width: 160px;
+  padding: 0 65px 20px 0;
+  background: url(../images/Misc/icon-share.gif) 100% 0 no-repeat;
+  text-align: right;
+}
+#p-d .managing-data #pos8 {
+  top: 150px;
+  right: 398px;
+  width: 120px;
+  padding: 3px 48px 25px 0;
+  background: url(../images/Misc/icon-bin.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .managing-data #pos9 {
+  top: 75px;
+  right: 365px;
+  width: 120px;
+  text-align: right;
+}
+/* 10 points */
+/* MngPeople */
+#p-d .MngPeople #pos1 {
+  top: 20px;
+  left: 285px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .MngPeople #pos1 p {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  width: 280px;
+}
+#p-d .MngPeople #pos2 {
+  top: 80px;
+  left: 358px;
+  width: 350px;
+  padding: 0 0 45px 50px;
+  background: url(../images/Misc/icon-paperCert.gif) 0 0 no-repeat;
+}
+#p-d .MngPeople #pos3 {
+  top: 141px;
+  left: 370px;
+  width: 350px;
+  padding: 0 0 0 75px;
+  background: url(../images/Misc/icon-bringing.gif) 0 0 no-repeat;
+}
+#p-d .MngPeople #pos4 {
+  top: 220px;
+  left: 396px;
+  width: 250px;
+  padding: 0 0 15px 50px;
+  background: url(../images/Misc/icon-toolbox.gif) 0 0 no-repeat;
+}
+#p-d .MngPeople #pos5 {
+  top: 265px;
+  left: 360px;
+  width: 220px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-incident.gif) 0 4px no-repeat;
+}
+#p-d .MngPeople #pos6 {
+  top: 290px;
+  right: 248px;
+  width: 193px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-diverse.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .MngPeople #pos7 {
+  top: 280px;
+  right: 334px;
+  width: 200px;
+  padding: 0 60px 0 0;
+  background: url(../images/Misc/icon-benefits.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .MngPeople #pos8 {
+  top: 195px;
+  right: 393px;
+  width: 160px;
+  padding: 3px 48px 25px 0;
+  background: url(../images/Misc/icon-graph.gif) 100% 14px no-repeat;
+  text-align: right;
+}
+#p-d .MngPeople #pos9 {
+  top: 115px;
+  right: 355px;
+  width: 120px;
+  padding: 3px 78px 25px 0;
+  background: url(../images/Misc/icon-leaving.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .MngPeople #pos10 {
+  top: 75px;
+  right: 350px;
+  width: 200px;
+  text-align: right;
+}
+/* NEW ENSsec with 10 diagram from MngPeople */
+#p-d .ENSsec #pos1 {
+  top: 20px;
+  left: 285px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-stop.gif) 0 100% no-repeat;
+}
+#p-d .ENSsec #pos1 p {
+  position: absolute;
+  top: 20;
+  left: 70px;
+  width: 280px;
+}
+#p-d .ENSsec #pos2 {
+  top: 80px;
+  left: 358px;
+  width: 350px;
+  padding: 0 0 45px 50px;
+  background: url(../images/Misc/icon-paperCert.gif) 0 0 no-repeat;
+}
+#p-d .ENSsec #pos3 {
+  top: 141px;
+  left: 370px;
+  width: 350px;
+  padding: 0 0 0 75px;
+  background: url(../images/Misc/icon-bringing.gif) 0 0 no-repeat;
+}
+#p-d .ENSsec #pos4 {
+  top: 220px;
+  left: 396px;
+  width: 250px;
+  padding: 0 0 15px 50px;
+  background: url(../images/Misc/icon-toolbox.gif) 0 0 no-repeat;
+}
+#p-d .ENSsec #pos5 {
+  top: 265px;
+  left: 360px;
+  width: 220px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-incident.gif) 0 4px no-repeat;
+}
+#p-d .ENSsec #pos6 {
+  top: 290px;
+  right: 248px;
+  width: 193px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-diverse.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .ENSsec #pos7 {
+  top: 280px;
+  right: 334px;
+  width: 200px;
+  padding: 0 60px 0 0;
+  background: url(../images/Misc/icon-policy.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .ENSsec #pos8 {
+  top: 195px;
+  right: 393px;
+  width: 160px;
+  padding: 3px 48px 25px 0;
+  background: url(../images/Misc/icon-screen.gif) 100% 14px no-repeat;
+  text-align: right;
+}
+#p-d .ENSsec #pos9 {
+  top: 115px;
+  right: 355px;
+  width: 120px;
+  padding: 3px 78px 25px 0;
+  background: url(../images/Misc/icon-leaving.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .ENSsec #pos10 {
+  top: 75px;
+  right: 350px;
+  width: 200px;
+  text-align: right;
+}
+/* managing data */
+#p-d .reserviors #pos1 {
+  top: 20px;
+  left: 285px;
+  padding: 0 0 45px 5px;
+  background: url(../images/Misc/icon-policy.gif) 0 100% no-repeat;
+}
+#p-d .reserviors #pos1 p {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  width: 280px;
+}
+#p-d .reserviors #pos2 {
+  top: 95px;
+  left: 361px;
+  width: 250px;
+  padding: 0 0 45px 53px;
+  background: url(../images/Misc/icon-guide.gif) 0 0 no-repeat;
+}
+#p-d .reserviors #pos3 {
+  top: 152px;
+  left: 397px;
+  width: 180px;
+  padding: 0 0 0 50px;
+  background: url(../images/Misc/icon-clipboard.gif) 0 0 no-repeat;
+}
+#p-d .reserviors #pos4 {
+  top: 223px;
+  left: 391px;
+  width: 150px;
+  padding: 0 0 15px 50px;
+  background: url(../images/Misc/icon-enforcement.gif) 0 0 no-repeat;
+}
+#p-d .reserviors #pos5 {
+  top: 280px;
+  left: 350px;
+  width: 220px;
+  padding: 0 0 20px 50px;
+  background: url(../images/Misc/icon-request.gif) 0 0 no-repeat;
+}
+#p-d .reserviors #pos6 {
+  top: 300px;
+  left: 287px;
+  width: 293px;
+  padding: 45px 0 0 0;
+  background: url(../images/Misc/icon-incident.gif) 0 0 no-repeat;
+}
+#p-d .reserviors #pos7 {
+  top: 280px;
+  right: 334px;
+  width: 140px;
+  padding: 40px 0 0 0;
+  background: url(../images/Misc/icon-graph.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .reserviors #pos8 {
+  top: 238px;
+  right: 372px;
+  width: 120px;
+  padding: 3px 48px 25px 0;
+  background: url(../images/Misc/icon-science.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .reserviors #pos9 {
+  top: 148px;
+  right: 393px;
+  width: 120px;
+  padding: 3px 48px 25px 0;
+  background: url(../images/Misc/icon-tick.gif) 100% 4px no-repeat;
+  text-align: right;
+}
+#p-d .reserviors #pos10 {
+  top: 70px;
+  right: 358px;
+  width: 200px;
+  text-align: right;
+}
+/*NCMPS flow diagram*/
+#f-d {
+  display: block;
+  width: 780px;
+  padding-top: 10px;
+  position: relative;
+}
+div.plain_text #f-d h2,
+div.plain_text #f-d h3 {
+  color: #5c5c5c;
+  background: none;
+  text-align: center;
+}
+div.plain_text #f-d h2 {
+  font-size: 1.1em;
+}
+div.plain_text #f-d .boxes {
+  padding: 0;
+  margin: 0;
+  list-style: none !important;
+  float: left;
+  width: 800px;
+}
+div.plain_text #f-d .boxes li {
+  float: left;
+  width: 111px;
+  margin: 0 0 10px 20px;
+  padding: 0;
+  list-style: none !important;
+  background: url(../images/Misc/boxMid.gif) 0 0 repeat-y;
+}
+div.plain_text #f-d .boxes li.first {
+  margin-left: 0;
+  clear: both;
+}
+#f-d #topLeft {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+#f-d #topLeft ul {
+  width: 200px;
+}
+#f-d #topLeft li {
+  margin: 0;
+}
+#f-d .boxes a {
+  display: block;
+  cursor: pointer;
+  padding-top: 10px;
+  background: url(../images/Misc/boxTop.gif) 0 0 no-repeat;
+}
+#f-d .boxes a b,
+#f-d .boxes a strong {
+  display: block;
+  word-wrap: break-word;
+  /*\*/
+  height: auto !important;
+  /**/
+
+  min-height: 55px;
+  height: 55px;
+  padding: 0 10px 10px 10px;
+  text-align: center;
+  background: url(../images/Misc/boxBot.gif) 0 100% no-repeat;
+}
+* html #f-d .boxes a b {
+  padding: 0 10px 10px;
+}
+* html #f-d .boxes a strong {
+  padding: 0 10px 10px;
+}
+#f-d #topRow .boxes {
+  padding: 0 0 0 330px;
+  width: 300px;
+}
+#f-d #topRow .boxes li {
+  margin-bottom: 0;
+}
+#f-d #secondRow {
+  float: left;
+}
+#f-d #secondRow {
+  background: url(../images/Misc/row2Bot.gif) -17px 100% no-repeat;
+}
+#f-d #secondRow h2,
+#f-d #secondRow h3 {
+  padding: 42px 0 1px 0;
+  margin: 0 0 1px 0;
+  background: url(../images/Misc/row2Top.gif) -17px 100% no-repeat;
+}
+#f-d #secondRow .boxes {
+  padding-bottom: 40px;
+  background: url(../images/Misc/row2BotArrows.gif) -17px -7px no-repeat;
+}
+#f-d #thirdRow .boxes {
+  width: 450px;
+  padding: 10px 0 0 330px;
+}
+* html #f-d #thirdRow .boxes {
+  width: 470px;
+}
+#f-d #fourthRow {
+  float: left;
+  position: relative;
+  background: url(../images/Misc/lrgDotsTop.gif) 0 0 no-repeat;
+}
+#f-d #fourthRow h2,
+#f-d #fourthRow h3 {
+  padding: 9px 0 8px 0;
+  margin: 0;
+}
+#f-d #fourthRow .boxes {
+  float: left;
+  padding-left: 168px;
+  width: 600px;
+}
+* html #f-d #fourthRow {
+  width: 760px;
+}
+* html #f-d #fourthRow ul.boxes {
+  padding-bottom: 10px;
+  width: 600px;
+}
+#f-d #fourthRow #fourthRowInner {
+  float: left;
+  width: 780px;
+  background: url(../images/Misc/lrgDotsBot.gif) 0 100% no-repeat;
+}
+#f-d #fourthRow .boxes li {
+  margin-left: 10px;
+}
+#f-d #fourthRow .boxes li.first {
+  margin-left: 0;
+}
+#f-d #fourthRow #largeE3Box.boxes {
+  position: absolute;
+  top: 33px;
+  left: 8px;
+  width: 150px;
+  padding: 0;
+  background: url(../images/Misc/boxTopLrg.gif) 0 0 no-repeat;
+}
+* html #f-d #fourthRow {
+  height: 100px;
+}
+#f-d #fourthRow #largeE3Box.boxes h2,
+#f-d #fourthRow #largeE3Box.boxes h3,
+#f-d #fourthRow #largeE3Box.boxes h4 {
+  font-size: 100%;
+  padding: 10px 0 10px;
+  margin: 0;
+  text-align: center;
+}
+#f-d #fourthRow #largeE3Box.boxes h2 a,
+#f-d #fourthRow #largeE3Box.boxes h3 a,
+#f-d #fourthRow #largeE3Box.boxes h4 a {
+  background: none;
+  padding-top: 0;
+  text-decoration: none;
+}
+#f-d #fourthRow #largeE3Box.boxes h2 a:hover,
+#f-d #fourthRow #largeE3Box.boxes h2 a:focus,
+#f-d #fourthRow #largeE3Box.boxes h3 a:hover,
+#f-d #fourthRow #largeE3Box.boxes h3 a:focus,
+#f-d #fourthRow #largeE3Box.boxes h4 a:hover,
+#f-d #fourthRow #largeE3Box.boxes h4 a:focus {
+  text-decoration: underline;
+}
+#f-d #fourthRow #largeE3Box.boxes ul {
+  background: none;
+  width: 150px;
+  /*\*/
+  height: auto !important;
+  /**/
+
+  min-height: 100px;
+  height: 100px;
+  padding: 0 0 10px 0;
+  background: url(../images/Misc/boxBotLrg.gif) 0 100% no-repeat;
+}
+#f-d #fourthRow #largeE3Box.boxes li {
+  margin: 0;
+  padding: 0 0 5px 25px;
+  border: 0;
+  background: url(../images/Misc/bullet.gif) 12px 40% no-repeat !important;
+}
+#f-d #fourthRow #largeE3Box.boxes li,
+#f-d #fourthRow #largeE3Box.boxes li a {
+  background: none;
+}
+#f-d #fourthRow #largeE3Box.boxes li a {
+  padding: 0;
+}

@@ -1,3 +1,518 @@
 /* News and events */
-div.one_column,div.two_column,div.three_column{width:100%;display:inline;clear:left;float:left}div.panels h2.section,div.panels div.panels h2.section{font-size:1.25em;background:url(../images/default/bg_divider.png) no-repeat bottom left;padding:1.5em 0 6px 0;font-weight:700;margin:0 0 .5em 10px;clear:left;float:left;display:inline;width:97.46%}div.panel,div.panel div.panel{float:left;width:100%;display:inline-block}div.one_column div.two_column div.panel{width:50%}div.two_column div.panel{width:50%}div.three_column div.panel{width:33.25%}div.two_column div.rowspan2{height:235px!important}div.tl,div.tr,div.bl,div.br{clear:left}div.panel div.tl{background-repeat:no-repeat;background-position:top left}div.panels .default div.panel div.tl,div.panels div.panel div.panels .default div.panel div.tl,div.feature div.tl{background-image:url(../images/default/bg_tl.png)}div.panel div.tr{background-repeat:no-repeat;background-position:top right}div.panels .default div.panel div.tr,div.panels div.panel div.panels .default div.panel div.tr,div.feature div.tr{background-image:url(../images/default/bg_tr.png)}div.panel div.t,div.panel div.panel div.t{background-image:url(../../bg_round_t_small.gif);background-repeat:repeat-x;background-position:0 0;clear:left}div.panels .default div.panel div.t,div.panels div.panel div.panels .default div.panel div.t,div.feature div.t{background-color:#B2DFF4}div.panel div.l,div.panel div.panel div.l{background:url(../../bg_round_l.gif) repeat-y 0 0}div.panel div.r,div.panel div.panel div.r{background:url(../../bg_round_r.gif) repeat-y 100% 0}div.panel div.b,div.panel div.panel div.b{background:url(../../bg_round_b_2.gif) repeat-x 100% 100%}div.panel div.br,div.panel div.panel div.br{background:url(../../bg_round_br.gif) no-repeat 100% 100%;width:100%}div.panel div.bl,div.panel div.panel div.bl{background:url(../../bg_round_bl.gif) no-repeat 0 100%;padding:9px 7px 18px 7px;position:relative}div.flat div.tr{background-repeat:no-repeat;background-position:top right;border-left:5px solid #fff}div.panels .default div.flat div.tr,div.panels div.panel div.panels .default div.flat div.tr{background-image:url(../images/default/bg_flat_tr.png);background-color:#B2DFF4}div.flat div.tl{background-repeat:no-repeat;background-position:top left}div.panels .default div.flat div.tl,div.panels div.panel div.panels .default div.flat div.tl{background-image:url(../images/default/bg_flat_tl.png)}div.flat div.br{background-repeat:no-repeat;background-position:bottom right}div.panels .default div.flat div.br,div.panels div.panel div.panels .default div.flat div.br{background-image:url(../images/default/bg_flat_br.png);background-color:#D8EFF9}div.flat div.bl{background-repeat:no-repeat;background-position:bottom left;margin-right:10px;padding:10px 0 20px 0}div.panels .default div.flat div.bl,div.panels div.panel .default div.flat div.bl{background-image:url(../images/default/bg_flat_bl.png)}div.panel h2,div.panel h3,div.panel div.panel h2,div.panel div.panel h3{background-repeat:no-repeat;background-position:bottom left;font-weight:700;display:block;padding:1px 0 .3em 10px;min-height:2.4em;margin:0;float:none;width:auto;font-size:1.1em}div.panels .default div.panel h2,div.panels div.panel .default div.panel h2,div.panels .default div.panel h3,div.panels div.panel .default div.panel h3,.default div.feature h1{background-image:url(../images/default/bg_divider.png)}div.panel div.plain_text h2,div.panel div.panel div.plain_text h2,div.panel div.plain_text h3,div.panel div.panel div.plain_text h3{margin-bottom:.5em}div.panel div.plain_text h3{padding:0 0 6px 0}div.panel h2 a,div.panel div.panel h2 a,div.panel h3 a,div.panel div.panel h3 a,div.feature h1 a,div.feature h2 a{background-repeat:no-repeat;background-position:100% 30%;margin-right:5px;display:block;padding-right:58px;text-decoration:none}div.panels .default div.panel h2 a,div.panels div.panel div.panels .default div.panel h2 a,div.panels .default div.panel h3 a,div.panels div.panel div.panels .default div.panel h3 a,.default div.feature h1 a,.default div.feature h2 a{color:#002A54;background-image:url(../images/default/bg_next.gif)}div.panels .default div.panel h2 a:hover,div.panels .default div.panel h2 a:active,div.panels .default div.panel h2 a:focus,div.panels div.panel div.panels .default div.panel h2 a:hover,div.panels div.panel div.panels .default div.panel h2 a:active,div.panels div.panel div.panels .default div.panel h2 a:focus,div.panels .default div.panel h3 a:hover,div.panels .default div.panel h3 a:active,div.panels .default div.panel h3 a:focus,div.panels div.panel div.panels .default div.panel h3 a:hover,div.panels div.panel div.panels .default div.panel h3 a:active,div.panels div.panel div.panels .default div.panel h3 a:focus,.default div.feature h1 a:hover,.default div.feature h1 a:active,.default div.feature h1 a:focus,div.panels .default div.panel div.plain_text a:hover,div.panels div.panel div.panels .default div.panel div.plain_text a:hover,div.panels .default div.panel div.plain_text a:active,div.panels div.panel div.panels .default div.panel div.plain_text a:active,div.panels .default div.panel div.plain_text a:focus,div.panels div.panel div.panels .default div.panel div.plain_text a:focus{color:#0177BA}div.panel div.plain_text,div.panel div.panel div.plain_text{padding:10px 10px 0 10px;margin:0;float:none;display:block}div.panels .default div.panel div.plain_text,div.panels div.panel div.panels .default div.panel div.plain_text,div.panels .default div.panel div.plain_text a,div.panels div.panel div.panels .default div.panel div.plain_text a{color:#002A54}div.flat div.plain_text,div.flat div.flat div.plain_text{padding-top:0}div.panels .default div.flat div.plain_text,div.panels div.flat div.panels .default div.flat div.plain_text{background:#D8EFF9}div.panel div div.plain_text{min-height:111px}div.panel div.panel div div.plain_text{min-height:50px}div.feature img,div.panel img{float:right;margin:0 0 0 10px}div.panel ul li a{text-decoration:none}div.panel ul.structure{padding-left:50px;background:#fff;padding-bottom:1.0em}div.panel ul.structure li{border-bottom:1px solid #fff}div.panel ul.structure li a,div.panel div.panel ul.structure li a,div.feature div.plain_text li h2 a,div.feature div.plain_text li h3 a{padding:0 0 0 10px;display:block;background-color:#fff;background-position:0 40%;background-repeat:no-repeat}div.panels .default div.panel ul.structure li a,div.panels div.panel .default div.panel ul.structure li a,.default div.feature div.plain_text li h2 a,.default div.feature div.plain_text li h3 a{background-image:url(../images/default/bg_list_arrow.gif)}div.nccc{margin-bottom:1.0em}div.nccc h2,div.nccc h3,div.panel div.nccc h2,div.panel div.nccc h3{min-height:0;height:auto!important}div.one_column div.flat{width:99.35%}div.two_column div.flat{width:49.65%}div.three_column div.flat{width:33.1%}div.flat,div.panel div.flat{border-bottom:5px solid #fff}div.flat h2,div.flat h3,div.flat div.flat h2,div.flat div.flat h3{padding-top:6px}div.panels .default div.flat div.plain_text li a,div.panels .default div.flat div.plain_text p a,div.panels div.panel div.panels .default div.flat div.plain_text li a,div.panels div.panel div.panels .default div.flat div.plain_text p a{background-color:#D8EFF9!important}div.flat div.print{text-align:center}div.flat div.print li{display:inline;float:none;width:auto}div.flat div.print a.bookmark,div.flat div.print a.email{background:0}div.feature h1{font-size:1.5em;margin:0;font-weight:400;min-height:1.7em}div.feature h1 a,div.feature h2 a{display:inline!important;padding-right:20px;background-position:100% 50%}div.feature img{margin-top:10px}div.feature div div.plain_text{min-height:220px;padding-top:0}div.feature div.plain_text li{border-top:5px solid #fff;padding:0}div.feature div.plain_text li h2,div.feature div.plain_text li h3{font-weight:700;margin-bottom:.2em;background:0;min-height:0;height:auto;padding:0 0 2px 0}div.feature div.plain_text li h2{font-size:1.2em}div.feature div.plain_text li h3{font-size:1.0em}div.feature div.plain_text li p{padding:0 0 .5em 10px}div.feature ul.rss{position:absolute;top:14px;right:0;width:127px;float:right}div.feature ul.rss_short{top:14px;width:127px;float:right}div.feature ul.rss li,div.feature ul.rss_short li{float:right;width:97px;display:block}div.feature ul.rss li a,div.feature ul.rss_short li a{display:block;padding:0 5px;margin-right:5px;font-weight:700;float:left;text-decoration:none;font-size:1.0em}div.feature ul.rss li a:hover,div.feature ul.rss_short li a:hover{text-decoration:underline}div.feature ul.rss li,div.feature ul.rss_short li{border-left:1px solid #044C89}div.feature ul.rss li.rss_icon,div.feature ul.rss_short li.rss_icon{border:0;width:20px}div.feature ul.rss li.rss_icon a,div.feature ul.rss_short li.rss_icon a{background:url(../../icon_rss.gif) no-repeat top left!important;overflow:hidden;height:0;width:10px;padding-top:15px;text-decoration:none}div.panels .default div.includeForm fieldset *{color:#002a54}div.panel div.includeForm{max-width:300px;padding:0 40px .63em 0;float:none;width:80%;display:block}div.panel div.includeForm div,div.panel div.includeForm span{padding:0}div.panel div.includeForm label{float:none;width:100%}div.panel div.includeForm div input,div.panel div.includeForm span input,div.panel div.includeForm div select,div.panel div.includeForm span select,div.panel div.includeForm div textarea,div.panel div.includeForm span textarea{clear:both;width:100%}div.panel div.includeForm div.small,div.panel div.includeForm span.small{width:30%;position:relative;padding-right:45px}div.panel div.includeForm div label.labelCheckbox,div.panel div.includeForm div label.labelRadio,div.panel div.includeForm span label.labelCheckbox,div.panel div.includeForm span label.labelRadio{margin-left:50%}div.panel div.includeForm div p,div.panel div.includeForm span p{width:50%}div.panel div.includeForm div.buttons input,div.panel div.includeForm span.buttons input,div.panel div.includeForm label input{width:auto}div.panel div.includeForm div.buttons,div.panel div.includeForm span.buttons{clear:both;position:absolute;right:0;bottom:17px}div.panel div.includeForm div.small div.buttons,div.panel div.includeForm div.small span.buttons,div.panel div.includeForm span.small span.buttons{bottom:-2px}.NewsPanel h2 a{width:auto;float:left!important}.NewsPanel h2 ul{float:right!important;padding-right:5px}.NewsPanel h2 ul li{display:inline;padding:0;margin:0}.NewsPanel h2 ul li a{padding:0!important;padding-left:5px!important;margin:0!important;background:none!important}.NewsPanel li .First{border-right:1px solid;padding-right:5px!important}.NewsPanel ul li{background:none!important}.NewsPanel ul li a,.NewsPanel p a{font-weight:700;padding-left:20px!important;background:url(../images/theme1/bg_list_arrow_theme1.gif) no-repeat 1px;text-decoration:none!important}.NewsPanel p{padding-left:10px}.NewsPanel ul li span{display:block;padding-left:20px}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+/*** Generic ***/
+div.one_column,
+div.two_column,
+div.three_column {
+  width: 100%;
+  display: inline;
+  clear: left;
+  float: left;
+}
+div.panels h2.section,
+div.panels div.panels h2.section {
+  font-size: 1.25em;
+  background: url(../images/default/bg_divider.png) no-repeat bottom left;
+  padding: 1.5em 0 6px 0;
+  font-weight: bold;
+  margin: 0 0 0.5em 10px;
+  clear: left;
+  float: left;
+  display: inline;
+  width: 97.46%;
+}
+div.panel,
+div.panel div.panel {
+  float: left;
+  width: 100%;
+  display: inline-block;
+}
+div.one_column div.two_column div.panel {
+  width: 50%;
+}
+div.two_column div.panel {
+  width: 50%;
+}
+div.three_column div.panel {
+  width: 33.25%;
+}
+div.two_column div.rowspan2 {
+  height: 235px !important;
+}
+/*** Wrappers ***/
+div.tl,
+div.tr,
+div.bl,
+div.br {
+  clear: left;
+}
+div.panel div.tl {
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+div.panels .default div.panel div.tl,
+div.panels div.panel div.panels .default div.panel div.tl,
+div.feature div.tl {
+  background-image: url(../images/default/bg_tl.png);
+}
+div.panel div.tr {
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+div.panels .default div.panel div.tr,
+div.panels div.panel div.panels .default div.panel div.tr,
+div.feature div.tr {
+  background-image: url(../images/default/bg_tr.png);
+}
+div.panel div.t,
+div.panel div.panel div.t {
+  background-image: url(../../bg_round_t_small.gif);
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  clear: left;
+}
+div.panels .default div.panel div.t,
+div.panels div.panel div.panels .default div.panel div.t,
+div.feature div.t {
+  background-color: #B2DFF4;
+}
+div.panel div.l,
+div.panel div.panel div.l {
+  background: url(../../bg_round_l.gif) repeat-y 0 0;
+}
+div.panel div.r,
+div.panel div.panel div.r {
+  background: url(../../bg_round_r.gif) repeat-y 100% 0;
+}
+div.panel div.b,
+div.panel div.panel div.b {
+  background: url(../../bg_round_b_2.gif) repeat-x 100% 100%;
+}
+div.panel div.br,
+div.panel div.panel div.br {
+  background: url(../../bg_round_br.gif) no-repeat 100% 100%;
+  width: 100%;
+}
+div.panel div.bl,
+div.panel div.panel div.bl {
+  background: url(../../bg_round_bl.gif) no-repeat 0 100%;
+  padding: 9px 7px 18px 7px;
+  position: relative;
+}
+div.flat div.tr {
+  background-repeat: no-repeat;
+  background-position: top right;
+  border-left: 5px solid #fff;
+}
+div.panels .default div.flat div.tr,
+div.panels div.panel div.panels .default div.flat div.tr {
+  background-image: url(../images/default/bg_flat_tr.png);
+  background-color: #B2DFF4;
+}
+div.flat div.tl {
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+div.panels .default div.flat div.tl,
+div.panels div.panel div.panels .default div.flat div.tl {
+  background-image: url(../images/default/bg_flat_tl.png);
+}
+div.flat div.br {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+div.panels .default div.flat div.br,
+div.panels div.panel div.panels .default div.flat div.br {
+  background-image: url(../images/default/bg_flat_br.png);
+  background-color: #D8EFF9;
+}
+div.flat div.bl {
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  margin-right: 10px;
+  padding: 10px 0 20px 0;
+}
+div.panels .default div.flat div.bl,
+div.panels div.panel .default div.flat div.bl {
+  background-image: url(../images/default/bg_flat_bl.png);
+}
+/*** Content ***/
+div.panel h2,
+div.panel h3,
+div.panel div.panel h2,
+div.panel div.panel h3 {
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  font-weight: bold;
+  display: block;
+  padding: 1px 0 0.3em 10px;
+  min-height: 2.4em;
+  margin: 0;
+  float: none;
+  width: auto;
+  font-size: 1.1em;
+}
+div.panels .default div.panel h2,
+div.panels div.panel .default div.panel h2,
+div.panels .default div.panel h3,
+div.panels div.panel .default div.panel h3,
+.default div.feature h1 {
+  background-image: url(../images/default/bg_divider.png);
+}
+div.panel div.plain_text h2,
+div.panel div.panel div.plain_text h2,
+div.panel div.plain_text h3,
+div.panel div.panel div.plain_text h3 {
+  margin-bottom: 0.5em;
+}
+div.panel div.plain_text h3 {
+  padding: 0 0 6px 0;
+}
+div.panel h2 a,
+div.panel div.panel h2 a,
+div.panel h3 a,
+div.panel div.panel h3 a,
+div.feature h1 a,
+div.feature h2 a {
+  background-repeat: no-repeat;
+  background-position: 100% 30%;
+  margin-right: 5px;
+  display: block;
+  padding-right: 58px;
+  text-decoration: none;
+}
+div.panels .default div.panel h2 a,
+div.panels div.panel div.panels .default div.panel h2 a,
+div.panels .default div.panel h3 a,
+div.panels div.panel div.panels .default div.panel h3 a,
+.default div.feature h1 a,
+.default div.feature h2 a {
+  color: #002A54;
+  background-image: url(../images/default/bg_next.gif);
+}
+div.panels .default div.panel h2 a:hover,
+div.panels .default div.panel h2 a:active,
+div.panels .default div.panel h2 a:focus,
+div.panels div.panel div.panels .default div.panel h2 a:hover,
+div.panels div.panel div.panels .default div.panel h2 a:active,
+div.panels div.panel div.panels .default div.panel h2 a:focus,
+div.panels .default div.panel h3 a:hover,
+div.panels .default div.panel h3 a:active,
+div.panels .default div.panel h3 a:focus,
+div.panels div.panel div.panels .default div.panel h3 a:hover,
+div.panels div.panel div.panels .default div.panel h3 a:active,
+div.panels div.panel div.panels .default div.panel h3 a:focus,
+.default div.feature h1 a:hover,
+.default div.feature h1 a:active,
+.default div.feature h1 a:focus,
+div.panels .default div.panel div.plain_text a:hover,
+div.panels div.panel div.panels .default div.panel div.plain_text a:hover,
+div.panels .default div.panel div.plain_text a:active,
+div.panels div.panel div.panels .default div.panel div.plain_text a:active,
+div.panels .default div.panel div.plain_text a:focus,
+div.panels div.panel div.panels .default div.panel div.plain_text a:focus {
+  color: #0177BA;
+}
+div.panel div.plain_text,
+div.panel div.panel div.plain_text {
+  padding: 10px 10px 0 10px;
+  margin: 0;
+  float: none;
+  display: block;
+}
+div.panels .default div.panel div.plain_text,
+div.panels div.panel div.panels .default div.panel div.plain_text,
+div.panels .default div.panel div.plain_text a,
+div.panels div.panel div.panels .default div.panel div.plain_text a {
+  color: #002A54;
+}
+div.flat div.plain_text,
+div.flat div.flat div.plain_text {
+  padding-top: 0px;
+}
+div.panels .default div.flat div.plain_text,
+div.panels div.flat div.panels .default div.flat div.plain_text {
+  background: #D8EFF9;
+}
+div.panel div div.plain_text {
+  min-height: 111px;
+}
+div.panel div.panel div div.plain_text {
+  min-height: 50px;
+}
+div.feature img,
+div.panel img {
+  float: right;
+  margin: 0 0 0 10px;
+}
+div.panel ul li a {
+  text-decoration: none;
+}
+div.panel ul.structure {
+  padding-left: 50px;
+  background: #fff;
+  padding-bottom: 1.0em;
+}
+div.panel ul.structure li {
+  border-bottom: 1px solid #fff;
+}
+div.panel ul.structure li a,
+div.panel div.panel ul.structure li a,
+div.feature div.plain_text li h2 a,
+div.feature div.plain_text li h3 a {
+  padding: 0 0 0 10px;
+  display: block;
+  background-color: #fff;
+  background-position: 0% 40%;
+  background-repeat: no-repeat;
+}
+div.panels .default div.panel ul.structure li a,
+div.panels div.panel .default div.panel ul.structure li a,
+.default div.feature div.plain_text li h2 a,
+.default div.feature div.plain_text li h3 a {
+  background-image: url(../images/default/bg_list_arrow.gif);
+}
+/*** NCCC ***/
+div.nccc {
+  margin-bottom: 1.0em;
+}
+div.nccc h2,
+div.nccc h3,
+div.panel div.nccc h2,
+div.panel div.nccc h3 {
+  min-height: 0;
+  height: auto !important;
+}
+/*** Flat ***/
+div.one_column div.flat {
+  width: 99.35%;
+}
+div.two_column div.flat {
+  width: 49.65%;
+}
+div.three_column div.flat {
+  width: 33.1%;
+}
+div.flat,
+div.panel div.flat {
+  border-bottom: 5px solid #fff;
+}
+div.flat h2,
+div.flat h3,
+div.flat div.flat h2,
+div.flat div.flat h3 {
+  padding-top: 6px;
+}
+div.panels .default div.flat div.plain_text li a,
+div.panels .default div.flat div.plain_text p a,
+div.panels div.panel div.panels .default div.flat div.plain_text li a,
+div.panels div.panel div.panels .default div.flat div.plain_text p a {
+  background-color: #D8EFF9 !important;
+}
+div.flat div.print {
+  text-align: center;
+}
+div.flat div.print li {
+  display: inline;
+  float: none;
+  width: auto;
+}
+div.flat div.print a.bookmark,
+div.flat div.print a.email {
+  background: none;
+}
+/*** Feature / highlights ***/
+div.feature h1 {
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: normal;
+  min-height: 1.7em;
+}
+div.feature h1 a,
+div.feature h2 a {
+  display: inline !important;
+  padding-right: 20px;
+  background-position: 100% 50%;
+}
+div.feature img {
+  margin-top: 10px;
+}
+div.feature div div.plain_text {
+  min-height: 220px;
+  padding-top: 0px;
+}
+div.feature div.plain_text li {
+  border-top: 5px solid #fff;
+  padding: 0;
+}
+div.feature div.plain_text li h2,
+div.feature div.plain_text li h3 {
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  background: none;
+  min-height: 0;
+  height: auto;
+  padding: 0 0 2px 0;
+}
+div.feature div.plain_text li h2 {
+  font-size: 1.2em;
+}
+div.feature div.plain_text li h3 {
+  font-size: 1.0em;
+}
+div.feature div.plain_text li p {
+  padding: 0 0 0.5em 10px;
+}
+div.feature ul.rss {
+  position: absolute;
+  top: 14px;
+  right: 0px;
+  width: 127px;
+  float: right;
+}
+div.feature ul.rss_short {
+  /* Use this class if you want the title to wrap */
+
+  top: 14px;
+  width: 127px;
+  float: right;
+}
+div.feature ul.rss li,
+div.feature ul.rss_short li {
+  float: right;
+  width: 97px;
+  display: block;
+}
+div.feature ul.rss li a,
+div.feature ul.rss_short li a {
+  display: block;
+  padding: 0 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  float: left;
+  text-decoration: none;
+  font-size: 1.0em;
+}
+div.feature ul.rss li a:hover,
+div.feature ul.rss_short li a:hover {
+  text-decoration: underline;
+}
+div.feature ul.rss li,
+div.feature ul.rss_short li {
+  border-left: 1px solid #044C89;
+}
+div.feature ul.rss li.rss_icon,
+div.feature ul.rss_short li.rss_icon {
+  border: none;
+  width: 20px;
+}
+div.feature ul.rss li.rss_icon a,
+div.feature ul.rss_short li.rss_icon a {
+  background: url(../../icon_rss.gif) no-repeat top left !important;
+  overflow: hidden;
+  height: 0px;
+  width: 10px;
+  padding-top: 15px;
+  text-decoration: none;
+}
+/*** Forms ***/
+div.panels .default div.includeForm fieldset * {
+  color: #002a54;
+}
+div.panel div.includeForm {
+  max-width: 300px;
+  padding: 0 40px 0.63em 0;
+  float: none;
+  width: 80%;
+  display: block;
+}
+div.panel div.includeForm div,
+div.panel div.includeForm span {
+  padding: 0;
+}
+div.panel div.includeForm label {
+  float: none;
+  width: 100%;
+}
+div.panel div.includeForm div input,
+div.panel div.includeForm span input,
+div.panel div.includeForm div select,
+div.panel div.includeForm span select,
+div.panel div.includeForm div textarea,
+div.panel div.includeForm span textarea {
+  clear: both;
+  width: 100%;
+}
+div.panel div.includeForm div.small,
+div.panel div.includeForm span.small {
+  width: 30%;
+  position: relative;
+  padding-right: 45px;
+}
+div.panel div.includeForm div label.labelCheckbox,
+div.panel div.includeForm div label.labelRadio,
+div.panel div.includeForm span label.labelCheckbox,
+div.panel div.includeForm span label.labelRadio {
+  margin-left: 50%;
+}
+div.panel div.includeForm div p,
+div.panel div.includeForm span p {
+  width: 50%;
+}
+div.panel div.includeForm div.buttons input,
+div.panel div.includeForm span.buttons input,
+div.panel div.includeForm label input {
+  width: auto;
+}
+div.panel div.includeForm div.buttons,
+div.panel div.includeForm span.buttons {
+  clear: both;
+  position: absolute;
+  right: 0;
+  bottom: 17px;
+}
+div.panel div.includeForm div.small div.buttons,
+div.panel div.includeForm div.small span.buttons,
+div.panel div.includeForm span.small span.buttons {
+  bottom: -2px;
+}
+/* News and events */
+.NewsPanel h2 a {
+  width: auto;
+  float: left !important;
+}
+.NewsPanel h2 ul {
+  float: right !important;
+  padding-right: 5px;
+}
+.NewsPanel h2 ul li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+.NewsPanel h2 ul li a {
+  padding: 0 !important;
+  padding-left: 5px !important;
+  margin: 0 !important;
+  background: none !important;
+}
+.NewsPanel li .First {
+  border-right: 1px solid;
+  padding-right: 5px !important;
+}
+.NewsPanel ul li {
+  background: none !important;
+}
+.NewsPanel ul li a,
+.NewsPanel p a {
+  font-weight: bold;
+  padding-left: 20px !important;
+  background: url(../images/theme1/bg_list_arrow_theme1.gif) no-repeat 1px;
+  text-decoration: none !important;
+}
+.NewsPanel p {
+  padding-left: 10px;
+}
+.NewsPanel ul li span {
+  display: block;
+  padding-left: 20px;
+}
