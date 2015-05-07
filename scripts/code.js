@@ -204,6 +204,10 @@ attachEvent(oFontsize.onunload, "onunload");
 
 /***********************************************/
 
+if(Modernizr.mq('only all')) {
+    jQuery('html').addClass('mq');
+}
+
 function adjustStyle(width) {
     width = parseInt(width);
     if (width < 1024) {

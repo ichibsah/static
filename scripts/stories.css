@@ -6,7 +6,7 @@ img {
 div#featureimg img {
   max-width: 100%;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
   div#featurebox {
     display: block;
     height: auto;
@@ -25,7 +25,7 @@ div#featureimg img {
     border: 1px solid red;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
   div#featureinfo {
     display: inline-block;
     float: left;
@@ -45,7 +45,7 @@ div#featureimg img {
     border: 1px solid orange;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
   div#featureimg {
     display: inline-block;
     float: left;
