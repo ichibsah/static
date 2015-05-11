@@ -42,6 +42,9 @@ div#featureimg img {
     height: 100%;
     float: left;
     border: 1px solid orange;
+    display: inline-block;
+    *display: inline-block;
+    overflow: hidden;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 1024px) {
