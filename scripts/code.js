@@ -212,12 +212,29 @@ function adjustStyle(width) {
     width = parseInt(width);
     if (width < 1024) {
         //$("#size-stylesheet").attr("href", "http://intranet.ea.gov/static/scripts/medium.css");
-        
+     
         $("#featureimg").insertBefore($("#featureinfo"));
+		
+		$( "#featurebox" ).addClass( ".toggleMediumfeaturebox" );
+		$( "#featureinfo" ).addClass( ".toggleMediumfeatureinfo" );
+		$( "#featureimg" ).addClass( ".toggleMediumfeatureimg" );
+		
+		$( "#featurebox" ).removeClass( ".toogleWidefeaturebox" );
+		$( "#featureinfo" ).removeClass( ".toogleWidefeatureinfo" );
+		$( "#featureimg" ).removeClass( ".toogleWidefeatureimg" );
         
     } else {
        //$("#size-stylesheet").attr("href", "http://intranet.ea.gov/static/scripts/wide.css"); 
-        $("#featureinfo").insertBefore($("#featureimg"));       
+        $("#featureinfo").insertBefore($("#featureimg"));
+		
+		$( "#featurebox" ).addClass( ".toogleWidefeaturebox" );
+		$( "#featureinfo" ).addClass( ".toogleWidefeatureinfo" );
+		$( "#featureimg" ).addClass( ".toogleWidefeatureimg" );
+		
+		$( "#featurebox" ).removeClass( ".toggleMediumfeaturebox" );
+		$( "#featureinfo" ).removeClass( ".toggleMediumfeatureinfo" );
+		$( "#featureimg" ).removeClass( ".toggleMediumfeatureimg" );
+		
     }
 } //adjustStyle
 

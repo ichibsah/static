@@ -12,6 +12,56 @@ div#featureimg {
 	} //img
 } //#featureimg
 
+.toogleWide {
+	&featurebox {
+	  position: relative;
+	  margin: 15px 0px;
+	  width: 100%;
+	  overflow: hidden;
+	}
+	&featureinfo {
+	  position: absolute;
+	  width: 22.5%;
+	  background: #ffffff;
+	  height: 100%;
+	  top: 0px;
+	  left: 0px;
+	}
+	&featureimg {
+	  width: 77.5%;
+	  float: right;
+	  max-height: 480px;
+	  overflow: hidden;
+	}
+}
+
+.toggleMedium {
+	&featurebox {
+	  display: block;
+	  height: auto;
+	  overflow: hidden;
+	  position: relative;
+	  width: auto;
+	  /*border: 1px solid blue;*/
+
+	}
+	&featureinfo {
+	  display: inline-block;
+	  float: left;
+	  height: auto;
+	  /*border: 1px solid black;*/
+
+	  width: 100%;
+	}
+	&featureimg {
+	  display: inline-block;
+	  float: left;
+	  max-height: 480px;
+	  width: 100%;
+	  /*border: 1px solid black;*/
+
+	}
+}
 
 
 div#featurebox {
@@ -43,16 +93,16 @@ div#featureinfo {
 	  //position: absolute;
 	  position: relative;
 	  //width: 22.5%;
-	  width:22%;
+	  width: 22%;
 	  background: #ffffff;
 	  height: 100%;
 	  //top: 0px;
 	  //left: 0px;
-	  float:left;
+	  float: left;
 	  border: 1px solid orange;
 	  display: inline-block;
-	  *display: inline-block; //ie8
-	  overflow:hidden;
+	  *display: inline; //ie8
+	  overflow: hidden;
   }
 }
 div#featureimg {

@@ -4077,6 +4077,51 @@ img {
 div#featureimg img {
   max-width: 100%;
 }
+.toogleWidefeaturebox {
+  position: relative;
+  margin: 15px 0px;
+  width: 100%;
+  overflow: hidden;
+}
+.toogleWidefeatureinfo {
+  position: absolute;
+  width: 22.5%;
+  background: #ffffff;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+.toogleWidefeatureimg {
+  width: 77.5%;
+  float: right;
+  max-height: 480px;
+  overflow: hidden;
+}
+.toggleMediumfeaturebox {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  /*border: 1px solid blue;*/
+
+}
+.toggleMediumfeatureinfo {
+  display: inline-block;
+  float: left;
+  height: auto;
+  /*border: 1px solid black;*/
+
+  width: 100%;
+}
+.toggleMediumfeatureimg {
+  display: inline-block;
+  float: left;
+  max-height: 480px;
+  width: 100%;
+  /*border: 1px solid black;*/
+
+}
 @media only screen and (min-width: 0px) and (max-width: 1024px) {
   div#featurebox {
     display: block;
@@ -4114,7 +4159,7 @@ div#featureimg img {
     float: left;
     border: 1px solid orange;
     display: inline-block;
-    *display: inline-block;
+    *display: inline;
     overflow: hidden;
   }
 }
