@@ -215,25 +215,25 @@ function adjustStyle(width) {
      
         $("#featureimg").insertBefore($("#featureinfo"));
 		
-		$( "#featurebox" ).addClass( ".toggleMediumfeaturebox" );
-		$( "#featureinfo" ).addClass( ".toggleMediumfeatureinfo" );
-		$( "#featureimg" ).addClass( ".toggleMediumfeatureimg" );
+		$( "#featurebox" ).addClass( "toggleMediumfeaturebox" );
+		$( "#featureinfo" ).addClass( "toggleMediumfeatureinfo" );
+		$( "#featureimg" ).addClass( "toggleMediumfeatureimg" );
 		
-		$( "#featurebox" ).removeClass( ".toogleWidefeaturebox" );
-		$( "#featureinfo" ).removeClass( ".toogleWidefeatureinfo" );
-		$( "#featureimg" ).removeClass( ".toogleWidefeatureimg" );
+		$( "#featurebox" ).removeClass( "toogleWidefeaturebox" );
+		$( "#featureinfo" ).removeClass( "toogleWidefeatureinfo" );
+		$( "#featureimg" ).removeClass( "toogleWidefeatureimg" );
         
     } else {
        //$("#size-stylesheet").attr("href", "http://intranet.ea.gov/static/scripts/wide.css"); 
         $("#featureinfo").insertBefore($("#featureimg"));
 		
-		$( "#featurebox" ).addClass( ".toogleWidefeaturebox" );
-		$( "#featureinfo" ).addClass( ".toogleWidefeatureinfo" );
-		$( "#featureimg" ).addClass( ".toogleWidefeatureimg" );
+		$( "#featurebox" ).addClass( "toogleWidefeaturebox" );
+		$( "#featureinfo" ).addClass( "toogleWidefeatureinfo" );
+		$( "#featureimg" ).addClass( "toogleWidefeatureimg" );
 		
-		$( "#featurebox" ).removeClass( ".toggleMediumfeaturebox" );
-		$( "#featureinfo" ).removeClass( ".toggleMediumfeatureinfo" );
-		$( "#featureimg" ).removeClass( ".toggleMediumfeatureimg" );
+		$( "#featurebox" ).removeClass( "toggleMediumfeaturebox" );
+		$( "#featureinfo" ).removeClass( "toggleMediumfeatureinfo" );
+		$( "#featureimg" ).removeClass( "toggleMediumfeatureimg" );
 		
     }
 } //adjustStyle
